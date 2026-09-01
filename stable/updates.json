@@ -4,33 +4,33 @@
                      "stable":  {
                                     "pc":  {
                                                "support":  {
-                                                               "version":  "1.4.24",
-                                                               "sha256":  "f58b10cd4e22b53182d99429ce63dc1ee9dab51b15c38eb5d707a565b2da7cd6",
-                                                               "size":  76803005,
-                                                               "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                               "version":  "1.4.25",
+                                                               "sha256":  "561a5102d522c813df66c1b85327158fa5c2faea516fca21e4f91b199bbd5201",
+                                                               "size":  76803230,
+                                                               "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                                "releaseDate":  "2026-09-01",
                                                                "mirrors":  [
-                                                                               "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.24-M1.1.16/sfScanModuleSet-Support-Setup-v1.4.24-20260830.exe"
+                                                                               "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanModuleSet-Support-Setup-v1.4.25-20260830.exe"
                                                                            ]
                                                            },
                                                "rd":  {
-                                                          "version":  "1.4.24",
-                                                          "sha256":  "c4323c7f2f108f35519285e896e3c36d06ff70194ec511af01904b2a13ea7898",
-                                                          "size":  76879840,
-                                                          "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                          "version":  "1.4.25",
+                                                          "sha256":  "55e5c1f6bff753220d0d55db0ae29b8cd0a72c7a89234254ab12700b5d5fb8c1",
+                                                          "size":  76879383,
+                                                          "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                           "releaseDate":  "2026-09-01",
                                                           "mirrors":  [
-                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.24-M1.1.16/sfScanModuleSet-RD-Setup-v1.4.24-20260830.exe"
+                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanModuleSet-RD-Setup-v1.4.25-20260830.exe"
                                                                       ]
                                                       },
                                                "qc":  {
-                                                          "version":  "1.4.24",
-                                                          "sha256":  "69f4e2ac70cff3d6e9684c009e99931a7b42515565e663ca8b412510e9d70ddb",
-                                                          "size":  76641877,
-                                                          "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                          "version":  "1.4.25",
+                                                          "sha256":  "bd936b054201e2a64903c9c5b4a73abd8d252043f18cfeb3a171c0c3b036ed2a",
+                                                          "size":  76639980,
+                                                          "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                           "releaseDate":  "2026-09-01",
                                                           "mirrors":  [
-                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.24-M1.1.16/sfScanModuleSet-QC-Setup-v1.4.24-20260830.exe"
+                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanModuleSet-QC-Setup-v1.4.25-20260830.exe"
                                                                       ]
                                                       }
                                            },
@@ -38,66 +38,66 @@
                                                    "version":  "1.1.16",
                                                    "sha256":  "e8425958cc3aa6ae6ad709e77e8350f28a38a9b917908f00b08f27db22a73732",
                                                    "size":  30717476,
-                                                   "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                   "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                    "releaseDate":  "2026-09-01",
                                                    "mirrors":  [
-                                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.24-M1.1.16/sfScanMobile-v1.1.16-20260830.apk"
+                                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanMobile-v1.1.16-20260830.apk"
                                                                ]
                                                },
                                     "efuse":  {
-                                                  "version":  "1.0.0",
-                                                  "sha256":  "d45bd5335db07d3de52b1f41e1a36c45127ab387dc280709e86801f31b7a4971",
-                                                  "size":  51081415,
-                                                  "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                  "version":  "1.0.1",
+                                                  "sha256":  "962f5098c15b5237e5881e989bacfe33c402e8fda7ea903b81735fbd2be27ab6",
+                                                  "size":  51087124,
+                                                  "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                   "releaseDate":  "2026-09-01",
                                                   "mirrors":  [
-                                                                  "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.24-M1.1.16/sfScanEfuseTool-Setup-v1.0.0-20260811.exe"
+                                                                  "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanEfuseTool-Setup-v1.0.1-20260901.exe"
                                                               ]
                                               },
                                     "firmware":  {
                                                      "version":  "1.27.1",
                                                      "proto":  "",
-                                                     "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                     "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                      "releaseDate":  "2026-09-01",
                                                      "sensors":  {
                                                                      "GC0308":  {
                                                                                     "version":  "1.27.1",
                                                                                     "sha256":  "eee57dcbe31a96ed8497e7c40156d7185a4f18afcd1b2039b4b9fbe561c2506b",
                                                                                     "size":  1760256,
-                                                                                    "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                                                    "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                                                     "releaseDate":  "2026-09-01",
                                                                                     "mirrors":  [
-                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.24-M1.1.16/g73x_scan-v1.27.1-GC0308-20260816.img"
+                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/g73x_scan-v1.27.1-GC0308-20260816.img"
                                                                                                 ]
                                                                                 },
                                                                      "GC0328C":  {
                                                                                      "version":  "1.27.1",
                                                                                      "sha256":  "185a21034bedad34acfa291a2d067a78bfa018c51f99e9231f9f69886d1ef8e5",
                                                                                      "size":  1760256,
-                                                                                     "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                                                     "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                                                      "releaseDate":  "2026-09-01",
                                                                                      "mirrors":  [
-                                                                                                     "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.24-M1.1.16/g73x_scan-v1.27.1-GC0328C-20260816.img"
+                                                                                                     "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/g73x_scan-v1.27.1-GC0328C-20260816.img"
                                                                                                  ]
                                                                                  },
                                                                      "GC032A":  {
                                                                                     "version":  "1.27.1",
                                                                                     "sha256":  "7b324a6cdfe467d661caa64987293e9acb46b4693db50577670ef271fb4e6f1e",
                                                                                     "size":  1760256,
-                                                                                    "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                                                    "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                                                     "releaseDate":  "2026-09-01",
                                                                                     "mirrors":  [
-                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.24-M1.1.16/g73x_scan-v1.27.1-GC032A-20260816.img"
+                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/g73x_scan-v1.27.1-GC032A-20260816.img"
                                                                                                 ]
                                                                                 },
                                                                      "SC035HGS":  {
                                                                                       "version":  "1.27.1",
                                                                                       "sha256":  "ea99b6e1375be43bd137525fe51be183d6c39a16870de99a4c7efcbc03a20006",
                                                                                       "size":  1762304,
-                                                                                      "changelog":  "PC 1.4.24 / Mobile 1.1.16: software self-update feature released; Check-for-Updates added to PC/eFuse/Mobile",
+                                                                                      "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
                                                                                       "releaseDate":  "2026-09-01",
                                                                                       "mirrors":  [
-                                                                                                      "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.24-M1.1.16/g73x_scan-v1.27.1-SC035HGS-20260816.img"
+                                                                                                      "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/g73x_scan-v1.27.1-SC035HGS-20260816.img"
                                                                                                   ]
                                                                                   }
                                                                  }
