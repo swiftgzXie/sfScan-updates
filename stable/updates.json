@@ -4,100 +4,100 @@
                      "stable":  {
                                     "pc":  {
                                                "support":  {
-                                                               "version":  "1.4.27",
-                                                               "sha256":  "2c264ec0f11453dc41785129b1222e4e989ec23d4cb1abc2341309253ae7118b",
-                                                               "size":  76801780,
-                                                               "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                               "version":  "1.4.28",
+                                                               "sha256":  "dc3c28cac42e7c6fe3e391180740f4f293acad8a0f800f466a1049ccf42e743f",
+                                                               "size":  76803671,
+                                                               "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                                "releaseDate":  "2026-09-02",
                                                                "mirrors":  [
-                                                                               "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanModuleSet-Support-Setup-v1.4.27-20260830.exe"
+                                                                               "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.28-M1.1.18/sfScanModuleSet-Support-Setup-v1.4.28-20260830.exe"
                                                                            ]
                                                            },
                                                "rd":  {
-                                                          "version":  "1.4.27",
-                                                          "sha256":  "4f89da269dc8369bf207829be55409cc2455fd865a85da85570e768f918e8278",
-                                                          "size":  76872962,
-                                                          "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                          "version":  "1.4.28",
+                                                          "sha256":  "350925ad46429250d146294c5d850a87727bc76a1722b11c494269a6b6ccf9b9",
+                                                          "size":  76876146,
+                                                          "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                           "releaseDate":  "2026-09-02",
                                                           "mirrors":  [
-                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanModuleSet-RD-Setup-v1.4.27-20260830.exe"
+                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.28-M1.1.18/sfScanModuleSet-RD-Setup-v1.4.28-20260830.exe"
                                                                       ]
                                                       },
                                                "qc":  {
-                                                          "version":  "1.4.27",
-                                                          "sha256":  "76003be0034a0d8185045db2cc32fc8686450f2156c22fd8c2968a35adde736b",
-                                                          "size":  76647081,
-                                                          "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                          "version":  "1.4.28",
+                                                          "sha256":  "be165246db767749808c04ae106cf8dc8c3b3c7ab4a9ecf736c3bb899a25d592",
+                                                          "size":  76644285,
+                                                          "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                           "releaseDate":  "2026-09-02",
                                                           "mirrors":  [
-                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanModuleSet-QC-Setup-v1.4.27-20260830.exe"
+                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.28-M1.1.18/sfScanModuleSet-QC-Setup-v1.4.28-20260830.exe"
                                                                       ]
                                                       }
                                            },
                                     "mobile":  {
-                                                   "version":  "1.1.17",
-                                                   "sha256":  "d22cb27f49c780fde2fd0167a2fa0e1fc59203e7fd28945f23f819dc658cbce2",
-                                                   "size":  31052222,
-                                                   "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                   "version":  "1.1.18",
+                                                   "sha256":  "efa1166d67a554eb617941066b8108d190e68d72234ceb3cce2bfda8f4c71775",
+                                                   "size":  30717476,
+                                                   "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                    "releaseDate":  "2026-09-02",
                                                    "mirrors":  [
-                                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanMobile-v1.1.17-20260830.apk"
+                                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.28-M1.1.18/sfScanMobile-v1.1.18-20260830.apk"
                                                                ]
                                                },
                                     "efuse":  {
-                                                  "version":  "1.0.3",
-                                                  "sha256":  "27f0effc412eece7b26b17f562dfdc1c52d26565d6453081c716ce779d580e82",
-                                                  "size":  51084479,
-                                                  "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                  "version":  "1.0.4",
+                                                  "sha256":  "21ede5c9bab94db24b37d341048536d3063632c09fa707d0b71a8bf54621fc48",
+                                                  "size":  51086477,
+                                                  "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                   "releaseDate":  "2026-09-02",
                                                   "mirrors":  [
-                                                                  "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanEfuseTool-Setup-v1.0.3-20260901.exe"
+                                                                  "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.28-M1.1.18/sfScanEfuseTool-Setup-v1.0.4-20260901.exe"
                                                               ]
                                               },
                                     "firmware":  {
                                                      "version":  "1.27.1",
                                                      "proto":  "",
-                                                     "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                     "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                      "releaseDate":  "2026-09-02",
                                                      "sensors":  {
                                                                      "GC0308":  {
                                                                                     "version":  "1.27.1",
                                                                                     "sha256":  "eee57dcbe31a96ed8497e7c40156d7185a4f18afcd1b2039b4b9fbe561c2506b",
                                                                                     "size":  1760256,
-                                                                                    "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                                                    "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                                                     "releaseDate":  "2026-09-02",
                                                                                     "mirrors":  [
-                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/g73x_scan-v1.27.1-GC0308-20260816.img"
+                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.28-M1.1.18/g73x_scan-v1.27.1-GC0308-20260816.img"
                                                                                                 ]
                                                                                 },
                                                                      "GC0328C":  {
                                                                                      "version":  "1.27.1",
                                                                                      "sha256":  "185a21034bedad34acfa291a2d067a78bfa018c51f99e9231f9f69886d1ef8e5",
                                                                                      "size":  1760256,
-                                                                                     "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                                                     "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                                                      "releaseDate":  "2026-09-02",
                                                                                      "mirrors":  [
-                                                                                                     "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/g73x_scan-v1.27.1-GC0328C-20260816.img"
+                                                                                                     "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.28-M1.1.18/g73x_scan-v1.27.1-GC0328C-20260816.img"
                                                                                                  ]
                                                                                  },
                                                                      "GC032A":  {
                                                                                     "version":  "1.27.1",
                                                                                     "sha256":  "7b324a6cdfe467d661caa64987293e9acb46b4693db50577670ef271fb4e6f1e",
                                                                                     "size":  1760256,
-                                                                                    "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                                                    "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                                                     "releaseDate":  "2026-09-02",
                                                                                     "mirrors":  [
-                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/g73x_scan-v1.27.1-GC032A-20260816.img"
+                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.28-M1.1.18/g73x_scan-v1.27.1-GC032A-20260816.img"
                                                                                                 ]
                                                                                 },
                                                                      "SC035HGS":  {
                                                                                       "version":  "1.27.1",
                                                                                       "sha256":  "ea99b6e1375be43bd137525fe51be183d6c39a16870de99a4c7efcbc03a20006",
                                                                                       "size":  1762304,
-                                                                                      "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                                                                      "changelog":  "PC 1.4.28: numbered changelog; eFuse 1.0.4: graphical progress bar + numbered changelog; Mobile 1.1.18: numbered changelog",
                                                                                       "releaseDate":  "2026-09-02",
                                                                                       "mirrors":  [
-                                                                                                      "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/g73x_scan-v1.27.1-SC035HGS-20260816.img"
+                                                                                                      "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.28-M1.1.18/g73x_scan-v1.27.1-SC035HGS-20260816.img"
                                                                                                   ]
                                                                                   }
                                                                  }
@@ -107,61 +107,61 @@
     "history":  {
                     "support":  [
                                     {
-                                        "version":  "1.4.25",
-                                        "sha256":  "561a5102d522c813df66c1b85327158fa5c2faea516fca21e4f91b199bbd5201",
-                                        "size":  76803230,
-                                        "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
-                                        "releaseDate":  "2026-09-01",
+                                        "version":  "1.4.27",
+                                        "sha256":  "2c264ec0f11453dc41785129b1222e4e989ec23d4cb1abc2341309253ae7118b",
+                                        "size":  76801780,
+                                        "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                        "releaseDate":  "2026-09-02",
                                         "mirrors":  [
-                                                        "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanModuleSet-Support-Setup-v1.4.25-20260830.exe"
+                                                        "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanModuleSet-Support-Setup-v1.4.27-20260830.exe"
                                                     ]
                                     }
                                 ],
                     "rd":  [
                                {
-                                   "version":  "1.4.25",
-                                   "sha256":  "55e5c1f6bff753220d0d55db0ae29b8cd0a72c7a89234254ab12700b5d5fb8c1",
-                                   "size":  76879383,
-                                   "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
-                                   "releaseDate":  "2026-09-01",
+                                   "version":  "1.4.27",
+                                   "sha256":  "4f89da269dc8369bf207829be55409cc2455fd865a85da85570e768f918e8278",
+                                   "size":  76872962,
+                                   "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                   "releaseDate":  "2026-09-02",
                                    "mirrors":  [
-                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanModuleSet-RD-Setup-v1.4.25-20260830.exe"
+                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanModuleSet-RD-Setup-v1.4.27-20260830.exe"
                                                ]
                                }
                            ],
                     "qc":  [
                                {
-                                   "version":  "1.4.25",
-                                   "sha256":  "bd936b054201e2a64903c9c5b4a73abd8d252043f18cfeb3a171c0c3b036ed2a",
-                                   "size":  76639980,
-                                   "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
-                                   "releaseDate":  "2026-09-01",
+                                   "version":  "1.4.27",
+                                   "sha256":  "76003be0034a0d8185045db2cc32fc8686450f2156c22fd8c2968a35adde736b",
+                                   "size":  76647081,
+                                   "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                   "releaseDate":  "2026-09-02",
                                    "mirrors":  [
-                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanModuleSet-QC-Setup-v1.4.25-20260830.exe"
+                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanModuleSet-QC-Setup-v1.4.27-20260830.exe"
                                                ]
                                }
                            ],
                     "mobile":  [
                                    {
-                                       "version":  "1.1.16",
-                                       "sha256":  "e8425958cc3aa6ae6ad709e77e8350f28a38a9b917908f00b08f27db22a73732",
-                                       "size":  30717476,
-                                       "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
-                                       "releaseDate":  "2026-09-01",
+                                       "version":  "1.1.17",
+                                       "sha256":  "d22cb27f49c780fde2fd0167a2fa0e1fc59203e7fd28945f23f819dc658cbce2",
+                                       "size":  31052222,
+                                       "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                       "releaseDate":  "2026-09-02",
                                        "mirrors":  [
-                                                       "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanMobile-v1.1.16-20260830.apk"
+                                                       "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanMobile-v1.1.17-20260830.apk"
                                                    ]
                                    }
                                ],
                     "efuse":  [
                                   {
-                                      "version":  "1.0.1",
-                                      "sha256":  "962f5098c15b5237e5881e989bacfe33c402e8fda7ea903b81735fbd2be27ab6",
-                                      "size":  51087124,
-                                      "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
-                                      "releaseDate":  "2026-09-01",
+                                      "version":  "1.0.3",
+                                      "sha256":  "27f0effc412eece7b26b17f562dfdc1c52d26565d6453081c716ce779d580e82",
+                                      "size":  51084479,
+                                      "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                      "releaseDate":  "2026-09-02",
                                       "mirrors":  [
-                                                      "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/sfScanEfuseTool-Setup-v1.0.1-20260901.exe"
+                                                      "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/sfScanEfuseTool-Setup-v1.0.3-20260901.exe"
                                                   ]
                                   }
                               ],
@@ -170,10 +170,10 @@
                                          "version":  "1.27.1",
                                          "sha256":  "eee57dcbe31a96ed8497e7c40156d7185a4f18afcd1b2039b4b9fbe561c2506b",
                                          "size":  1760256,
-                                         "changelog":  "PC 1.4.25: version display cleanup + rollback selector added; eFuse 1.0.1: version display cleanup + rollback selector added",
-                                         "releaseDate":  "2026-09-01",
+                                         "changelog":  "PC 1.4.27: progress layout fix + auto-restart after update + rollback warning + green button; eFuse 1.0.3: layout fix + rollback warning + auto-restart; Mobile 1.1.17: green button",
+                                         "releaseDate":  "2026-09-02",
                                          "mirrors":  [
-                                                         "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.25-M1.1.16/g73x_scan-v1.27.1-GC0308-20260816.img"
+                                                         "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.27-M1.1.17/g73x_scan-v1.27.1-GC0308-20260816.img"
                                                      ]
                                      }
                                  ]
