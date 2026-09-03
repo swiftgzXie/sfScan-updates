@@ -1,196 +1,196 @@
 {
-    "format":  1,
-    "channels":  {
-                     "stable":  {
-                                    "pc":  {
-                                               "support":  {
-                                                               "version":  "1.4.29",
-                                                               "sha256":  "0e9410b0b0b9cb6e1efaefce6836245eb02ffa16d11e31136e9f3c84593c07dd",
-                                                               "size":  76809934,
-                                                               "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                               "releaseDate":  "2026-09-03",
-                                                               "mirrors":  [
-                                                                               "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanModuleSet-Support-Setup-v1.4.29-20260903.exe",
-                                                                               "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanModuleSet-Support-Setup-v1.4.29-20260903.exe"
-                                                                           ]
-                                                           },
-                                               "rd":  {
-                                                          "version":  "1.4.29",
-                                                          "sha256":  "b8ef736717c11f82bd0569366efa8574429b77dfab606e8251a1ea359873e8cd",
-                                                          "size":  76883290,
-                                                          "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                          "releaseDate":  "2026-09-03",
-                                                          "mirrors":  [
-                                                                          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanModuleSet-RD-Setup-v1.4.29-20260903.exe",
-                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanModuleSet-RD-Setup-v1.4.29-20260903.exe"
-                                                                      ]
-                                                      },
-                                               "qc":  {
-                                                          "version":  "1.4.29",
-                                                          "sha256":  "3ad3f61c5b9679af9f90f08ca38051921c5f1e4c16876daa4a49a40fcb5a2e90",
-                                                          "size":  76646649,
-                                                          "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                          "releaseDate":  "2026-09-03",
-                                                          "mirrors":  [
-                                                                          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanModuleSet-QC-Setup-v1.4.29-20260903.exe",
-                                                                          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanModuleSet-QC-Setup-v1.4.29-20260903.exe"
-                                                                      ]
-                                                      }
-                                           },
-                                    "mobile":  {
-                                                   "version":  "1.1.21",
-                                                   "sha256":  "ed2f4b97027a53352ce5ad003d00c97ad2570769a97b090c970bb5885a916145",
-                                                   "size":  31060414,
-                                                   "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                   "releaseDate":  "2026-09-03",
-                                                   "mirrors":  [
-                                                                   "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanMobile-v1.1.21-20260903.apk",
-                                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanMobile-v1.1.21-20260903.apk"
-                                                               ]
-                                               },
-                                    "efuse":  {
-                                                  "version":  "1.0.5",
-                                                  "sha256":  "21eb13f7b9b5cfc257d4c842aa8ba1ade2ea323a1ff456788d48d6b41a385b2c",
-                                                  "size":  51085743,
-                                                  "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                  "releaseDate":  "2026-09-03",
-                                                  "mirrors":  [
-                                                                  "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanEfuseTool-Setup-v1.0.5-20260903.exe",
-                                                                  "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.21/sfScanEfuseTool-Setup-v1.0.5-20260903.exe"
-                                                              ]
-                                              },
-                                    "firmware":  {
-                                                     "version":  "1.27.1",
-                                                     "proto":  "",
-                                                     "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                     "releaseDate":  "2026-09-03",
-                                                     "sensors":  {
-                                                                     "GC0308":  {
-                                                                                    "version":  "1.27.1",
-                                                                                    "sha256":  "eee57dcbe31a96ed8497e7c40156d7185a4f18afcd1b2039b4b9fbe561c2506b",
-                                                                                    "size":  1760256,
-                                                                                    "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                                                    "releaseDate":  "2026-09-03",
-                                                                                    "mirrors":  [
-                                                                                                    "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.21/g73x_scan-v1.27.1-GC0308-20260816.img",
-                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.21/g73x_scan-v1.27.1-GC0308-20260816.img"
-                                                                                                ]
-                                                                                },
-                                                                     "GC0328C":  {
-                                                                                     "version":  "1.27.1",
-                                                                                     "sha256":  "185a21034bedad34acfa291a2d067a78bfa018c51f99e9231f9f69886d1ef8e5",
-                                                                                     "size":  1760256,
-                                                                                     "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                                                     "releaseDate":  "2026-09-03",
-                                                                                     "mirrors":  [
-                                                                                                     "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.21/g73x_scan-v1.27.1-GC0328C-20260816.img",
-                                                                                                     "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.21/g73x_scan-v1.27.1-GC0328C-20260816.img"
-                                                                                                 ]
-                                                                                 },
-                                                                     "GC032A":  {
-                                                                                    "version":  "1.27.1",
-                                                                                    "sha256":  "7b324a6cdfe467d661caa64987293e9acb46b4693db50577670ef271fb4e6f1e",
-                                                                                    "size":  1760256,
-                                                                                    "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                                                    "releaseDate":  "2026-09-03",
-                                                                                    "mirrors":  [
-                                                                                                    "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.21/g73x_scan-v1.27.1-GC032A-20260816.img",
-                                                                                                    "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.21/g73x_scan-v1.27.1-GC032A-20260816.img"
-                                                                                                ]
-                                                                                },
-                                                                     "SC035HGS":  {
-                                                                                      "version":  "1.27.1",
-                                                                                      "sha256":  "ea99b6e1375be43bd137525fe51be183d6c39a16870de99a4c7efcbc03a20006",
-                                                                                      "size":  1762304,
-                                                                                      "changelog":  "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
-                                                                                      "releaseDate":  "2026-09-03",
-                                                                                      "mirrors":  [
-                                                                                                      "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.21/g73x_scan-v1.27.1-SC035HGS-20260816.img",
-                                                                                                      "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.21/g73x_scan-v1.27.1-SC035HGS-20260816.img"
-                                                                                                  ]
-                                                                                  }
-                                                                 }
-                                                 }
-                                }
-                 },
-    "history":  {
-                    "support":  [
-                                    {
-                                        "version":  "1.4.29",
-                                        "sha256":  "0e9410b0b0b9cb6e1efaefce6836245eb02ffa16d11e31136e9f3c84593c07dd",
-                                        "size":  76809934,
-                                        "changelog":  "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
-                                        "releaseDate":  "2026-09-03",
-                                        "mirrors":  [
-                                                        "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-Support-Setup-v1.4.29-20260903.exe",
-                                                        "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-Support-Setup-v1.4.29-20260903.exe"
-                                                    ]
-                                    }
-                                ],
-                    "rd":  [
-                               {
-                                   "version":  "1.4.29",
-                                   "sha256":  "b8ef736717c11f82bd0569366efa8574429b77dfab606e8251a1ea359873e8cd",
-                                   "size":  76883290,
-                                   "changelog":  "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
-                                   "releaseDate":  "2026-09-03",
-                                   "mirrors":  [
-                                                   "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-RD-Setup-v1.4.29-20260903.exe",
-                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-RD-Setup-v1.4.29-20260903.exe"
-                                               ]
-                               }
-                           ],
-                    "qc":  [
-                               {
-                                   "version":  "1.4.29",
-                                   "sha256":  "3ad3f61c5b9679af9f90f08ca38051921c5f1e4c16876daa4a49a40fcb5a2e90",
-                                   "size":  76646649,
-                                   "changelog":  "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
-                                   "releaseDate":  "2026-09-03",
-                                   "mirrors":  [
-                                                   "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-QC-Setup-v1.4.29-20260903.exe",
-                                                   "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-QC-Setup-v1.4.29-20260903.exe"
-                                               ]
-                               }
-                           ],
-                    "mobile":  [
-                                   {
-                                       "version":  "1.1.20",
-                                       "sha256":  "d1f412ba6f9d26fa5356193776c77673cb2e892822416b6c22402a626cad26f4",
-                                       "size":  30717476,
-                                       "changelog":  "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
-                                       "releaseDate":  "2026-09-03",
-                                       "mirrors":  [
-                                                       "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk",
-                                                       "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk"
-                                                   ]
-                                   }
-                               ],
-                    "efuse":  [
-                                  {
-                                      "version":  "1.0.5",
-                                      "sha256":  "21eb13f7b9b5cfc257d4c842aa8ba1ade2ea323a1ff456788d48d6b41a385b2c",
-                                      "size":  51085743,
-                                      "changelog":  "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
-                                      "releaseDate":  "2026-09-03",
-                                      "mirrors":  [
-                                                      "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanEfuseTool-Setup-v1.0.5-20260903.exe",
-                                                      "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanEfuseTool-Setup-v1.0.5-20260903.exe"
-                                                  ]
-                                  }
-                              ],
-                    "firmware":  [
-                                     {
-                                         "version":  "1.27.1",
-                                         "sha256":  "eee57dcbe31a96ed8497e7c40156d7185a4f18afcd1b2039b4b9fbe561c2506b",
-                                         "size":  1760256,
-                                         "changelog":  "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
-                                         "releaseDate":  "2026-09-03",
-                                         "mirrors":  [
-                                                         "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC0308-20260816.img",
-                                                         "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC0308-20260816.img"
-                                                     ]
-                                     }
-                                 ]
-                }
+  "format": 1,
+  "channels": {
+    "stable": {
+      "pc": {
+        "support": {
+          "version": "1.4.29",
+          "sha256": "0e9410b0b0b9cb6e1efaefce6836245eb02ffa16d11e31136e9f3c84593c07dd",
+          "size": 76809934,
+          "changelog": "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
+          "releaseDate": "2026-09-03",
+          "mirrors": [
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-Support-Setup-v1.4.29-20260903.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-Support-Setup-v1.4.29-20260903.exe"
+          ]
+        },
+        "rd": {
+          "version": "1.4.29",
+          "sha256": "b8ef736717c11f82bd0569366efa8574429b77dfab606e8251a1ea359873e8cd",
+          "size": 76883290,
+          "changelog": "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
+          "releaseDate": "2026-09-03",
+          "mirrors": [
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-RD-Setup-v1.4.29-20260903.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-RD-Setup-v1.4.29-20260903.exe"
+          ]
+        },
+        "qc": {
+          "version": "1.4.29",
+          "sha256": "3ad3f61c5b9679af9f90f08ca38051921c5f1e4c16876daa4a49a40fcb5a2e90",
+          "size": 76646649,
+          "changelog": "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
+          "releaseDate": "2026-09-03",
+          "mirrors": [
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-QC-Setup-v1.4.29-20260903.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-QC-Setup-v1.4.29-20260903.exe"
+          ]
+        }
+      },
+      "mobile": {
+        "version": "1.1.22",
+        "sha256": "fba7a3ab53704b36cc197ab56bcdbedeadb4f88af274e7248c14e78a69af34e1",
+        "size": 30729764,
+        "changelog": "手机端检查更新页面全面支持多语言（6 种联合国官方语言随界面语言切换）;修复更新页按钮文字被裁切的问题",
+        "releaseDate": "2026-09-03",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.22/sfScanMobile-v1.1.22-20260903.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.22/sfScanMobile-v1.1.22-20260903.apk"
+        ]
+      },
+      "efuse": {
+        "version": "1.0.5",
+        "sha256": "21eb13f7b9b5cfc257d4c842aa8ba1ade2ea323a1ff456788d48d6b41a385b2c",
+        "size": 51085743,
+        "changelog": "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
+        "releaseDate": "2026-09-03",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanEfuseTool-Setup-v1.0.5-20260903.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanEfuseTool-Setup-v1.0.5-20260903.exe"
+        ]
+      },
+      "firmware": {
+        "version": "1.27.1",
+        "proto": "",
+        "changelog": "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
+        "releaseDate": "2026-09-03",
+        "sensors": {
+          "GC0308": {
+            "version": "1.27.1",
+            "sha256": "eee57dcbe31a96ed8497e7c40156d7185a4f18afcd1b2039b4b9fbe561c2506b",
+            "size": 1760256,
+            "changelog": "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
+            "releaseDate": "2026-09-03",
+            "mirrors": [
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC0308-20260816.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC0308-20260816.img"
+            ]
+          },
+          "GC0328C": {
+            "version": "1.27.1",
+            "sha256": "185a21034bedad34acfa291a2d067a78bfa018c51f99e9231f9f69886d1ef8e5",
+            "size": 1760256,
+            "changelog": "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
+            "releaseDate": "2026-09-03",
+            "mirrors": [
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC0328C-20260816.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC0328C-20260816.img"
+            ]
+          },
+          "GC032A": {
+            "version": "1.27.1",
+            "sha256": "7b324a6cdfe467d661caa64987293e9acb46b4693db50577670ef271fb4e6f1e",
+            "size": 1760256,
+            "changelog": "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
+            "releaseDate": "2026-09-03",
+            "mirrors": [
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC032A-20260816.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC032A-20260816.img"
+            ]
+          },
+          "SC035HGS": {
+            "version": "1.27.1",
+            "sha256": "ea99b6e1375be43bd137525fe51be183d6c39a16870de99a4c7efcbc03a20006",
+            "size": 1762304,
+            "changelog": "手机端检查更新页面全面支持多语言（界面语言切换后更新页文案同步切换，含 6 种联合国官方语言）",
+            "releaseDate": "2026-09-03",
+            "mirrors": [
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-SC035HGS-20260816.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-SC035HGS-20260816.img"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "history": {
+    "support": [
+      {
+        "version": "1.4.29",
+        "sha256": "0e9410b0b0b9cb6e1efaefce6836245eb02ffa16d11e31136e9f3c84593c07dd",
+        "size": 76809934,
+        "changelog": "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
+        "releaseDate": "2026-09-03",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-Support-Setup-v1.4.29-20260903.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-Support-Setup-v1.4.29-20260903.exe"
+        ]
+      }
+    ],
+    "rd": [
+      {
+        "version": "1.4.29",
+        "sha256": "b8ef736717c11f82bd0569366efa8574429b77dfab606e8251a1ea359873e8cd",
+        "size": 76883290,
+        "changelog": "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
+        "releaseDate": "2026-09-03",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-RD-Setup-v1.4.29-20260903.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-RD-Setup-v1.4.29-20260903.exe"
+        ]
+      }
+    ],
+    "qc": [
+      {
+        "version": "1.4.29",
+        "sha256": "3ad3f61c5b9679af9f90f08ca38051921c5f1e4c16876daa4a49a40fcb5a2e90",
+        "size": 76646649,
+        "changelog": "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
+        "releaseDate": "2026-09-03",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-QC-Setup-v1.4.29-20260903.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanModuleSet-QC-Setup-v1.4.29-20260903.exe"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "version": "1.1.20",
+        "sha256": "d1f412ba6f9d26fa5356193776c77673cb2e892822416b6c22402a626cad26f4",
+        "size": 30717476,
+        "changelog": "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
+        "releaseDate": "2026-09-03",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk"
+        ]
+      }
+    ],
+    "efuse": [
+      {
+        "version": "1.0.5",
+        "sha256": "21eb13f7b9b5cfc257d4c842aa8ba1ade2ea323a1ff456788d48d6b41a385b2c",
+        "size": 51085743,
+        "changelog": "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
+        "releaseDate": "2026-09-03",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanEfuseTool-Setup-v1.0.5-20260903.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanEfuseTool-Setup-v1.0.5-20260903.exe"
+        ]
+      }
+    ],
+    "firmware": [
+      {
+        "version": "1.27.1",
+        "sha256": "eee57dcbe31a96ed8497e7c40156d7185a4f18afcd1b2039b4b9fbe561c2506b",
+        "size": 1760256,
+        "changelog": "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
+        "releaseDate": "2026-09-03",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC0308-20260816.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/g73x_scan-v1.27.1-GC0308-20260816.img"
+        ]
+      }
+    ]
+  }
 }
