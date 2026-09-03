@@ -38,14 +38,15 @@
         }
       },
       "mobile": {
-        "version": "1.1.20",
-        "sha256": "d1f412ba6f9d26fa5356193776c77673cb2e892822416b6c22402a626cad26f4",
-        "size": 30717476,
-        "changelog": "已验证的稳定手机版本",
+        "version": "1.1.27",
+        "versionCode": 29,
+        "sha256": "eedcad4898304221eac14f3058b0a44aeb7ce0a6a4aa14a196373ebb85a8d456",
+        "size": 30750244,
+        "changelog": "修复手机端更新安装闪退：补充 FileProvider updates 路径，改用 PackageInstaller 官方 Session API，并处理安装确认回调；更新页继续支持多语言并修复按钮文字裁切",
         "releaseDate": "2026-09-03",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.27/sfScanMobile-v1.1.27-20260903.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.27/sfScanMobile-v1.1.27-20260903.apk"
         ]
       },
       "efuse": {
@@ -155,14 +156,14 @@
     ],
     "mobile": [
       {
-        "version": "1.1.25",
-        "sha256": "be3e43db9e835296f97c2cb4a8d291d7bc365aadd5a3696113f9563f0066f148",
-        "size": 31072702,
-        "changelog": "修复更新安装崩溃（FileProvider 路径）并改用 PackageInstaller 官方 API;更新页全面支持多语言;修复更新页按钮文字被裁切",
+        "version": "1.1.20",
+        "sha256": "d1f412ba6f9d26fa5356193776c77673cb2e892822416b6c22402a626cad26f4",
+        "size": 30717476,
+        "changelog": "已验证的稳定手机版本",
         "releaseDate": "2026-09-03",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.25/sfScanMobile-v1.1.25-20260903.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.25/sfScanMobile-v1.1.25-20260903.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk"
         ]
       }
     ],
