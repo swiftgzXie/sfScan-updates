@@ -38,14 +38,14 @@
         }
       },
       "mobile": {
-        "version": "1.1.20",
-        "sha256": "d1f412ba6f9d26fa5356193776c77673cb2e892822416b6c22402a626cad26f4",
-        "size": 30717476,
-        "changelog": "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
+        "version": "1.1.23",
+        "sha256": "1c644608198467ea3f2e4e42de37168b50e6ff9e667bc5dec8e6e1171ff63d6a",
+        "size": 31060414,
+        "changelog": "修复更新包安装崩溃（FileProvider 路径缺失）;更新页全面支持多语言;修复更新页按钮文字被裁切",
         "releaseDate": "2026-09-03",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.23/sfScanMobile-v1.1.23-20260903.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.23/sfScanMobile-v1.1.23-20260903.apk"
         ]
       },
       "efuse": {
@@ -153,7 +153,19 @@
         ]
       }
     ],
-    "mobile": [],
+    "mobile": [
+      {
+        "version": "1.1.20",
+        "sha256": "d1f412ba6f9d26fa5356193776c77673cb2e892822416b6c22402a626cad26f4",
+        "size": 30717476,
+        "changelog": "升级源新增 Gitee 国内主源（默认优先，GitHub 备份），提升国内网络升级速度与可用性;修复手机端检查更新页面偶发崩溃（颜色资源引用错误）;优化更新检查与下载稳定性",
+        "releaseDate": "2026-09-03",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.29-M1.1.20/sfScanMobile-v1.1.20-20260903.apk"
+        ]
+      }
+    ],
     "efuse": [
       {
         "version": "1.0.5",
