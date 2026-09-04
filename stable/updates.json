@@ -115,41 +115,47 @@
     }
   },
   "history": {
-    "support": {
-      "version": "1.4.30",
-      "sha256": "441e49b82420f25324f167e239146116a38a2e5ef4a45ef0a799897d3ee5f4fc",
-      "size": 76812656,
-      "changelog": "修复 eFuse 自更新安装交接：安装器启动后退出旧程序，安装完成后自动启动新版",
-      "releaseDate": "2026-09-04",
-      "mirrors": [
-        "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.30-20260904.exe",
-        "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.30-20260904.exe"
-      ]
-    },
-    "rd": {
-      "version": "1.4.30",
-      "sha256": "b0fe3cd20667aafea172d2df4e26f18bde7871e3f18041c94f0e754a22c0c59a",
-      "size": 76892622,
-      "changelog": "修复 eFuse 自更新安装交接：安装器启动后退出旧程序，安装完成后自动启动新版",
-      "releaseDate": "2026-09-04",
-      "mirrors": [
-        "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.30-20260904.exe",
-        "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.30-20260904.exe"
-      ]
-    },
-    "qc": {
-      "version": "1.4.30",
-      "sha256": "2ff84c64e6a583c62e591eaf7a522956889669b7a992e5ae38c521e0dbc30613",
-      "size": 76647079,
-      "changelog": "修复 eFuse 自更新安装交接：安装器启动后退出旧程序，安装完成后自动启动新版",
-      "releaseDate": "2026-09-04",
-      "mirrors": [
-        "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.30-20260904.exe",
-        "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.30-20260904.exe"
-      ]
-    },
-    "mobile": null,
-    "efuse": null,
-    "firmware": null
+    "support": [
+      {
+        "version": "1.4.30",
+        "sha256": "441e49b82420f25324f167e239146116a38a2e5ef4a45ef0a799897d3ee5f4fc",
+        "size": 76812656,
+        "changelog": "修复 eFuse 自更新安装交接：安装器启动后退出旧程序，安装完成后自动启动新版",
+        "releaseDate": "2026-09-04",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.30-20260904.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.30-20260904.exe"
+        ]
+      }
+    ],
+    "rd": [
+      {
+        "version": "1.4.30",
+        "sha256": "b0fe3cd20667aafea172d2df4e26f18bde7871e3f18041c94f0e754a22c0c59a",
+        "size": 76892622,
+        "changelog": "修复 eFuse 自更新安装交接：安装器启动后退出旧程序，安装完成后自动启动新版",
+        "releaseDate": "2026-09-04",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.30-20260904.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.30-20260904.exe"
+        ]
+      }
+    ],
+    "qc": [
+      {
+        "version": "1.4.30",
+        "sha256": "2ff84c64e6a583c62e591eaf7a522956889669b7a992e5ae38c521e0dbc30613",
+        "size": 76647079,
+        "changelog": "修复 eFuse 自更新安装交接：安装器启动后退出旧程序，安装完成后自动启动新版",
+        "releaseDate": "2026-09-04",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.30-20260904.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.30-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.30-20260904.exe"
+        ]
+      }
+    ],
+    "mobile": [],
+    "efuse": [],
+    "firmware": []
   }
 }
