@@ -5,109 +5,109 @@
       "pc": {
         "support": {
           "version": "1.4.32",
-          "sha256": "d06fd43cc091a0d3ef9303067c9f0f49a8ec70e1dec75f40b1c7ae386ca614c9",
-          "size": 76811241,
+          "sha256": "9ab6e76c324dc00846eb33d6e94942f69d44d020c4e86367dd52d23a206b429b",
+          "size": 76810869,
           "changelog": "版本未变更（沿用 1.4.32）",
-          "releaseDate": "2026-09-08",
+          "releaseDate": "2026-09-12",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.32-20260904.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.32-20260904.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.32-proto2.9-20260904.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.32-proto2.9-20260904.exe"
           ]
         },
         "rd": {
           "version": "1.4.32",
-          "sha256": "33ec0dfe00ffc5649cab7ce377109984e0ee278dbb5bc6bf3ae47ece49004a51",
-          "size": 76891277,
+          "sha256": "5c143a9a0d5e017bcb4a1f3adf702a6cd57a17cd01f8be9d693c690efcb8cc1f",
+          "size": 76889696,
           "changelog": "版本未变更（沿用 1.4.32）",
-          "releaseDate": "2026-09-08",
+          "releaseDate": "2026-09-12",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.32-20260904.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.32-20260904.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.32-proto2.9-20260904.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.32-proto2.9-20260904.exe"
           ]
         },
         "qc": {
           "version": "1.4.32",
-          "sha256": "df4f266ef406bd70b558d81a7610ce8d2af16acc0864b8cb2b8d8041f008395a",
-          "size": 76643822,
+          "sha256": "0e340f3b8f68cb33c74873172c9f1464989c5ab7a1e53526d7ed915bc25252b8",
+          "size": 76641115,
           "changelog": "版本未变更（沿用 1.4.32）",
-          "releaseDate": "2026-09-08",
+          "releaseDate": "2026-09-12",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.32-20260904.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.32-20260904.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.32-proto2.9-20260904.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.32-proto2.9-20260904.exe"
           ]
         }
       },
       "mobile": {
         "version": "1.1.29",
-        "sha256": "dd3d0bbe94cf64676cdf1ecf35b7ea5cb3356f93ceea6116b1a2b68b2c4fd310",
-        "size": 30778916,
+        "sha256": "964a6262aa6d312cfb8831ad048fe2b9737c54c3185850af0f0b218acb6c5147",
+        "size": 31113662,
         "changelog": "版本未变更（沿用 1.1.29）",
-        "releaseDate": "2026-09-08",
+        "releaseDate": "2026-09-12",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanMobile-v1.1.29-20260904.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanMobile-v1.1.29-20260904.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260904.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260904.apk"
         ],
         "versionCode": 31
       },
       "efuse": {
-        "version": "1.0.10",
-        "sha256": "d2b44637bcfc60dd1c3ba67f9fbefbc179bc9b8c27e15c947203f4d0cf30aa45",
-        "size": 51201349,
-        "changelog": "固件烧录新增本地镜像选择（任意路径浏览，不写死目录）；开始烧录按钮按就绪状态启用（授权文件/固件镜像缺失时自动禁用）；授权文件启动不再自动带出、仅记忆上次选用目录（防止对已烧录授权文件误写）；固件烧录记录读取并展示真实设备 ChipID（纯数据、8 位补零）；多台设备检测保留；版本升级 1.0.10",
-        "releaseDate": "2026-09-08",
+        "version": "1.0.11",
+        "sha256": "a6dbc88dea16d45b3afec4639ab1f59d8225120ac2fb06721ad57af1415ed400",
+        "size": 51203865,
+        "changelog": "操作日志区撑满窗口并自动滚动到底部，最后一行完整可见；主窗口高度按屏幕工作区自适应（防止底部被任务栏遮挡）；固件升级通道不支持时自动取消“自动切换”勾选并弹窗提示手动切换；日志文件路径改为只读可复制的文本框（便于反馈定位）；安装包向导统一为英文；版本升级 1.0.11",
+        "releaseDate": "2026-09-12",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.10-20260907.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.10-20260907.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.11-20260912.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.11-20260912.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.0",
+        "version": "1.28.1",
         "proto": "2.9",
-        "changelog": "版本未变更（沿用 1.28.0）",
-        "releaseDate": "2026-09-08",
+        "changelog": "解码库更新（libdecoder.a）；新增离线帧收图解码注入调试通道（默认关闭，正式固件不启用）；版本升级 1.28.1",
+        "releaseDate": "2026-09-12",
         "sensors": {
           "GC0308": {
-            "version": "1.28.0",
-            "sha256": "10b59aaae3e18300511f1ccbd46ec3c69d71d718e79eb7e9bb07b013e9274038",
+            "version": "1.28.1",
+            "sha256": "4865555281d2712c94b1530c0d481490b15f860aefd5623b6c44497fa773be7f",
             "size": 1762304,
-            "changelog": "版本未变更（沿用 1.28.0）",
-            "releaseDate": "2026-09-08",
+            "changelog": "解码库更新（libdecoder.a）；新增离线帧收图解码注入调试通道（默认关闭，正式固件不启用）；版本升级 1.28.1",
+            "releaseDate": "2026-09-12",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.0-proto2.9-20260906.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.0-proto2.9-20260906.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.1-proto2.9-20260909.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.1-proto2.9-20260909.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.0",
-            "sha256": "89f6024195fda99e6214196e340d7f0ee533d631f92df5b072b4827f98e4143d",
+            "version": "1.28.1",
+            "sha256": "9340abf48507e9cc0d31c0e5860c7b9df2da7cb8993cc8c7c1c76eff37f7ee98",
             "size": 1760256,
-            "changelog": "版本未变更（沿用 1.28.0）",
-            "releaseDate": "2026-09-08",
+            "changelog": "解码库更新（libdecoder.a）；新增离线帧收图解码注入调试通道（默认关闭，正式固件不启用）；版本升级 1.28.1",
+            "releaseDate": "2026-09-12",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.0-proto2.9-20260906.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.0-proto2.9-20260906.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.1-proto2.9-20260909.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.1-proto2.9-20260909.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.0",
-            "sha256": "9366e3e822c0f0483c2e313cd38e4ce369357536405681f3787314770dd6134b",
-            "size": 1762304,
-            "changelog": "版本未变更（沿用 1.28.0）",
-            "releaseDate": "2026-09-08",
+            "version": "1.28.1",
+            "sha256": "6681bfe00e88ae5cf1680e6237051fe90870641ece2c8f2f8a23456981c3f21d",
+            "size": 1760256,
+            "changelog": "解码库更新（libdecoder.a）；新增离线帧收图解码注入调试通道（默认关闭，正式固件不启用）；版本升级 1.28.1",
+            "releaseDate": "2026-09-12",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.0-proto2.9-20260906.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.0-proto2.9-20260906.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.1-proto2.9-20260909.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.1-proto2.9-20260909.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.0",
-            "sha256": "a12dd0b0cbf180277cb9609d908a2d454c2af34bbdd8353fc4be4b3da48468a8",
+            "version": "1.28.1",
+            "sha256": "1065aad88e9c43c4b7f073309ecd7afbadf3ea75096c4de5ae361eeef64d79e9",
             "size": 1764352,
-            "changelog": "版本未变更（沿用 1.28.0）",
-            "releaseDate": "2026-09-08",
+            "changelog": "解码库更新（libdecoder.a）；新增离线帧收图解码注入调试通道（默认关闭，正式固件不启用）；版本升级 1.28.1",
+            "releaseDate": "2026-09-12",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.0-proto2.9-20260906.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.0-proto2.9-20260906.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.1-proto2.9-20260909.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.1-proto2.9-20260909.img"
             ]
           }
         }
@@ -115,20 +115,10 @@
     }
   },
   "history": {
-    "qc": [
-      {
-        "version": "1.4.31",
-        "sha256": "7702fda97cee998c629f3048beac758077dee2e3b62c00bdbebb32bee8f91b97",
-        "size": 76648328,
-        "changelog": "安装器交接完整落地：更新安装器启动成功后退出当前程序，安装完成后由 Run 项自动启动新版（升级与降级均生效）；移除 App 单实例 mutex 避免阻止自更新；更新页确认安装即退出旧进程",
-        "releaseDate": "2026-09-04",
-        "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.31-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.31-20260904.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.31-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.31-20260904.exe"
-        ]
-      }
-    ],
-    "firmware": [],
+    "support": [],
+    "rd": [],
+    "qc": [],
+    "mobile": [],
     "efuse": [
       {
         "version": "1.0.8",
@@ -140,32 +130,29 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.8-20260904.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.8-20260904.exe"
         ]
-      }
-    ],
-    "rd": [
+      },
       {
-        "version": "1.4.31",
-        "sha256": "f4a229ca3975c1b5bae1047d3cee7e18c7a664a03bf0e2b46c38cbbff22506a1",
-        "size": 76886454,
-        "changelog": "安装器交接完整落地：更新安装器启动成功后退出当前程序，安装完成后由 Run 项自动启动新版（升级与降级均生效）；移除 App 单实例 mutex 避免阻止自更新；更新页确认安装即退出旧进程",
-        "releaseDate": "2026-09-04",
+        "version": "1.0.10",
+        "sha256": "d2b44637bcfc60dd1c3ba67f9fbefbc179bc9b8c27e15c947203f4d0cf30aa45",
+        "size": 51201349,
+        "changelog": "固件烧录新增本地镜像选择（任意路径浏览，不写死目录）；开始烧录按钮按就绪状态启用（授权文件/固件镜像缺失时自动禁用）；授权文件启动不再自动带出、仅记忆上次选用目录（防止对已烧录授权文件误写）；固件烧录记录读取并展示真实设备 ChipID（纯数据、8 位补零）；多台设备检测保留；版本升级 1.0.10",
+        "releaseDate": "2026-09-08",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.31-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.31-20260904.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.31-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.31-20260904.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.10-20260907.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.10-20260907.exe"
         ]
       }
     ],
-    "mobile": [],
-    "support": [
+    "firmware": [
       {
-        "version": "1.4.31",
-        "sha256": "b6c5c0856144b4f48dcba18eed55a7067bc9c40d52933ca69f52894997c59dcd",
-        "size": 76804280,
-        "changelog": "安装器交接完整落地：更新安装器启动成功后退出当前程序，安装完成后由 Run 项自动启动新版（升级与降级均生效）；移除 App 单实例 mutex 避免阻止自更新；更新页确认安装即退出旧进程",
-        "releaseDate": "2026-09-04",
+        "version": "1.28.0",
+        "sha256": "10b59aaae3e18300511f1ccbd46ec3c69d71d718e79eb7e9bb07b013e9274038",
+        "size": 1762304,
+        "changelog": "版本未变更（沿用 1.28.0）",
+        "releaseDate": "2026-09-08",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.31-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.31-20260904.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.31-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.31-20260904.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.0-proto2.9-20260906.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.0-proto2.9-20260906.img"
         ]
       }
     ]
