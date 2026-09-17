@@ -4,36 +4,36 @@
     "stable": {
       "pc": {
         "support": {
-          "version": "1.4.33",
-          "sha256": "9c9744a5f8fb1fee92b2800b58fb994ae6df62aad99be919ae67f9f5c41949de",
-          "size": 76823584,
-          "changelog": "修复睡眠唤醒后误打开电脑内置摄像头（画面全黑）：UVC 设备身份固化并新增 Media Foundation 设备表下标换算；CDC 与 UVC 状态解耦、端口号漂移自动切换重试；睡眠唤醒/断连后界面状态自动收敛；版本升级 1.4.33",
-          "releaseDate": "2026-09-15",
+          "version": "1.4.34",
+          "sha256": "cf758ba3e2b8b5fb61ef232a14cdc95cf8d3e4a14fde226413b5b68ac089fcb7",
+          "size": 76821462,
+          "changelog": "设备参数读取解析增强：统一为共享实现并容忍串口前导噪声与 CFmt 封装标记（读取成功率提升）；Sensor 镜头参数解析同步统一（与 eFuse 工具同一套函数）；新增 save_config 命令支持；版本升级 1.4.34",
+          "releaseDate": "2026-09-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.33-proto2.9-20260915.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.33-proto2.9-20260915.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe"
           ]
         },
         "rd": {
-          "version": "1.4.33",
-          "sha256": "b9f88c0906351a659c0dfa3e4fdeb93c6e3328ca265d9f71cb7f09c4a4caa060",
-          "size": 76898783,
-          "changelog": "修复睡眠唤醒后误打开电脑内置摄像头（画面全黑）：UVC 设备身份固化并新增 Media Foundation 设备表下标换算；CDC 与 UVC 状态解耦、端口号漂移自动切换重试；睡眠唤醒/断连后界面状态自动收敛；版本升级 1.4.33",
-          "releaseDate": "2026-09-15",
+          "version": "1.4.34",
+          "sha256": "ecf4eccbf3898cf72d6a878e5f6b5abc79302ab1ea62a6c344a8b33c7bac8036",
+          "size": 76899503,
+          "changelog": "设备参数读取解析增强：统一为共享实现并容忍串口前导噪声与 CFmt 封装标记（读取成功率提升）；Sensor 镜头参数解析同步统一（与 eFuse 工具同一套函数）；新增 save_config 命令支持；版本升级 1.4.34",
+          "releaseDate": "2026-09-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.33-proto2.9-20260915.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.33-proto2.9-20260915.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe"
           ]
         },
         "qc": {
-          "version": "1.4.33",
-          "sha256": "02a2dd138e954ed8ec3dbec1518e48ebd51883fa7995ffed2f3c8b41e692ca6c",
-          "size": 76656904,
-          "changelog": "修复睡眠唤醒后误打开电脑内置摄像头（画面全黑）：UVC 设备身份固化并新增 Media Foundation 设备表下标换算；CDC 与 UVC 状态解耦、端口号漂移自动切换重试；睡眠唤醒/断连后界面状态自动收敛；版本升级 1.4.33",
-          "releaseDate": "2026-09-15",
+          "version": "1.4.34",
+          "sha256": "ae9a9d4a9b25b7a6dcc476846ab7404eaa60aae6d5487959bbc55020ca954e24",
+          "size": 76655101,
+          "changelog": "设备参数读取解析增强：统一为共享实现并容忍串口前导噪声与 CFmt 封装标记（读取成功率提升）；Sensor 镜头参数解析同步统一（与 eFuse 工具同一套函数）；新增 save_config 命令支持；版本升级 1.4.34",
+          "releaseDate": "2026-09-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.33-proto2.9-20260915.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.33-proto2.9-20260915.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe"
           ]
         }
       },
@@ -42,72 +42,72 @@
         "sha256": "964a6262aa6d312cfb8831ad048fe2b9737c54c3185850af0f0b218acb6c5147",
         "size": 31113662,
         "changelog": "版本未变更（沿用 1.1.29）",
-        "releaseDate": "2026-09-15",
+        "releaseDate": "2026-09-18",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260915.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260915.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260917.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260917.apk"
         ],
         "versionCode": 31
       },
       "efuse": {
-        "version": "1.0.11",
-        "sha256": "a6dbc88dea16d45b3afec4639ab1f59d8225120ac2fb06721ad57af1415ed400",
-        "size": 51203865,
-        "changelog": "版本未变更（沿用 1.0.11）",
-        "releaseDate": "2026-09-15",
+        "version": "1.0.12",
+        "sha256": "8a54132d2226cfcb5ecc53e2248a2fcdb45dc54b076001e58c90feb52799146a",
+        "size": 51246935,
+        "changelog": "固件烧录数据保护落地：新增烧录方式选择（自动/仅系统/完整镜像）；自动模式按设备现状与分区布局判定——布局未变仅烧系统（保留用户配置），布局变化全量烧录并自动回填参数（烧前读取、烧后写回、严格回读校验）；参数编解码与上位机共用同一套共享函数；版本升级 1.0.12",
+        "releaseDate": "2026-09-18",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanEfuseTool-Setup-v1.0.11-20260912.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanEfuseTool-Setup-v1.0.11-20260912.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanEfuseTool-Setup-v1.0.12-20260917.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanEfuseTool-Setup-v1.0.12-20260917.exe"
         ]
       },
       "firmware": {
         "version": "1.28.2",
         "proto": "2.9",
-        "changelog": "修复 UVC 挂起/恢复后画面不恢复：USB 挂起改为只暂停不结束会话，恢复后自动续帧；移除会误伤正常运行的帧完整性判据；正式固件关闭排障诊断输出；版本升级 1.28.2",
-        "releaseDate": "2026-09-15",
+        "changelog": "版本未变更（沿用 1.28.2）",
+        "releaseDate": "2026-09-18",
         "sensors": {
           "GC0308": {
             "version": "1.28.2",
             "sha256": "109c035b6ceca9e14ad4627445e5aa2efbdba2c555d8c357c9439eb10445750b",
             "size": 1762304,
-            "changelog": "修复 UVC 挂起/恢复后画面不恢复：USB 挂起改为只暂停不结束会话，恢复后自动续帧；移除会误伤正常运行的帧完整性判据；正式固件关闭排障诊断输出；版本升级 1.28.2",
-            "releaseDate": "2026-09-15",
+            "changelog": "版本未变更（沿用 1.28.2）",
+            "releaseDate": "2026-09-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img"
             ]
           },
           "GC0328C": {
             "version": "1.28.2",
             "sha256": "a35dd669057b607cab53fafb73938b668e21ec976aeb0d3ea2003dd937c1c696",
             "size": 1760256,
-            "changelog": "修复 UVC 挂起/恢复后画面不恢复：USB 挂起改为只暂停不结束会话，恢复后自动续帧；移除会误伤正常运行的帧完整性判据；正式固件关闭排障诊断输出；版本升级 1.28.2",
-            "releaseDate": "2026-09-15",
+            "changelog": "版本未变更（沿用 1.28.2）",
+            "releaseDate": "2026-09-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img"
             ]
           },
           "GC032A": {
             "version": "1.28.2",
             "sha256": "5370b9904b9b1fb0c584c8401a6b654e88babd7857402d2417f1a6490de30105",
             "size": 1760256,
-            "changelog": "修复 UVC 挂起/恢复后画面不恢复：USB 挂起改为只暂停不结束会话，恢复后自动续帧；移除会误伤正常运行的帧完整性判据；正式固件关闭排障诊断输出；版本升级 1.28.2",
-            "releaseDate": "2026-09-15",
+            "changelog": "版本未变更（沿用 1.28.2）",
+            "releaseDate": "2026-09-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img"
             ]
           },
           "SC035HGS": {
             "version": "1.28.2",
             "sha256": "3101c8b378625f605625462a08127c2b08698a4b5d85b52782ea840f596ac823",
             "size": 1766400,
-            "changelog": "修复 UVC 挂起/恢复后画面不恢复：USB 挂起改为只暂停不结束会话，恢复后自动续帧；移除会误伤正常运行的帧完整性判据；正式固件关闭排障诊断输出；版本升级 1.28.2",
-            "releaseDate": "2026-09-15",
+            "changelog": "版本未变更（沿用 1.28.2）",
+            "releaseDate": "2026-09-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img"
             ]
           }
         }
@@ -126,6 +126,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.32-proto2.9-20260904.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.32-proto2.9-20260904.exe"
         ]
+      },
+      {
+        "version": "1.4.33",
+        "sha256": "9c9744a5f8fb1fee92b2800b58fb994ae6df62aad99be919ae67f9f5c41949de",
+        "size": 76823584,
+        "changelog": "修复睡眠唤醒后误打开电脑内置摄像头（画面全黑）：UVC 设备身份固化并新增 Media Foundation 设备表下标换算；CDC 与 UVC 状态解耦、端口号漂移自动切换重试；睡眠唤醒/断连后界面状态自动收敛；版本升级 1.4.33",
+        "releaseDate": "2026-09-15",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.33-proto2.9-20260915.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.33-proto2.9-20260915.exe"
+        ]
       }
     ],
     "rd": [
@@ -139,6 +150,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.32-proto2.9-20260904.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.32-proto2.9-20260904.exe"
         ]
+      },
+      {
+        "version": "1.4.33",
+        "sha256": "b9f88c0906351a659c0dfa3e4fdeb93c6e3328ca265d9f71cb7f09c4a4caa060",
+        "size": 76898783,
+        "changelog": "修复睡眠唤醒后误打开电脑内置摄像头（画面全黑）：UVC 设备身份固化并新增 Media Foundation 设备表下标换算；CDC 与 UVC 状态解耦、端口号漂移自动切换重试；睡眠唤醒/断连后界面状态自动收敛；版本升级 1.4.33",
+        "releaseDate": "2026-09-15",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.33-proto2.9-20260915.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.33-proto2.9-20260915.exe"
+        ]
       }
     ],
     "qc": [
@@ -151,6 +173,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.32-proto2.9-20260904.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.32-proto2.9-20260904.exe"
+        ]
+      },
+      {
+        "version": "1.4.33",
+        "sha256": "02a2dd138e954ed8ec3dbec1518e48ebd51883fa7995ffed2f3c8b41e692ca6c",
+        "size": 76656904,
+        "changelog": "修复睡眠唤醒后误打开电脑内置摄像头（画面全黑）：UVC 设备身份固化并新增 Media Foundation 设备表下标换算；CDC 与 UVC 状态解耦、端口号漂移自动切换重试；睡眠唤醒/断连后界面状态自动收敛；版本升级 1.4.33",
+        "releaseDate": "2026-09-15",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.33-proto2.9-20260915.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.33-proto2.9-20260915.exe"
         ]
       }
     ],
@@ -176,6 +209,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.10-20260907.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/sfScanEfuseTool-Setup-v1.0.10-20260907.exe"
+        ]
+      },
+      {
+        "version": "1.0.11",
+        "sha256": "a6dbc88dea16d45b3afec4639ab1f59d8225120ac2fb06721ad57af1415ed400",
+        "size": 51203865,
+        "changelog": "版本未变更（沿用 1.0.11）",
+        "releaseDate": "2026-09-15",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanEfuseTool-Setup-v1.0.11-20260912.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanEfuseTool-Setup-v1.0.11-20260912.exe"
         ]
       }
     ],
