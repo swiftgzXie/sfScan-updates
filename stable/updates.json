@@ -10,8 +10,8 @@
           "changelog": "设备参数读取解析增强：统一为共享实现并容忍串口前导噪声与 CFmt 封装标记（读取成功率提升）；Sensor 镜头参数解析同步统一（与 eFuse 工具同一套函数）；新增 save_config 命令支持；版本升级 1.4.34",
           "releaseDate": "2026-09-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe"
           ]
         },
         "rd": {
@@ -21,8 +21,8 @@
           "changelog": "设备参数读取解析增强：统一为共享实现并容忍串口前导噪声与 CFmt 封装标记（读取成功率提升）；Sensor 镜头参数解析同步统一（与 eFuse 工具同一套函数）；新增 save_config 命令支持；版本升级 1.4.34",
           "releaseDate": "2026-09-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe"
           ]
         },
         "qc": {
@@ -32,22 +32,22 @@
           "changelog": "设备参数读取解析增强：统一为共享实现并容忍串口前导噪声与 CFmt 封装标记（读取成功率提升）；Sensor 镜头参数解析同步统一（与 eFuse 工具同一套函数）；新增 save_config 命令支持；版本升级 1.4.34",
           "releaseDate": "2026-09-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe"
           ]
         }
       },
       "mobile": {
-        "version": "1.1.29",
-        "sha256": "964a6262aa6d312cfb8831ad048fe2b9737c54c3185850af0f0b218acb6c5147",
-        "size": 31113662,
-        "changelog": "版本未变更（沿用 1.1.29）",
+        "version": "1.1.30",
+        "sha256": "7436851707e4dac449ede797a2faf63784b5702fd2d16607f77c9e171fa4eb3e",
+        "size": 31121854,
+        "changelog": "设备参数读取统一为共享标准入口（与 PC/eFuse 相同函数，自动容忍串口噪声与 CFmt 封装标记，读取成功率提升）；版本升级 1.1.30",
         "releaseDate": "2026-09-18",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260917.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260917.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanMobile-v1.1.30-proto2.9-20260917.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanMobile-v1.1.30-proto2.9-20260917.apk"
         ],
-        "versionCode": 31
+        "versionCode": 32
       },
       "efuse": {
         "version": "1.0.12",
@@ -56,8 +56,8 @@
         "changelog": "固件烧录数据保护落地：新增烧录方式选择（自动/仅系统/完整镜像）；自动模式按设备现状与分区布局判定——布局未变仅烧系统（保留用户配置），布局变化全量烧录并自动回填参数（烧前读取、烧后写回、严格回读校验）；参数编解码与上位机共用同一套共享函数；版本升级 1.0.12",
         "releaseDate": "2026-09-18",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanEfuseTool-Setup-v1.0.12-20260917.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanEfuseTool-Setup-v1.0.12-20260917.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe"
         ]
       },
       "firmware": {
@@ -73,8 +73,8 @@
             "changelog": "版本未变更（沿用 1.28.2）",
             "releaseDate": "2026-09-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img"
             ]
           },
           "GC0328C": {
@@ -84,8 +84,8 @@
             "changelog": "版本未变更（沿用 1.28.2）",
             "releaseDate": "2026-09-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img"
             ]
           },
           "GC032A": {
@@ -95,8 +95,8 @@
             "changelog": "版本未变更（沿用 1.28.2）",
             "releaseDate": "2026-09-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img"
             ]
           },
           "SC035HGS": {
@@ -106,8 +106,8 @@
             "changelog": "版本未变更（沿用 1.28.2）",
             "releaseDate": "2026-09-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img"
             ]
           }
         }
@@ -187,7 +187,20 @@
         ]
       }
     ],
-    "mobile": [],
+    "mobile": [
+      {
+        "version": "1.1.29",
+        "sha256": "964a6262aa6d312cfb8831ad048fe2b9737c54c3185850af0f0b218acb6c5147",
+        "size": 31113662,
+        "changelog": "版本未变更（沿用 1.1.29）",
+        "releaseDate": "2026-09-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260917.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260917.apk"
+        ],
+        "versionCode": 31
+      }
+    ],
     "efuse": [
       {
         "version": "1.0.8",
