@@ -7,8 +7,8 @@
           "version": "1.4.34",
           "sha256": "cf758ba3e2b8b5fb61ef232a14cdc95cf8d3e4a14fde226413b5b68ac089fcb7",
           "size": 76821462,
-          "changelog": "设备参数读取解析增强：统一为共享实现并容忍串口前导噪声与 CFmt 封装标记（读取成功率提升）；Sensor 镜头参数解析同步统一（与 eFuse 工具同一套函数）；新增 save_config 命令支持；版本升级 1.4.34",
-          "releaseDate": "2026-09-18",
+          "changelog": "版本未变更（沿用 1.4.34）",
+          "releaseDate": "2026-09-20",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe"
@@ -18,8 +18,8 @@
           "version": "1.4.34",
           "sha256": "ecf4eccbf3898cf72d6a878e5f6b5abc79302ab1ea62a6c344a8b33c7bac8036",
           "size": 76899503,
-          "changelog": "设备参数读取解析增强：统一为共享实现并容忍串口前导噪声与 CFmt 封装标记（读取成功率提升）；Sensor 镜头参数解析同步统一（与 eFuse 工具同一套函数）；新增 save_config 命令支持；版本升级 1.4.34",
-          "releaseDate": "2026-09-18",
+          "changelog": "版本未变更（沿用 1.4.34）",
+          "releaseDate": "2026-09-20",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe"
@@ -29,8 +29,8 @@
           "version": "1.4.34",
           "sha256": "ae9a9d4a9b25b7a6dcc476846ab7404eaa60aae6d5487959bbc55020ca954e24",
           "size": 76655101,
-          "changelog": "设备参数读取解析增强：统一为共享实现并容忍串口前导噪声与 CFmt 封装标记（读取成功率提升）；Sensor 镜头参数解析同步统一（与 eFuse 工具同一套函数）；新增 save_config 命令支持；版本升级 1.4.34",
-          "releaseDate": "2026-09-18",
+          "changelog": "版本未变更（沿用 1.4.34）",
+          "releaseDate": "2026-09-20",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe"
@@ -41,8 +41,8 @@
         "version": "1.1.30",
         "sha256": "7436851707e4dac449ede797a2faf63784b5702fd2d16607f77c9e171fa4eb3e",
         "size": 31121854,
-        "changelog": "设备参数读取统一为共享标准入口（与 PC/eFuse 相同函数，自动容忍串口噪声与 CFmt 封装标记，读取成功率提升）；版本升级 1.1.30",
-        "releaseDate": "2026-09-18",
+        "changelog": "版本未变更（沿用 1.1.30）",
+        "releaseDate": "2026-09-20",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanMobile-v1.1.30-proto2.9-20260917.apk",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanMobile-v1.1.30-proto2.9-20260917.apk"
@@ -53,61 +53,61 @@
         "version": "1.0.12",
         "sha256": "8a54132d2226cfcb5ecc53e2248a2fcdb45dc54b076001e58c90feb52799146a",
         "size": 51246935,
-        "changelog": "固件烧录数据保护落地：新增烧录方式选择（自动/仅系统/完整镜像）；自动模式按设备现状与分区布局判定——布局未变仅烧系统（保留用户配置），布局变化全量烧录并自动回填参数（烧前读取、烧后写回、严格回读校验）；参数编解码与上位机共用同一套共享函数；版本升级 1.0.12",
-        "releaseDate": "2026-09-18",
+        "changelog": "版本未变更（沿用 1.0.12）",
+        "releaseDate": "2026-09-20",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.2",
+        "version": "1.28.10",
         "proto": "2.9",
-        "changelog": "版本未变更（沿用 1.28.2）",
-        "releaseDate": "2026-09-18",
+        "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+        "releaseDate": "2026-09-20",
         "sensors": {
           "GC0308": {
-            "version": "1.28.2",
-            "sha256": "109c035b6ceca9e14ad4627445e5aa2efbdba2c555d8c357c9439eb10445750b",
-            "size": 1762304,
-            "changelog": "版本未变更（沿用 1.28.2）",
-            "releaseDate": "2026-09-18",
+            "version": "1.28.10",
+            "sha256": "9c975731d2133b9f5b5963d1e79962423b89be3e64dc7fc84ee557ea352ba6bc",
+            "size": 1768448,
+            "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+            "releaseDate": "2026-09-20",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.10-proto2.9-20260919.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.10-proto2.9-20260919.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.2",
-            "sha256": "a35dd669057b607cab53fafb73938b668e21ec976aeb0d3ea2003dd937c1c696",
-            "size": 1760256,
-            "changelog": "版本未变更（沿用 1.28.2）",
-            "releaseDate": "2026-09-18",
+            "version": "1.28.10",
+            "sha256": "11c41df34cfa1cf1a991b517c1c74b8835ea547c9719a93f477cb0c2a6110f0c",
+            "size": 1768448,
+            "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+            "releaseDate": "2026-09-20",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0328C-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0328C-v1.28.10-proto2.9-20260919.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0328C-v1.28.10-proto2.9-20260919.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.2",
-            "sha256": "5370b9904b9b1fb0c584c8401a6b654e88babd7857402d2417f1a6490de30105",
-            "size": 1760256,
-            "changelog": "版本未变更（沿用 1.28.2）",
-            "releaseDate": "2026-09-18",
+            "version": "1.28.10",
+            "sha256": "210c03d8b575d79a1c1b15bec56f4d8939649ba98679b10c574ca1f202d9138f",
+            "size": 1768448,
+            "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+            "releaseDate": "2026-09-20",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC032A-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC032A-v1.28.10-proto2.9-20260919.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC032A-v1.28.10-proto2.9-20260919.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.2",
-            "sha256": "3101c8b378625f605625462a08127c2b08698a4b5d85b52782ea840f596ac823",
-            "size": 1766400,
-            "changelog": "版本未变更（沿用 1.28.2）",
-            "releaseDate": "2026-09-18",
+            "version": "1.28.10",
+            "sha256": "04d607c787bd3e951e8baddd6bb95b679304f0ce4e1f076a24b19c09bd25112c",
+            "size": 1770496,
+            "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+            "releaseDate": "2026-09-20",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-SC035HGS-v1.28.2-proto2.9-20260915.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-SC035HGS-v1.28.10-proto2.9-20260919.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-SC035HGS-v1.28.10-proto2.9-20260919.img"
             ]
           }
         }
@@ -257,6 +257,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.1-proto2.9-20260909.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.32-M1.1.29/g73x_scan-G730BDU-GC0308-v1.28.1-proto2.9-20260909.img"
+        ]
+      },
+      {
+        "version": "1.28.2",
+        "sha256": "109c035b6ceca9e14ad4627445e5aa2efbdba2c555d8c357c9439eb10445750b",
+        "size": 1762304,
+        "changelog": "版本未变更（沿用 1.28.2）",
+        "releaseDate": "2026-09-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img"
         ]
       }
     ]
