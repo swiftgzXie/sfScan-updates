@@ -4,110 +4,110 @@
     "stable": {
       "pc": {
         "support": {
-          "version": "1.4.34",
-          "sha256": "cf758ba3e2b8b5fb61ef232a14cdc95cf8d3e4a14fde226413b5b68ac089fcb7",
-          "size": 76821462,
-          "changelog": "版本未变更（沿用 1.4.34）",
-          "releaseDate": "2026-09-20",
+          "version": "1.4.35",
+          "sha256": "c025c97bc75b389be5bf021fe5fb8a08f1d48e852aa45570f7ad4201d73b49c1",
+          "size": 76822665,
+          "changelog": "键盘速度对比页新增“按键延时”（标准/紧凑模式均可用，“应用参数”一键下发模式与延时）；全面优化界面提示：所有状态与错误信息统一显示在“清除”按钮右侧，且完整支持六语言；串口打开失败时显示具体原因（如端口被占用），操作更清晰。",
+          "releaseDate": "2026-09-27",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe"
           ]
         },
         "rd": {
-          "version": "1.4.34",
-          "sha256": "ecf4eccbf3898cf72d6a878e5f6b5abc79302ab1ea62a6c344a8b33c7bac8036",
-          "size": 76899503,
-          "changelog": "版本未变更（沿用 1.4.34）",
-          "releaseDate": "2026-09-20",
+          "version": "1.4.35",
+          "sha256": "0f90c148a3d557a94a520fa9ac567504a077ee2e7f458a311a3bfd1994b42653",
+          "size": 76904998,
+          "changelog": "键盘速度对比页新增“按键延时”（标准/紧凑模式均可用，“应用参数”一键下发模式与延时）；全面优化界面提示：所有状态与错误信息统一显示在“清除”按钮右侧，且完整支持六语言；串口打开失败时显示具体原因（如端口被占用），操作更清晰。",
+          "releaseDate": "2026-09-27",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe"
           ]
         },
         "qc": {
-          "version": "1.4.34",
-          "sha256": "ae9a9d4a9b25b7a6dcc476846ab7404eaa60aae6d5487959bbc55020ca954e24",
-          "size": 76655101,
-          "changelog": "版本未变更（沿用 1.4.34）",
-          "releaseDate": "2026-09-20",
+          "version": "1.4.35",
+          "sha256": "c54bace8b4c95b5b089b1c4dd37635dd3ca0b7a0385673c72676411755a789ed",
+          "size": 76667602,
+          "changelog": "键盘速度对比页新增“按键延时”（标准/紧凑模式均可用，“应用参数”一键下发模式与延时）；全面优化界面提示：所有状态与错误信息统一显示在“清除”按钮右侧，且完整支持六语言；串口打开失败时显示具体原因（如端口被占用），操作更清晰。",
+          "releaseDate": "2026-09-27",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe"
           ]
         }
       },
       "mobile": {
-        "version": "1.1.30",
-        "sha256": "7436851707e4dac449ede797a2faf63784b5702fd2d16607f77c9e171fa4eb3e",
-        "size": 31121854,
-        "changelog": "版本未变更（沿用 1.1.30）",
-        "releaseDate": "2026-09-20",
+        "version": "1.1.31",
+        "sha256": "5a57132e3e5ad6e7a832c69ec7dbf421c95fc6e7ff010521c0f214df7f6e84cf",
+        "size": 31125950,
+        "changelog": "通用设置页“键盘延时”现在对 USB 键盘输出模式同样可选（配合固件键盘输出节拍优化，获得更稳定准确的键盘输出）。",
+        "releaseDate": "2026-09-27",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanMobile-v1.1.30-proto2.9-20260917.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanMobile-v1.1.30-proto2.9-20260917.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20260927.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20260927.apk"
         ],
-        "versionCode": 32
+        "versionCode": 33
       },
       "efuse": {
-        "version": "1.0.12",
-        "sha256": "8a54132d2226cfcb5ecc53e2248a2fcdb45dc54b076001e58c90feb52799146a",
-        "size": 51246935,
-        "changelog": "版本未变更（沿用 1.0.12）",
-        "releaseDate": "2026-09-20",
+        "version": "1.0.13",
+        "sha256": "8c2098d3e3b1a8600fc0bbaf2a90852762dc315fa88759b9f8977e6c51453616",
+        "size": 51251008,
+        "changelog": "修复固件烧录时的分区布局误判问题（不再意外触发全量烧录与参数恢复流程，日常升级更安全）；烧录等待设备重启期间新增进度提示；优化复位阶段的日志提示。",
+        "releaseDate": "2026-09-27",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.10",
+        "version": "1.28.36",
         "proto": "2.9",
-        "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
-        "releaseDate": "2026-09-20",
+        "changelog": "固件升级至 1.28.36：根治长程键盘输出乱码问题（修正键盘输出节拍——标准模式支持键间延时并默认 5ms，紧凑模式延时移至按键释放后；实测 310 字符多轮输出 100% 正确）；键盘输出新增防乱码保护（输出超时保护、已受理报文有界等待）；自动曝光（AE）参数口径统一、稳定性提升；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+        "releaseDate": "2026-09-27",
         "sensors": {
           "GC0308": {
-            "version": "1.28.10",
-            "sha256": "9c975731d2133b9f5b5963d1e79962423b89be3e64dc7fc84ee557ea352ba6bc",
-            "size": 1768448,
-            "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
-            "releaseDate": "2026-09-20",
+            "version": "1.28.36",
+            "sha256": "b2f177e195a0341596a578c623f748b2cc559afadc4e894b0ffaf7170dda9ed1",
+            "size": 1772544,
+            "changelog": "固件升级至 1.28.36：根治长程键盘输出乱码问题（修正键盘输出节拍——标准模式支持键间延时并默认 5ms，紧凑模式延时移至按键释放后；实测 310 字符多轮输出 100% 正确）；键盘输出新增防乱码保护（输出超时保护、已受理报文有界等待）；自动曝光（AE）参数口径统一、稳定性提升；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+            "releaseDate": "2026-09-27",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.10-proto2.9-20260919.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.10-proto2.9-20260919.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.36-proto2.9-20260924.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.36-proto2.9-20260924.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.10",
-            "sha256": "11c41df34cfa1cf1a991b517c1c74b8835ea547c9719a93f477cb0c2a6110f0c",
-            "size": 1768448,
-            "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
-            "releaseDate": "2026-09-20",
+            "version": "1.28.36",
+            "sha256": "3f7a15c6bcc23123adef68c207f4b3da56f74cf96c2baf048bc958d82d091093",
+            "size": 1770496,
+            "changelog": "固件升级至 1.28.36：根治长程键盘输出乱码问题（修正键盘输出节拍——标准模式支持键间延时并默认 5ms，紧凑模式延时移至按键释放后；实测 310 字符多轮输出 100% 正确）；键盘输出新增防乱码保护（输出超时保护、已受理报文有界等待）；自动曝光（AE）参数口径统一、稳定性提升；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+            "releaseDate": "2026-09-27",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0328C-v1.28.10-proto2.9-20260919.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0328C-v1.28.10-proto2.9-20260919.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.36-proto2.9-20260924.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.36-proto2.9-20260924.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.10",
-            "sha256": "210c03d8b575d79a1c1b15bec56f4d8939649ba98679b10c574ca1f202d9138f",
-            "size": 1768448,
-            "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
-            "releaseDate": "2026-09-20",
+            "version": "1.28.36",
+            "sha256": "5e1710e6cf1c16db272d247a3534d98ae3bdda72e1d378fb4fb19ed3df37a2f1",
+            "size": 1770496,
+            "changelog": "固件升级至 1.28.36：根治长程键盘输出乱码问题（修正键盘输出节拍——标准模式支持键间延时并默认 5ms，紧凑模式延时移至按键释放后；实测 310 字符多轮输出 100% 正确）；键盘输出新增防乱码保护（输出超时保护、已受理报文有界等待）；自动曝光（AE）参数口径统一、稳定性提升；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+            "releaseDate": "2026-09-27",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC032A-v1.28.10-proto2.9-20260919.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC032A-v1.28.10-proto2.9-20260919.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.36-proto2.9-20260924.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.36-proto2.9-20260924.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.10",
-            "sha256": "04d607c787bd3e951e8baddd6bb95b679304f0ce4e1f076a24b19c09bd25112c",
-            "size": 1770496,
-            "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
-            "releaseDate": "2026-09-20",
+            "version": "1.28.36",
+            "sha256": "faf31ce61f44fc1315c43bb4d5a3c7167e30c3387d107fe71c37b3def5e6d2d0",
+            "size": 1774592,
+            "changelog": "固件升级至 1.28.36：根治长程键盘输出乱码问题（修正键盘输出节拍——标准模式支持键间延时并默认 5ms，紧凑模式延时移至按键释放后；实测 310 字符多轮输出 100% 正确）；键盘输出新增防乱码保护（输出超时保护、已受理报文有界等待）；自动曝光（AE）参数口径统一、稳定性提升；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+            "releaseDate": "2026-09-27",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-SC035HGS-v1.28.10-proto2.9-20260919.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-SC035HGS-v1.28.10-proto2.9-20260919.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.36-proto2.9-20260924.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.36-proto2.9-20260924.img"
             ]
           }
         }
@@ -137,6 +137,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.33-proto2.9-20260915.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-Support-Setup-v1.4.33-proto2.9-20260915.exe"
         ]
+      },
+      {
+        "version": "1.4.34",
+        "sha256": "cf758ba3e2b8b5fb61ef232a14cdc95cf8d3e4a14fde226413b5b68ac089fcb7",
+        "size": 76821462,
+        "changelog": "版本未变更（沿用 1.4.34）",
+        "releaseDate": "2026-09-20",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe"
+        ]
       }
     ],
     "rd": [
@@ -160,6 +171,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.33-proto2.9-20260915.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-RD-Setup-v1.4.33-proto2.9-20260915.exe"
+        ]
+      },
+      {
+        "version": "1.4.34",
+        "sha256": "ecf4eccbf3898cf72d6a878e5f6b5abc79302ab1ea62a6c344a8b33c7bac8036",
+        "size": 76899503,
+        "changelog": "版本未变更（沿用 1.4.34）",
+        "releaseDate": "2026-09-20",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe"
         ]
       }
     ],
@@ -185,6 +207,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.33-proto2.9-20260915.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanModuleSet-QC-Setup-v1.4.33-proto2.9-20260915.exe"
         ]
+      },
+      {
+        "version": "1.4.34",
+        "sha256": "ae9a9d4a9b25b7a6dcc476846ab7404eaa60aae6d5487959bbc55020ca954e24",
+        "size": 76655101,
+        "changelog": "版本未变更（沿用 1.4.34）",
+        "releaseDate": "2026-09-20",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe"
+        ]
       }
     ],
     "mobile": [
@@ -199,6 +232,18 @@
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.29/sfScanMobile-v1.1.29-proto2.9-20260917.apk"
         ],
         "versionCode": 31
+      },
+      {
+        "version": "1.1.30",
+        "sha256": "7436851707e4dac449ede797a2faf63784b5702fd2d16607f77c9e171fa4eb3e",
+        "size": 31121854,
+        "changelog": "版本未变更（沿用 1.1.30）",
+        "releaseDate": "2026-09-20",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanMobile-v1.1.30-proto2.9-20260917.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanMobile-v1.1.30-proto2.9-20260917.apk"
+        ],
+        "versionCode": 32
       }
     ],
     "efuse": [
@@ -234,6 +279,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanEfuseTool-Setup-v1.0.11-20260912.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.33-M1.1.29/sfScanEfuseTool-Setup-v1.0.11-20260912.exe"
         ]
+      },
+      {
+        "version": "1.0.12",
+        "sha256": "8a54132d2226cfcb5ecc53e2248a2fcdb45dc54b076001e58c90feb52799146a",
+        "size": 51246935,
+        "changelog": "版本未变更（沿用 1.0.12）",
+        "releaseDate": "2026-09-20",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe"
+        ]
       }
     ],
     "firmware": [
@@ -268,6 +324,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.2-proto2.9-20260915.img"
+        ]
+      },
+      {
+        "version": "1.28.10",
+        "sha256": "9c975731d2133b9f5b5963d1e79962423b89be3e64dc7fc84ee557ea352ba6bc",
+        "size": 1768448,
+        "changelog": "固件升级至 1.28.10（含 1.28.3 以来全部改进）：自动感应全面提速——识别结果更快送出（结果→就绪中位 291→138ms），未识别更快结束本轮（失败尾巴缩短约 300ms）；解码超时出厂默认 1500→1200ms；自动曝光收敛更平稳；日志分层（开机/参数变更/异常不再受调试开关影响，现场排障更可靠）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），兼容既有升级流程。",
+        "releaseDate": "2026-09-20",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.10-proto2.9-20260919.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/g73x_scan-G730BDU-GC0308-v1.28.10-proto2.9-20260919.img"
         ]
       }
     ]
