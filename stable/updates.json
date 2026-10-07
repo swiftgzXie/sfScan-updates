@@ -8,7 +8,7 @@
           "sha256": "c025c97bc75b389be5bf021fe5fb8a08f1d48e852aa45570f7ad4201d73b49c1",
           "size": 76822665,
           "changelog": "版本未变更（沿用 1.4.35，说明同上一版）。",
-          "releaseDate": "2026-09-30",
+          "releaseDate": "2026-10-07",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe"
@@ -19,7 +19,7 @@
           "sha256": "0f90c148a3d557a94a520fa9ac567504a077ee2e7f458a311a3bfd1994b42653",
           "size": 76904998,
           "changelog": "版本未变更（沿用 1.4.35，说明同上一版）。",
-          "releaseDate": "2026-09-30",
+          "releaseDate": "2026-10-07",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe"
@@ -30,7 +30,7 @@
           "sha256": "c54bace8b4c95b5b089b1c4dd37635dd3ca0b7a0385673c72676411755a789ed",
           "size": 76667602,
           "changelog": "版本未变更（沿用 1.4.35，说明同上一版）。",
-          "releaseDate": "2026-09-30",
+          "releaseDate": "2026-10-07",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe"
@@ -42,7 +42,7 @@
         "sha256": "5a57132e3e5ad6e7a832c69ec7dbf421c95fc6e7ff010521c0f214df7f6e84cf",
         "size": 31125950,
         "changelog": "版本未变更（沿用 1.1.31，说明同上一版）。",
-        "releaseDate": "2026-09-30",
+        "releaseDate": "2026-10-07",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20260927.apk",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20260927.apk"
@@ -54,60 +54,60 @@
         "sha256": "8c2098d3e3b1a8600fc0bbaf2a90852762dc315fa88759b9f8977e6c51453616",
         "size": 51251008,
         "changelog": "版本未变更（沿用 1.0.13，说明同上一版）。",
-        "releaseDate": "2026-09-30",
+        "releaseDate": "2026-10-07",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.43",
+        "version": "1.28.55",
         "proto": "2.9",
-        "changelog": "固件升级至 1.28.43：待机/启动曝光与增益四层统一（25/15），直接禁用低光 boost，常规环境出码恢复 V1.28.2 同速（消除触发首帧约 60ms 延迟）；IDLE 基线对齐解码窗口起曝，修复两轮极端死机；新增死机自动取证（RTC SYSBAK 现场保存）+ 硬件看门狗 5 秒自动复位兜底，并修复 SYSBAK 逐字节落盘问题；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-        "releaseDate": "2026-09-30",
+        "changelog": "固件升级至 1.28.55：修复 UVC 模式下的偶发系统冻结（根因为 USB 控制请求在中断上下文中同步操作 I2C 导致死锁，修复前数分钟至十余分钟必现；修复后已连续实测 7.4 小时零重启）；调试诊断输出统一归 MDebug 开关管理（关闭时串口零噪声、不影响任何功能）；SC035HGS 亮度默认值全链路核查（维持 43% 口径）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
+        "releaseDate": "2026-10-07",
         "sensors": {
           "GC0308": {
-            "version": "1.28.43",
-            "sha256": "c2222638f6fe15eed25faf2467fac4d83156b5f09ad0cfbd4b7c162acc1cecb8",
-            "size": 1772544,
-            "changelog": "固件升级至 1.28.43：待机/启动曝光与增益四层统一（25/15），直接禁用低光 boost，常规环境出码恢复 V1.28.2 同速（消除触发首帧约 60ms 延迟）；IDLE 基线对齐解码窗口起曝，修复两轮极端死机；新增死机自动取证（RTC SYSBAK 现场保存）+ 硬件看门狗 5 秒自动复位兜底，并修复 SYSBAK 逐字节落盘问题；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-            "releaseDate": "2026-09-30",
+            "version": "1.28.55",
+            "sha256": "3cec1e5d8434fafd8e1176d8817e66718dc59d4f1a8b6297271ebd0ea5394dca",
+            "size": 1778688,
+            "changelog": "固件升级至 1.28.55：修复 UVC 模式下的偶发系统冻结（根因为 USB 控制请求在中断上下文中同步操作 I2C 导致死锁，修复前数分钟至十余分钟必现；修复后已连续实测 7.4 小时零重启）；调试诊断输出统一归 MDebug 开关管理（关闭时串口零噪声、不影响任何功能）；SC035HGS 亮度默认值全链路核查（维持 43% 口径）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
+            "releaseDate": "2026-10-07",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.43-proto2.9-20260930.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.43-proto2.9-20260930.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.55-proto2.9-20261006.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.55-proto2.9-20261006.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.43",
-            "sha256": "2f6f2149da075e076faa1c4151bb1bda243b3991db49e58c3147bb1b1dd5a2b1",
-            "size": 1772544,
-            "changelog": "固件升级至 1.28.43：待机/启动曝光与增益四层统一（25/15），直接禁用低光 boost，常规环境出码恢复 V1.28.2 同速（消除触发首帧约 60ms 延迟）；IDLE 基线对齐解码窗口起曝，修复两轮极端死机；新增死机自动取证（RTC SYSBAK 现场保存）+ 硬件看门狗 5 秒自动复位兜底，并修复 SYSBAK 逐字节落盘问题；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-            "releaseDate": "2026-09-30",
+            "version": "1.28.55",
+            "sha256": "c009a64ed86c8b98d707f136525cdc0e0892aa88fc1754222e0571462c6393ef",
+            "size": 1776640,
+            "changelog": "固件升级至 1.28.55：修复 UVC 模式下的偶发系统冻结（根因为 USB 控制请求在中断上下文中同步操作 I2C 导致死锁，修复前数分钟至十余分钟必现；修复后已连续实测 7.4 小时零重启）；调试诊断输出统一归 MDebug 开关管理（关闭时串口零噪声、不影响任何功能）；SC035HGS 亮度默认值全链路核查（维持 43% 口径）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
+            "releaseDate": "2026-10-07",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.43-proto2.9-20260930.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.43-proto2.9-20260930.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.55-proto2.9-20261006.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.55-proto2.9-20261006.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.43",
-            "sha256": "dee1951a362d84fc0c913ec822720f0aa78e4edaebec0c663f57e425a57c7c66",
-            "size": 1772544,
-            "changelog": "固件升级至 1.28.43：待机/启动曝光与增益四层统一（25/15），直接禁用低光 boost，常规环境出码恢复 V1.28.2 同速（消除触发首帧约 60ms 延迟）；IDLE 基线对齐解码窗口起曝，修复两轮极端死机；新增死机自动取证（RTC SYSBAK 现场保存）+ 硬件看门狗 5 秒自动复位兜底，并修复 SYSBAK 逐字节落盘问题；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-            "releaseDate": "2026-09-30",
+            "version": "1.28.55",
+            "sha256": "57d30f188796aa07d49a37402af91f11b320d3cce79df7c0a795c0799e12cb66",
+            "size": 1778688,
+            "changelog": "固件升级至 1.28.55：修复 UVC 模式下的偶发系统冻结（根因为 USB 控制请求在中断上下文中同步操作 I2C 导致死锁，修复前数分钟至十余分钟必现；修复后已连续实测 7.4 小时零重启）；调试诊断输出统一归 MDebug 开关管理（关闭时串口零噪声、不影响任何功能）；SC035HGS 亮度默认值全链路核查（维持 43% 口径）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
+            "releaseDate": "2026-10-07",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.43-proto2.9-20260930.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.43-proto2.9-20260930.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.55-proto2.9-20261006.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.55-proto2.9-20261006.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.43",
-            "sha256": "3fdce8a79f7f3f5813ec24410a9f4f56e6a212fb4c1c4f2efe6c329a6fae0e35",
-            "size": 1776640,
-            "changelog": "固件升级至 1.28.43：待机/启动曝光与增益四层统一（25/15），直接禁用低光 boost，常规环境出码恢复 V1.28.2 同速（消除触发首帧约 60ms 延迟）；IDLE 基线对齐解码窗口起曝，修复两轮极端死机；新增死机自动取证（RTC SYSBAK 现场保存）+ 硬件看门狗 5 秒自动复位兜底，并修复 SYSBAK 逐字节落盘问题；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-            "releaseDate": "2026-09-30",
+            "version": "1.28.55",
+            "sha256": "307d960e5fa0f95358f9273f790040b1af5937cf960bb33ccbcc03bf3612b58c",
+            "size": 1780736,
+            "changelog": "固件升级至 1.28.55：修复 UVC 模式下的偶发系统冻结（根因为 USB 控制请求在中断上下文中同步操作 I2C 导致死锁，修复前数分钟至十余分钟必现；修复后已连续实测 7.4 小时零重启）；调试诊断输出统一归 MDebug 开关管理（关闭时串口零噪声、不影响任何功能）；SC035HGS 亮度默认值全链路核查（维持 43% 口径）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
+            "releaseDate": "2026-10-07",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.43-proto2.9-20260930.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.43-proto2.9-20260930.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.55-proto2.9-20261006.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.55-proto2.9-20261006.img"
             ]
           }
         }
@@ -346,6 +346,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.36-proto2.9-20260924.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.36-proto2.9-20260924.img"
+        ]
+      },
+      {
+        "version": "1.28.43",
+        "sha256": "c2222638f6fe15eed25faf2467fac4d83156b5f09ad0cfbd4b7c162acc1cecb8",
+        "size": 1772544,
+        "changelog": "固件升级至 1.28.43：待机/启动曝光与增益四层统一（25/15），直接禁用低光 boost，常规环境出码恢复 V1.28.2 同速（消除触发首帧约 60ms 延迟）；IDLE 基线对齐解码窗口起曝，修复两轮极端死机；新增死机自动取证（RTC SYSBAK 现场保存）+ 硬件看门狗 5 秒自动复位兜底，并修复 SYSBAK 逐字节落盘问题；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
+        "releaseDate": "2026-09-30",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.43-proto2.9-20260930.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.43-proto2.9-20260930.img"
         ]
       }
     ]
