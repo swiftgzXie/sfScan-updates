@@ -4,36 +4,36 @@
     "stable": {
       "pc": {
         "support": {
-          "version": "1.4.35",
-          "sha256": "c025c97bc75b389be5bf021fe5fb8a08f1d48e852aa45570f7ad4201d73b49c1",
-          "size": 76822665,
-          "changelog": "版本未变更（沿用 1.4.35，说明同上一版）。",
-          "releaseDate": "2026-10-09",
+          "version": "1.4.36",
+          "sha256": "b16c10171e7f0d02c47589889b7cbdb1b18078f4190a09d001f12d9818df2fbe",
+          "size": 76824729,
+          "changelog": "1.4.36（2026-10-10）：修复 UVC 低帧率预览初始化误报失败——探帧验收拆分为“流可用性”与“帧率性能”双判据，GC0308 等硬件 AEC 长曝光低帧率场景不再被误报“无法初始化摄像设备”；新增探帧诊断输出；Help 六语言与说明书版本标注同步。",
+          "releaseDate": "2026-10-10",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.36-proto2.9-20261010.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.36-proto2.9-20261010.exe"
           ]
         },
         "rd": {
-          "version": "1.4.35",
-          "sha256": "0f90c148a3d557a94a520fa9ac567504a077ee2e7f458a311a3bfd1994b42653",
-          "size": 76904998,
-          "changelog": "版本未变更（沿用 1.4.35，说明同上一版）。",
-          "releaseDate": "2026-10-09",
+          "version": "1.4.36",
+          "sha256": "03914e61ed6044dd3bb950165d42a251896fad86dcfacafe9a2d230ec70a6e60",
+          "size": 76907343,
+          "changelog": "1.4.36（2026-10-10）：修复 UVC 低帧率预览初始化误报失败——探帧验收拆分为“流可用性”与“帧率性能”双判据，GC0308 等硬件 AEC 长曝光低帧率场景不再被误报“无法初始化摄像设备”；新增探帧诊断输出；Help 六语言与说明书版本标注同步。",
+          "releaseDate": "2026-10-10",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.36-proto2.9-20261010.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.36-proto2.9-20261010.exe"
           ]
         },
         "qc": {
-          "version": "1.4.35",
-          "sha256": "c54bace8b4c95b5b089b1c4dd37635dd3ca0b7a0385673c72676411755a789ed",
-          "size": 76667602,
-          "changelog": "版本未变更（沿用 1.4.35，说明同上一版）。",
-          "releaseDate": "2026-10-09",
+          "version": "1.4.36",
+          "sha256": "449d48353021311e35cb252a82da81eec716b42a4d8c0c3b400511dc62071838",
+          "size": 76667985,
+          "changelog": "1.4.36（2026-10-10）：修复 UVC 低帧率预览初始化误报失败——探帧验收拆分为“流可用性”与“帧率性能”双判据，GC0308 等硬件 AEC 长曝光低帧率场景不再被误报“无法初始化摄像设备”；新增探帧诊断输出；Help 六语言与说明书版本标注同步。",
+          "releaseDate": "2026-10-10",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.36-proto2.9-20261010.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.36-proto2.9-20261010.exe"
           ]
         }
       },
@@ -42,10 +42,10 @@
         "sha256": "5a57132e3e5ad6e7a832c69ec7dbf421c95fc6e7ff010521c0f214df7f6e84cf",
         "size": 31125950,
         "changelog": "版本未变更（沿用 1.1.31，说明同上一版）。",
-        "releaseDate": "2026-10-09",
+        "releaseDate": "2026-10-10",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20260927.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20260927.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20261010.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20261010.apk"
         ],
         "versionCode": 33
       },
@@ -54,60 +54,60 @@
         "sha256": "8c2098d3e3b1a8600fc0bbaf2a90852762dc315fa88759b9f8977e6c51453616",
         "size": 51251008,
         "changelog": "版本未变更（沿用 1.0.13，说明同上一版）。",
-        "releaseDate": "2026-10-09",
+        "releaseDate": "2026-10-10",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe"
         ]
       },
       "firmware": {
         "version": "1.28.56",
         "proto": "2.9",
-        "changelog": "固件升级至 1.28.56：Sensor 驱动架构三方解耦重构（驱动/兼容层/策略层分离，对外行为与 1.28.55 保持一致——硬件/功能/应用三层一致性验证 198 项严格回归及四 Sensor 构建验证全部通过）；AE 并发安全加固（状态护栏改 ISR 单核 IRQ-save 语义、消除中断上下文潜在互斥风险；建锁失败返回错误；线程启动失败清理；空锁安全 fallback）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-        "releaseDate": "2026-10-09",
+        "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+        "releaseDate": "2026-10-10",
         "sensors": {
           "GC0308": {
             "version": "1.28.56",
-            "sha256": "d1306ee019d3535888f10a6a9212c4a7e29c2c08bed8e28a08868542160763bb",
+            "sha256": "f3e6828527c9fa3fc23433583f1d1ea98e54c71f6445ed3d54aed66c37b900f2",
             "size": 1780736,
-            "changelog": "固件升级至 1.28.56：Sensor 驱动架构三方解耦重构（驱动/兼容层/策略层分离，对外行为与 1.28.55 保持一致——硬件/功能/应用三层一致性验证 198 项严格回归及四 Sensor 构建验证全部通过）；AE 并发安全加固（状态护栏改 ISR 单核 IRQ-save 语义、消除中断上下文潜在互斥风险；建锁失败返回错误；线程启动失败清理；空锁安全 fallback）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-            "releaseDate": "2026-10-09",
+            "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+            "releaseDate": "2026-10-10",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img"
             ]
           },
           "GC0328C": {
             "version": "1.28.56",
-            "sha256": "0b483d7308615a4bcbab1df032d0830d6d993cbd4eb2cccdccdc206684d3c675",
+            "sha256": "b7ecc5214af5080b2620721e9020cdf69c544d1eaf97edc1edb9a40cb5fe5713",
             "size": 1778688,
-            "changelog": "固件升级至 1.28.56：Sensor 驱动架构三方解耦重构（驱动/兼容层/策略层分离，对外行为与 1.28.55 保持一致——硬件/功能/应用三层一致性验证 198 项严格回归及四 Sensor 构建验证全部通过）；AE 并发安全加固（状态护栏改 ISR 单核 IRQ-save 语义、消除中断上下文潜在互斥风险；建锁失败返回错误；线程启动失败清理；空锁安全 fallback）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-            "releaseDate": "2026-10-09",
+            "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+            "releaseDate": "2026-10-10",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.56-proto2.9-20261009.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.56-proto2.9-20261009.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.56-proto2.9-20261009.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.56-proto2.9-20261009.img"
             ]
           },
           "GC032A": {
             "version": "1.28.56",
-            "sha256": "20e7640429bf9209bc849f4030c57e82642b2a4d6ce7a0da333c536a7e82933a",
+            "sha256": "8f0a55d1441a31ebe4d3809dc51f35e6e2599aa3a0208baed5ea361ad0f3c030",
             "size": 1778688,
-            "changelog": "固件升级至 1.28.56：Sensor 驱动架构三方解耦重构（驱动/兼容层/策略层分离，对外行为与 1.28.55 保持一致——硬件/功能/应用三层一致性验证 198 项严格回归及四 Sensor 构建验证全部通过）；AE 并发安全加固（状态护栏改 ISR 单核 IRQ-save 语义、消除中断上下文潜在互斥风险；建锁失败返回错误；线程启动失败清理；空锁安全 fallback）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-            "releaseDate": "2026-10-09",
+            "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+            "releaseDate": "2026-10-10",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.56-proto2.9-20261009.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.56-proto2.9-20261009.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.56-proto2.9-20261009.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.56-proto2.9-20261009.img"
             ]
           },
           "SC035HGS": {
             "version": "1.28.56",
-            "sha256": "dbb24ffe02d71fde16651a0dce03b7ba37050b713cc22eb3c3a4d1d7e9b758a3",
+            "sha256": "050ab20ac465a8bb8839c1ce674a84ac3d9435b8dd830f93c4bb3f23849d0b0d",
             "size": 1780736,
-            "changelog": "固件升级至 1.28.56：Sensor 驱动架构三方解耦重构（驱动/兼容层/策略层分离，对外行为与 1.28.55 保持一致——硬件/功能/应用三层一致性验证 198 项严格回归及四 Sensor 构建验证全部通过）；AE 并发安全加固（状态护栏改 ISR 单核 IRQ-save 语义、消除中断上下文潜在互斥风险；建锁失败返回错误；线程启动失败清理；空锁安全 fallback）；四 Sensor 全支持（SC035HGS/GC0308/GC032A/GC0328C），协议 Proto=2.9 不变。",
-            "releaseDate": "2026-10-09",
+            "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+            "releaseDate": "2026-10-10",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.56-proto2.9-20261009.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.56-proto2.9-20261009.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.56-proto2.9-20261009.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.56-proto2.9-20261009.img"
             ]
           }
         }
@@ -148,6 +148,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-Support-Setup-v1.4.34-proto2.9-20260917.exe"
         ]
+      },
+      {
+        "version": "1.4.35",
+        "sha256": "c025c97bc75b389be5bf021fe5fb8a08f1d48e852aa45570f7ad4201d73b49c1",
+        "size": 76822665,
+        "changelog": "版本未变更（沿用 1.4.35，说明同上一版）。",
+        "releaseDate": "2026-10-09",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe"
+        ]
       }
     ],
     "rd": [
@@ -183,6 +194,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-RD-Setup-v1.4.34-proto2.9-20260917.exe"
         ]
+      },
+      {
+        "version": "1.4.35",
+        "sha256": "0f90c148a3d557a94a520fa9ac567504a077ee2e7f458a311a3bfd1994b42653",
+        "size": 76904998,
+        "changelog": "版本未变更（沿用 1.4.35，说明同上一版）。",
+        "releaseDate": "2026-10-09",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe"
+        ]
       }
     ],
     "qc": [
@@ -217,6 +239,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanModuleSet-QC-Setup-v1.4.34-proto2.9-20260917.exe"
+        ]
+      },
+      {
+        "version": "1.4.35",
+        "sha256": "c54bace8b4c95b5b089b1c4dd37635dd3ca0b7a0385673c72676411755a789ed",
+        "size": 76667602,
+        "changelog": "版本未变更（沿用 1.4.35，说明同上一版）。",
+        "releaseDate": "2026-10-09",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe"
         ]
       }
     ],
