@@ -7,7 +7,7 @@
           "version": "1.4.36",
           "sha256": "b16c10171e7f0d02c47589889b7cbdb1b18078f4190a09d001f12d9818df2fbe",
           "size": 76824729,
-          "changelog": "1.4.36（2026-10-10）：修复 UVC 低帧率预览初始化误报失败——探帧验收拆分为“流可用性”与“帧率性能”双判据，GC0308 等硬件 AEC 长曝光低帧率场景不再被误报“无法初始化摄像设备”；新增探帧诊断输出；Help 六语言与说明书版本标注同步。",
+          "changelog": "版本未变更（沿用 1.4.36，说明同上一版）。",
           "releaseDate": "2026-10-10",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.36-proto2.9-20261010.exe",
@@ -18,7 +18,7 @@
           "version": "1.4.36",
           "sha256": "03914e61ed6044dd3bb950165d42a251896fad86dcfacafe9a2d230ec70a6e60",
           "size": 76907343,
-          "changelog": "1.4.36（2026-10-10）：修复 UVC 低帧率预览初始化误报失败——探帧验收拆分为“流可用性”与“帧率性能”双判据，GC0308 等硬件 AEC 长曝光低帧率场景不再被误报“无法初始化摄像设备”；新增探帧诊断输出；Help 六语言与说明书版本标注同步。",
+          "changelog": "版本未变更（沿用 1.4.36，说明同上一版）。",
           "releaseDate": "2026-10-10",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.36-proto2.9-20261010.exe",
@@ -29,7 +29,7 @@
           "version": "1.4.36",
           "sha256": "449d48353021311e35cb252a82da81eec716b42a4d8c0c3b400511dc62071838",
           "size": 76667985,
-          "changelog": "1.4.36（2026-10-10）：修复 UVC 低帧率预览初始化误报失败——探帧验收拆分为“流可用性”与“帧率性能”双判据，GC0308 等硬件 AEC 长曝光低帧率场景不再被误报“无法初始化摄像设备”；新增探帧诊断输出；Help 六语言与说明书版本标注同步。",
+          "changelog": "版本未变更（沿用 1.4.36，说明同上一版）。",
           "releaseDate": "2026-10-10",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.36-proto2.9-20261010.exe",
@@ -61,53 +61,53 @@
         ]
       },
       "firmware": {
-        "version": "1.28.56",
+        "version": "1.28.57",
         "proto": "2.9",
-        "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+        "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
         "releaseDate": "2026-10-10",
         "sensors": {
           "GC0308": {
-            "version": "1.28.56",
-            "sha256": "f3e6828527c9fa3fc23433583f1d1ea98e54c71f6445ed3d54aed66c37b900f2",
+            "version": "1.28.57",
+            "sha256": "7fcc0136cdcbd8b07c2b6973885bf087fa77e84d1538af101d7ed9dcfc85e5f8",
             "size": 1780736,
-            "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+            "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
             "releaseDate": "2026-10-10",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.57-proto2.9-20261010.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.57-proto2.9-20261010.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.56",
-            "sha256": "b7ecc5214af5080b2620721e9020cdf69c544d1eaf97edc1edb9a40cb5fe5713",
+            "version": "1.28.57",
+            "sha256": "214168bf05c8eeba35b5e456eac40c1aa16e0d734d4a03d8f715579074770b32",
             "size": 1778688,
-            "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+            "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
             "releaseDate": "2026-10-10",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.56-proto2.9-20261009.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.56-proto2.9-20261009.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.57-proto2.9-20261010.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.57-proto2.9-20261010.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.56",
-            "sha256": "8f0a55d1441a31ebe4d3809dc51f35e6e2599aa3a0208baed5ea361ad0f3c030",
+            "version": "1.28.57",
+            "sha256": "ec596febfcacf5d433960b6267bd9d216609e2fa64d2bc269b4f442817fef897",
             "size": 1778688,
-            "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+            "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
             "releaseDate": "2026-10-10",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.56-proto2.9-20261009.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.56-proto2.9-20261009.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.57-proto2.9-20261010.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.57-proto2.9-20261010.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.56",
-            "sha256": "050ab20ac465a8bb8839c1ce674a84ac3d9435b8dd830f93c4bb3f23849d0b0d",
+            "version": "1.28.57",
+            "sha256": "5920b2eff89fad4285d2469306627dbebd14908c2bf58c4cd87a7e30c05e20de",
             "size": 1780736,
-            "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+            "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
             "releaseDate": "2026-10-10",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.56-proto2.9-20261009.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.56-proto2.9-20261009.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.57-proto2.9-20261010.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.57-proto2.9-20261010.img"
             ]
           }
         }
@@ -401,6 +401,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.55-proto2.9-20261006.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.55-proto2.9-20261006.img"
+        ]
+      },
+      {
+        "version": "1.28.56",
+        "sha256": "f3e6828527c9fa3fc23433583f1d1ea98e54c71f6445ed3d54aed66c37b900f2",
+        "size": 1780736,
+        "changelog": "版本未变更（沿用 1.28.56，说明同上一版）。",
+        "releaseDate": "2026-10-10",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img"
         ]
       }
     ]
