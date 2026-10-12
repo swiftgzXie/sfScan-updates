@@ -4,110 +4,110 @@
     "stable": {
       "pc": {
         "support": {
-          "version": "1.4.36",
-          "sha256": "b16c10171e7f0d02c47589889b7cbdb1b18078f4190a09d001f12d9818df2fbe",
-          "size": 76824729,
-          "changelog": "版本未变更（沿用 1.4.36，说明同上一版）。",
-          "releaseDate": "2026-10-10",
+          "version": "1.4.37",
+          "sha256": "f0e2a470ba8682d827ad9e3b906a14b7ce8fe8e65d76c663dfa73eb7831a5589",
+          "size": 76834425,
+          "changelog": "PC 升级至 1.4.37：CFmt 通讯格式全链路修复与增强——共享库新增 ProtocolFrameCodec 统一去帧（CRC16/粘包拆帧）；串口发送 CFmt=1 时按 64 字节整倍数补位规避丢帧；新增双格式自动嗅探与切换、设备重启自动重连；修复压力/自动测试在实机下的命令合法性与负向用例判定。注意：本批未与模块联测。",
+          "releaseDate": "2026-10-12",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.36-proto2.9-20261010.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.36-proto2.9-20261010.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.37-proto2.9-20261012.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.37-proto2.9-20261012.exe"
           ]
         },
         "rd": {
-          "version": "1.4.36",
-          "sha256": "03914e61ed6044dd3bb950165d42a251896fad86dcfacafe9a2d230ec70a6e60",
-          "size": 76907343,
-          "changelog": "版本未变更（沿用 1.4.36，说明同上一版）。",
-          "releaseDate": "2026-10-10",
+          "version": "1.4.37",
+          "sha256": "fc9bc6fed60b5884be4dd2bb99a44b43ad0f3d66d4606d8810ea491886a0e13f",
+          "size": 76908757,
+          "changelog": "PC 升级至 1.4.37：CFmt 通讯格式全链路修复与增强——共享库新增 ProtocolFrameCodec 统一去帧（CRC16/粘包拆帧）；串口发送 CFmt=1 时按 64 字节整倍数补位规避丢帧；新增双格式自动嗅探与切换、设备重启自动重连；修复压力/自动测试在实机下的命令合法性与负向用例判定。注意：本批未与模块联测。",
+          "releaseDate": "2026-10-12",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.36-proto2.9-20261010.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.36-proto2.9-20261010.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.37-proto2.9-20261012.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.37-proto2.9-20261012.exe"
           ]
         },
         "qc": {
-          "version": "1.4.36",
-          "sha256": "449d48353021311e35cb252a82da81eec716b42a4d8c0c3b400511dc62071838",
-          "size": 76667985,
-          "changelog": "版本未变更（沿用 1.4.36，说明同上一版）。",
-          "releaseDate": "2026-10-10",
+          "version": "1.4.37",
+          "sha256": "160e9dac160deefc8dc766c23d53acaf2f9f1a30806e04e2f21aa5da6b4e457d",
+          "size": 76671686,
+          "changelog": "PC 升级至 1.4.37：CFmt 通讯格式全链路修复与增强——共享库新增 ProtocolFrameCodec 统一去帧（CRC16/粘包拆帧）；串口发送 CFmt=1 时按 64 字节整倍数补位规避丢帧；新增双格式自动嗅探与切换、设备重启自动重连；修复压力/自动测试在实机下的命令合法性与负向用例判定。注意：本批未与模块联测。",
+          "releaseDate": "2026-10-12",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.36-proto2.9-20261010.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.36-proto2.9-20261010.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.37-proto2.9-20261012.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.37-proto2.9-20261012.exe"
           ]
         }
       },
       "mobile": {
-        "version": "1.1.31",
-        "sha256": "5a57132e3e5ad6e7a832c69ec7dbf421c95fc6e7ff010521c0f214df7f6e84cf",
-        "size": 31125950,
-        "changelog": "版本未变更（沿用 1.1.31，说明同上一版）。",
-        "releaseDate": "2026-10-10",
+        "version": "1.1.32",
+        "sha256": "9d63c00797059fdbf2f06d66a82023e1579f2d9cba0d4e91f899d189fe191616",
+        "size": 31130046,
+        "changelog": "手机端升级至 1.1.32：串口新增 CFmt=1 去帧接收（粘包拆帧 + 静默窗口判帧尾）与发送补位（通讯格式为手动选择）。注意：本批未与模块联测。",
+        "releaseDate": "2026-10-12",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20261010.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20261010.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261012.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261012.apk"
         ],
-        "versionCode": 33
+        "versionCode": 34
       },
       "efuse": {
-        "version": "1.0.13",
-        "sha256": "8c2098d3e3b1a8600fc0bbaf2a90852762dc315fa88759b9f8977e6c51453616",
-        "size": 51251008,
-        "changelog": "版本未变更（沿用 1.0.13，说明同上一版）。",
-        "releaseDate": "2026-10-10",
+        "version": "1.0.14",
+        "sha256": "c89a2e5fd9241d1c9f5438023a838227fc51d05087b4a023419b528b4adc4edf",
+        "size": 51305572,
+        "changelog": "eFuse 工具升级至 1.0.14：新增通讯格式三态选择（自动探测/强制 CFmt=1/2）与双格式收发；新增三维工作模式（授权/固件 × 读取/烧录 × 单颗/批量）与烧录记录导出；授权文件改为用户手动选择（支持现场新建文件夹）；界面科幻主题全面重做。注意：本批未与模块联测。",
+        "releaseDate": "2026-10-12",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanEfuseTool-Setup-v1.0.14-20261012.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.37-M1.1.32/sfScanEfuseTool-Setup-v1.0.14-20261012.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.57",
+        "version": "1.28.58",
         "proto": "2.9",
-        "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
-        "releaseDate": "2026-10-10",
+        "changelog": "固件升级至 1.28.58：CFmt=1 通讯格式固件侧增强——CDC 单读多帧循环（帧间分隔符跳过）、UART 超时消化残留帧与多帧解析。注意：本批未与模块联测。",
+        "releaseDate": "2026-10-12",
         "sensors": {
           "GC0308": {
-            "version": "1.28.57",
-            "sha256": "7fcc0136cdcbd8b07c2b6973885bf087fa77e84d1538af101d7ed9dcfc85e5f8",
+            "version": "1.28.58",
+            "sha256": "edc5b2c5012493eefd6e7c170cbaec6d3e2c4784567b32f7201ef31aa0680f32",
             "size": 1780736,
-            "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
-            "releaseDate": "2026-10-10",
+            "changelog": "固件升级至 1.28.58：CFmt=1 通讯格式固件侧增强——CDC 单读多帧循环（帧间分隔符跳过）、UART 超时消化残留帧与多帧解析。注意：本批未与模块联测。",
+            "releaseDate": "2026-10-12",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.57-proto2.9-20261010.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.57-proto2.9-20261010.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.37-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.37-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.57",
-            "sha256": "214168bf05c8eeba35b5e456eac40c1aa16e0d734d4a03d8f715579074770b32",
+            "version": "1.28.58",
+            "sha256": "b7952cc03d5f705a7e27efccb05ec920f9c5f5d74c23fa461d2ec4c5f0a6bbd4",
             "size": 1778688,
-            "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
-            "releaseDate": "2026-10-10",
+            "changelog": "固件升级至 1.28.58：CFmt=1 通讯格式固件侧增强——CDC 单读多帧循环（帧间分隔符跳过）、UART 超时消化残留帧与多帧解析。注意：本批未与模块联测。",
+            "releaseDate": "2026-10-12",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.57-proto2.9-20261010.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0328C-v1.28.57-proto2.9-20261010.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.37-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.58-proto2.9-20261012.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.37-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.58-proto2.9-20261012.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.57",
-            "sha256": "ec596febfcacf5d433960b6267bd9d216609e2fa64d2bc269b4f442817fef897",
+            "version": "1.28.58",
+            "sha256": "e3ce0d5370394e2cf72354e63d171d0db7800bfac84684992ad742f543db838a",
             "size": 1778688,
-            "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
-            "releaseDate": "2026-10-10",
+            "changelog": "固件升级至 1.28.58：CFmt=1 通讯格式固件侧增强——CDC 单读多帧循环（帧间分隔符跳过）、UART 超时消化残留帧与多帧解析。注意：本批未与模块联测。",
+            "releaseDate": "2026-10-12",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.57-proto2.9-20261010.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC032A-v1.28.57-proto2.9-20261010.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.37-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.58-proto2.9-20261012.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.37-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.58-proto2.9-20261012.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.57",
-            "sha256": "5920b2eff89fad4285d2469306627dbebd14908c2bf58c4cd87a7e30c05e20de",
+            "version": "1.28.58",
+            "sha256": "4630e8674c5a36683c043ab834b62e716b8db25c3d9f702cdd6720f436dd7a91",
             "size": 1780736,
-            "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
-            "releaseDate": "2026-10-10",
+            "changelog": "固件升级至 1.28.58：CFmt=1 通讯格式固件侧增强——CDC 单读多帧循环（帧间分隔符跳过）、UART 超时消化残留帧与多帧解析。注意：本批未与模块联测。",
+            "releaseDate": "2026-10-12",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.57-proto2.9-20261010.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-SC035HGS-v1.28.57-proto2.9-20261010.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.37-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.58-proto2.9-20261012.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.37-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.58-proto2.9-20261012.img"
             ]
           }
         }
@@ -159,6 +159,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.35-proto2.9-20260927.exe"
         ]
+      },
+      {
+        "version": "1.4.36",
+        "sha256": "b16c10171e7f0d02c47589889b7cbdb1b18078f4190a09d001f12d9818df2fbe",
+        "size": 76824729,
+        "changelog": "版本未变更（沿用 1.4.36，说明同上一版）。",
+        "releaseDate": "2026-10-10",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.36-proto2.9-20261010.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-Support-Setup-v1.4.36-proto2.9-20261010.exe"
+        ]
       }
     ],
     "rd": [
@@ -204,6 +215,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.35-proto2.9-20260927.exe"
+        ]
+      },
+      {
+        "version": "1.4.36",
+        "sha256": "03914e61ed6044dd3bb950165d42a251896fad86dcfacafe9a2d230ec70a6e60",
+        "size": 76907343,
+        "changelog": "版本未变更（沿用 1.4.36，说明同上一版）。",
+        "releaseDate": "2026-10-10",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.36-proto2.9-20261010.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-RD-Setup-v1.4.36-proto2.9-20261010.exe"
         ]
       }
     ],
@@ -251,6 +273,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.35-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.35-proto2.9-20260927.exe"
         ]
+      },
+      {
+        "version": "1.4.36",
+        "sha256": "449d48353021311e35cb252a82da81eec716b42a4d8c0c3b400511dc62071838",
+        "size": 76667985,
+        "changelog": "版本未变更（沿用 1.4.36，说明同上一版）。",
+        "releaseDate": "2026-10-10",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.36-proto2.9-20261010.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanModuleSet-QC-Setup-v1.4.36-proto2.9-20261010.exe"
+        ]
       }
     ],
     "mobile": [
@@ -277,6 +310,18 @@
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanMobile-v1.1.30-proto2.9-20260917.apk"
         ],
         "versionCode": 32
+      },
+      {
+        "version": "1.1.31",
+        "sha256": "5a57132e3e5ad6e7a832c69ec7dbf421c95fc6e7ff010521c0f214df7f6e84cf",
+        "size": 31125950,
+        "changelog": "版本未变更（沿用 1.1.31，说明同上一版）。",
+        "releaseDate": "2026-10-10",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20261010.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanMobile-v1.1.31-proto2.9-20261010.apk"
+        ],
+        "versionCode": 33
       }
     ],
     "efuse": [
@@ -322,6 +367,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.34-M1.1.30/sfScanEfuseTool-Setup-v1.0.12-20260917.exe"
+        ]
+      },
+      {
+        "version": "1.0.13",
+        "sha256": "8c2098d3e3b1a8600fc0bbaf2a90852762dc315fa88759b9f8977e6c51453616",
+        "size": 51251008,
+        "changelog": "版本未变更（沿用 1.0.13，说明同上一版）。",
+        "releaseDate": "2026-10-10",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe"
         ]
       }
     ],
@@ -412,6 +468,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.56-proto2.9-20261009.img"
+        ]
+      },
+      {
+        "version": "1.28.57",
+        "sha256": "7fcc0136cdcbd8b07c2b6973885bf087fa77e84d1538af101d7ed9dcfc85e5f8",
+        "size": 1780736,
+        "changelog": "固件升级至 1.28.57：GC0308/GC032A/GC0328C 默认曝光统一调整为 20%（819 lines，与 TMode=1 感应段固定工作点对齐；原 50%=2047 lines 在恢复默认/Manual 场景偏亮），增益 10% 不变；其他参数与行为不变；四 Sensor 镜像均更新。",
+        "releaseDate": "2026-10-10",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.57-proto2.9-20261010.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.57-proto2.9-20261010.img"
         ]
       }
     ]
