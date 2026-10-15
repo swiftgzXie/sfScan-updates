@@ -7,7 +7,7 @@
           "version": "1.4.38",
           "sha256": "e4364d2b85d576cc7c0d04f35b5968b4598022411202a11231f17f2de0acaad7",
           "size": 76830409,
-          "changelog": "PC 升级至 1.4.38：滑块交互规范化——点击轨道立即到位（不逐格）且可拖动；专业页补光/亮度/曝光/增益四个滑块的串口命令改为“松开才发送”（鼠标/键盘松开、± 按钮点击后发送一次最终值，拖动/按住期间数值实时显示但不发送命令）；常规页与键盘测速页滑块同步支持点击即达。注意：滑块发送时序为模拟测试验证（未与模块联测）。",
+          "changelog": "版本未变更（沿用 1.4.38）。",
           "releaseDate": "2026-10-15",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.38-proto2.9-20261015.exe",
@@ -18,7 +18,7 @@
           "version": "1.4.38",
           "sha256": "016bbb717a10212bb164c1c3ae0fb028ad20ea1e8641b2c096b74f07e5c97f2c",
           "size": 76909933,
-          "changelog": "PC 升级至 1.4.38：滑块交互规范化——点击轨道立即到位（不逐格）且可拖动；专业页补光/亮度/曝光/增益四个滑块的串口命令改为“松开才发送”（鼠标/键盘松开、± 按钮点击后发送一次最终值，拖动/按住期间数值实时显示但不发送命令）；常规页与键盘测速页滑块同步支持点击即达。注意：滑块发送时序为模拟测试验证（未与模块联测）。",
+          "changelog": "版本未变更（沿用 1.4.38）。",
           "releaseDate": "2026-10-15",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.38-proto2.9-20261015.exe",
@@ -29,7 +29,7 @@
           "version": "1.4.38",
           "sha256": "8afb8f813344cd3672c8b5bb23a2638e4c9bb626607591d3596220026a6d3d8d",
           "size": 76674399,
-          "changelog": "PC 升级至 1.4.38：滑块交互规范化——点击轨道立即到位（不逐格）且可拖动；专业页补光/亮度/曝光/增益四个滑块的串口命令改为“松开才发送”（鼠标/键盘松开、± 按钮点击后发送一次最终值，拖动/按住期间数值实时显示但不发送命令）；常规页与键盘测速页滑块同步支持点击即达。注意：滑块发送时序为模拟测试验证（未与模块联测）。",
+          "changelog": "版本未变更（沿用 1.4.38）。",
           "releaseDate": "2026-10-15",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.38-proto2.9-20261015.exe",
@@ -50,14 +50,14 @@
         "versionCode": 34
       },
       "efuse": {
-        "version": "1.0.14",
-        "sha256": "c89a2e5fd9241d1c9f5438023a838227fc51d05087b4a023419b528b4adc4edf",
-        "size": 51305572,
-        "changelog": "版本未变更（沿用 1.0.14）。",
+        "version": "1.0.15",
+        "sha256": "4c6a738c172a2c52a603d9dfbfaa0835dcfd67d661400aa01e68006aa35d15e0",
+        "size": 51306168,
+        "changelog": "eFuse 工具升级至 1.0.15：读取记录表头精简——去掉“（单颗与批量共用此记录表）”后缀（六语言资源同步）。",
         "releaseDate": "2026-10-15",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanEfuseTool-Setup-v1.0.14-20261012.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanEfuseTool-Setup-v1.0.14-20261012.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanEfuseTool-Setup-v1.0.15-20261015.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanEfuseTool-Setup-v1.0.15-20261015.exe"
         ]
       },
       "firmware": {
@@ -411,6 +411,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/sfScanEfuseTool-Setup-v1.0.13-20260927.exe"
+        ]
+      },
+      {
+        "version": "1.0.14",
+        "sha256": "c89a2e5fd9241d1c9f5438023a838227fc51d05087b4a023419b528b4adc4edf",
+        "size": 51305572,
+        "changelog": "版本未变更（沿用 1.0.14）。",
+        "releaseDate": "2026-10-15",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanEfuseTool-Setup-v1.0.14-20261012.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanEfuseTool-Setup-v1.0.14-20261012.exe"
         ]
       }
     ],
