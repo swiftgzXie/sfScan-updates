@@ -39,8 +39,8 @@
       },
       "mobile": {
         "version": "1.1.33",
-        "sha256": "7d255d8cf1c0eda57b815b753ef88e91c435da5eb72b1500164881c9d9fa492b",
-        "size": 30971146,
+        "sha256": "1f17dfd417e34e9b58d2704abd53cf670b26326d00b87c7fb2f4cb20a03ebe4a",
+        "size": 31314559,
         "changelog": "手机端升级至 1.1.33：应用图标改为产品 LOGO（与上位机/eFuse 一致，此前为 MAUI 默认模板图标）；帮助文档按当前程序改正——补充应用内升级流程、帮助入口、退出 APP、编码/OEM 代码页、USB OTG、从设备读取/应用到设备等内容，六语言同步更新。",
         "releaseDate": "2026-10-18",
         "mirrors": [
