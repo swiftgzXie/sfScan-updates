@@ -4,36 +4,36 @@
     "stable": {
       "pc": {
         "support": {
-          "version": "1.4.40",
-          "sha256": "0a2fec1b719371f064a2d660d898787daf60ff8770130d3e97707379babcac75",
-          "size": 76835278,
-          "changelog": "PC 升级至 1.4.40：升级过程可视化——应用内安装时显示安装进度，并提示“请在 UAC 窗口选择是，安装完成后将自动启动新版本”；安装完成弹出升级成功提示，确认后自动启动新版本；升级期间旧程序快速退出，取消或失败可重试且不退出程序；新版本启动校验改为并行，缩短首屏等待。本批在本机 Win11 家庭版完成提示与启动闭环验证，正式应用内 UAC 闭环与 Win10/其他 SKU 待目标机验证。",
+          "version": "1.4.41",
+          "sha256": "b585fd0b9dcd60f842854d02138cdb400a97b19d1f856f524d4bbe81138a6d36",
+          "size": 76830682,
+          "changelog": "PC 升级至 1.4.41：三角色帮助文档按最终程序校正——QC 帮助只保留质检流程内容并修正导航入口（QcTest / Help / About），18 份文档版本标注统一为 V1.4.41；三份安装脚本桌面快捷方式改为默认勾选；UVC 预览启动防重入，避免首次打开时重叠初始化后失败分支把已运行的预览清理掉，并新增初始化耗时日志；发布流水线新增自动预检脚本。Win10 专业/企业、ARM64 与设备功能未实测。",
           "releaseDate": "2026-10-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.40-proto2.9-20261018.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.40-proto2.9-20261018.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.41-proto2.9-20261018.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.41-proto2.9-20261018.exe"
           ]
         },
         "rd": {
-          "version": "1.4.40",
-          "sha256": "d78257dbcd2a4f8406b87819cb47ed70b2f5cd83aee74f4c635d6e83f92d3c89",
-          "size": 76920280,
-          "changelog": "PC 升级至 1.4.40：升级过程可视化——应用内安装时显示安装进度，并提示“请在 UAC 窗口选择是，安装完成后将自动启动新版本”；安装完成弹出升级成功提示，确认后自动启动新版本；升级期间旧程序快速退出，取消或失败可重试且不退出程序；新版本启动校验改为并行，缩短首屏等待。本批在本机 Win11 家庭版完成提示与启动闭环验证，正式应用内 UAC 闭环与 Win10/其他 SKU 待目标机验证。",
+          "version": "1.4.41",
+          "sha256": "4e876e75c8665ab4dafb6a357b9cea31cd93b5cec1fc91f3aae21fd36d5a1f24",
+          "size": 76919902,
+          "changelog": "PC 升级至 1.4.41：三角色帮助文档按最终程序校正——QC 帮助只保留质检流程内容并修正导航入口（QcTest / Help / About），18 份文档版本标注统一为 V1.4.41；三份安装脚本桌面快捷方式改为默认勾选；UVC 预览启动防重入，避免首次打开时重叠初始化后失败分支把已运行的预览清理掉，并新增初始化耗时日志；发布流水线新增自动预检脚本。Win10 专业/企业、ARM64 与设备功能未实测。",
           "releaseDate": "2026-10-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.40-proto2.9-20261018.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.40-proto2.9-20261018.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.41-proto2.9-20261018.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.41-proto2.9-20261018.exe"
           ]
         },
         "qc": {
-          "version": "1.4.40",
-          "sha256": "4a730ff9b2b2c299cda3b4daddda88a1c2f7fb6f6a6082021cb2a5613c35200a",
-          "size": 76672966,
-          "changelog": "PC 升级至 1.4.40：升级过程可视化——应用内安装时显示安装进度，并提示“请在 UAC 窗口选择是，安装完成后将自动启动新版本”；安装完成弹出升级成功提示，确认后自动启动新版本；升级期间旧程序快速退出，取消或失败可重试且不退出程序；新版本启动校验改为并行，缩短首屏等待。本批在本机 Win11 家庭版完成提示与启动闭环验证，正式应用内 UAC 闭环与 Win10/其他 SKU 待目标机验证。",
+          "version": "1.4.41",
+          "sha256": "171831a7bd5709d3790127cf433fa33d3eab27300cc9dd42c0aa556270c7bfea",
+          "size": 76673740,
+          "changelog": "PC 升级至 1.4.41：三角色帮助文档按最终程序校正——QC 帮助只保留质检流程内容并修正导航入口（QcTest / Help / About），18 份文档版本标注统一为 V1.4.41；三份安装脚本桌面快捷方式改为默认勾选；UVC 预览启动防重入，避免首次打开时重叠初始化后失败分支把已运行的预览清理掉，并新增初始化耗时日志；发布流水线新增自动预检脚本。Win10 专业/企业、ARM64 与设备功能未实测。",
           "releaseDate": "2026-10-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.40-proto2.9-20261018.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.40-proto2.9-20261018.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.41-proto2.9-20261018.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.41-proto2.9-20261018.exe"
           ]
         }
       },
@@ -44,70 +44,70 @@
         "changelog": "版本未变更（沿用 1.1.32）。",
         "releaseDate": "2026-10-18",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261018.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261018.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261018.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261018.apk"
         ],
         "versionCode": 34
       },
       "efuse": {
-        "version": "1.0.17",
-        "sha256": "12b6bbf6bcde7698680318c11ae07b6e7efb2d08840620e67d3e3914919a3a17",
-        "size": 61296049,
-        "changelog": "eFuse 升级至 1.0.17：升级过程可视化——应用内安装时显示安装进度与“请在 UAC 窗口选择是，完成后自动启动新版本”提示；安装完成弹出升级成功提示；升级期间跳过未导出记录确认，避免阻塞安装；取消/失败恢复重试且不退出程序。未进行 eFuse 写入与固件烧录实测。",
+        "version": "1.0.18",
+        "sha256": "6af3f78e8fde9b4d8ac1d12973a60ea6d77da45d46530e730a8d57f5b2d158d4",
+        "size": 61321596,
+        "changelog": "eFuse 升级至 1.0.18：安装包补应用图标（资源管理器不再显示空白图标）、桌面快捷方式默认勾选、程序集版本字段与版本号同步（修正滞留在 1.0.15）。未进行 eFuse 写入与固件烧录实测。",
         "releaseDate": "2026-10-18",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanEfuseTool-Setup-v1.0.17-20261018.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanEfuseTool-Setup-v1.0.17-20261018.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanEfuseTool-Setup-v1.0.18-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.32/sfScanEfuseTool-Setup-v1.0.18-20261018.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.58",
+        "version": "1.28.59",
         "proto": "2.9",
-        "changelog": "版本未变更（沿用 1.28.58）。",
+        "changelog": "固件升级至 1.28.59：PD.9 曝光信号极性说明按 SC035HGS 数据手册 §2.1 校正（曝光期间 LEDSTROBE 输出高电平），改动限于 board.h / hardware_control.c / barcode.c 的注释与已停用的 #if 0 段，补光策略不变（PD.9 方案仍停用，扫码期间常亮），固件功能无变化；四 Sensor（SC035HGS / GC0308 / GC032A / GC0328C）全量构建通过，未做真机联测。",
         "releaseDate": "2026-10-18",
         "sensors": {
           "GC0308": {
-            "version": "1.28.58",
-            "sha256": "cd092a27a43c7e0287fb106474ff73bf80e5175df67e75b55c8dc0a620b766d1",
+            "version": "1.28.59",
+            "sha256": "32ea3c456d44320424313efe0ad9e469a8f27a6c96d70533a80b1f56d98d67a9",
             "size": 1780736,
-            "changelog": "版本未变更（沿用 1.28.58）。",
+            "changelog": "固件升级至 1.28.59：PD.9 曝光信号极性说明按 SC035HGS 数据手册 §2.1 校正（曝光期间 LEDSTROBE 输出高电平），改动限于 board.h / hardware_control.c / barcode.c 的注释与已停用的 #if 0 段，补光策略不变（PD.9 方案仍停用，扫码期间常亮），固件功能无变化；四 Sensor（SC035HGS / GC0308 / GC032A / GC0328C）全量构建通过，未做真机联测。",
             "releaseDate": "2026-10-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.59-proto2.9-20261018.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.59-proto2.9-20261018.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.58",
-            "sha256": "99554839f57de6f4508a3d4d4953a7268a573fef4861f55242b734857b9e3631",
+            "version": "1.28.59",
+            "sha256": "7aed5d4d875cc2c9c6527cad11a2b4977e3f8833da1a299f9027945ae881c01f",
             "size": 1778688,
-            "changelog": "版本未变更（沿用 1.28.58）。",
+            "changelog": "固件升级至 1.28.59：PD.9 曝光信号极性说明按 SC035HGS 数据手册 §2.1 校正（曝光期间 LEDSTROBE 输出高电平），改动限于 board.h / hardware_control.c / barcode.c 的注释与已停用的 #if 0 段，补光策略不变（PD.9 方案仍停用，扫码期间常亮），固件功能无变化；四 Sensor（SC035HGS / GC0308 / GC032A / GC0328C）全量构建通过，未做真机联测。",
             "releaseDate": "2026-10-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.58-proto2.9-20261012.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.58-proto2.9-20261012.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.59-proto2.9-20261018.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.59-proto2.9-20261018.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.58",
-            "sha256": "2aab63d3837c509cfac9a358f91c5cc63577eba3ed16de7c414ba9c99dccab7f",
+            "version": "1.28.59",
+            "sha256": "c92ddfd8c0c4c93472460208f524308d763d34ab166874d4161e9f4c80da4904",
             "size": 1778688,
-            "changelog": "版本未变更（沿用 1.28.58）。",
+            "changelog": "固件升级至 1.28.59：PD.9 曝光信号极性说明按 SC035HGS 数据手册 §2.1 校正（曝光期间 LEDSTROBE 输出高电平），改动限于 board.h / hardware_control.c / barcode.c 的注释与已停用的 #if 0 段，补光策略不变（PD.9 方案仍停用，扫码期间常亮），固件功能无变化；四 Sensor（SC035HGS / GC0308 / GC032A / GC0328C）全量构建通过，未做真机联测。",
             "releaseDate": "2026-10-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.58-proto2.9-20261012.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.58-proto2.9-20261012.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.59-proto2.9-20261018.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.59-proto2.9-20261018.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.58",
-            "sha256": "f1130030c45dd5b8e539bc7829d74bfd37adca05943298ba41d11204351ba423",
+            "version": "1.28.59",
+            "sha256": "e6071e0bce6d8b2473bd0de402896a61f14da1ae0da08af270a16ba07c1c825c",
             "size": 1780736,
-            "changelog": "版本未变更（沿用 1.28.58）。",
+            "changelog": "固件升级至 1.28.59：PD.9 曝光信号极性说明按 SC035HGS 数据手册 §2.1 校正（曝光期间 LEDSTROBE 输出高电平），改动限于 board.h / hardware_control.c / barcode.c 的注释与已停用的 #if 0 段，补光策略不变（PD.9 方案仍停用，扫码期间常亮），固件功能无变化；四 Sensor（SC035HGS / GC0308 / GC032A / GC0328C）全量构建通过，未做真机联测。",
             "releaseDate": "2026-10-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.58-proto2.9-20261012.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.58-proto2.9-20261012.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.59-proto2.9-20261018.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.59-proto2.9-20261018.img"
             ]
           }
         }
@@ -203,6 +203,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.39-proto2.9-20261018.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.39-proto2.9-20261018.exe"
         ]
+      },
+      {
+        "version": "1.4.40",
+        "sha256": "0a2fec1b719371f064a2d660d898787daf60ff8770130d3e97707379babcac75",
+        "size": 76835278,
+        "changelog": "PC 升级至 1.4.40：升级过程可视化——应用内安装时显示安装进度，并提示“请在 UAC 窗口选择是，安装完成后将自动启动新版本”；安装完成弹出升级成功提示，确认后自动启动新版本；升级期间旧程序快速退出，取消或失败可重试且不退出程序；新版本启动校验改为并行，缩短首屏等待。本批在本机 Win11 家庭版完成提示与启动闭环验证，正式应用内 UAC 闭环与 Win10/其他 SKU 待目标机验证。",
+        "releaseDate": "2026-10-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.40-proto2.9-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.40-proto2.9-20261018.exe"
+        ]
       }
     ],
     "rd": [
@@ -293,6 +304,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.39-proto2.9-20261018.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.39-proto2.9-20261018.exe"
         ]
+      },
+      {
+        "version": "1.4.40",
+        "sha256": "d78257dbcd2a4f8406b87819cb47ed70b2f5cd83aee74f4c635d6e83f92d3c89",
+        "size": 76920280,
+        "changelog": "PC 升级至 1.4.40：升级过程可视化——应用内安装时显示安装进度，并提示“请在 UAC 窗口选择是，安装完成后将自动启动新版本”；安装完成弹出升级成功提示，确认后自动启动新版本；升级期间旧程序快速退出，取消或失败可重试且不退出程序；新版本启动校验改为并行，缩短首屏等待。本批在本机 Win11 家庭版完成提示与启动闭环验证，正式应用内 UAC 闭环与 Win10/其他 SKU 待目标机验证。",
+        "releaseDate": "2026-10-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.40-proto2.9-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.40-proto2.9-20261018.exe"
+        ]
       }
     ],
     "qc": [
@@ -382,6 +404,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.39-proto2.9-20261018.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.39-proto2.9-20261018.exe"
+        ]
+      },
+      {
+        "version": "1.4.40",
+        "sha256": "4a730ff9b2b2c299cda3b4daddda88a1c2f7fb6f6a6082021cb2a5613c35200a",
+        "size": 76672966,
+        "changelog": "PC 升级至 1.4.40：升级过程可视化——应用内安装时显示安装进度，并提示“请在 UAC 窗口选择是，安装完成后将自动启动新版本”；安装完成弹出升级成功提示，确认后自动启动新版本；升级期间旧程序快速退出，取消或失败可重试且不退出程序；新版本启动校验改为并行，缩短首屏等待。本批在本机 Win11 家庭版完成提示与启动闭环验证，正式应用内 UAC 闭环与 Win10/其他 SKU 待目标机验证。",
+        "releaseDate": "2026-10-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.40-proto2.9-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.40-proto2.9-20261018.exe"
         ]
       }
     ],
@@ -511,6 +544,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanEfuseTool-Setup-v1.0.16-20261018.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanEfuseTool-Setup-v1.0.16-20261018.exe"
         ]
+      },
+      {
+        "version": "1.0.17",
+        "sha256": "12b6bbf6bcde7698680318c11ae07b6e7efb2d08840620e67d3e3914919a3a17",
+        "size": 61296049,
+        "changelog": "eFuse 升级至 1.0.17：升级过程可视化——应用内安装时显示安装进度与“请在 UAC 窗口选择是，完成后自动启动新版本”提示；安装完成弹出升级成功提示；升级期间跳过未导出记录确认，避免阻塞安装；取消/失败恢复重试且不退出程序。未进行 eFuse 写入与固件烧录实测。",
+        "releaseDate": "2026-10-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanEfuseTool-Setup-v1.0.17-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanEfuseTool-Setup-v1.0.17-20261018.exe"
+        ]
       }
     ],
     "firmware": [
@@ -611,6 +655,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.57-proto2.9-20261010.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.36-M1.1.31/g73x_scan-G730BDU-GC0308-v1.28.57-proto2.9-20261010.img"
+        ]
+      },
+      {
+        "version": "1.28.58",
+        "sha256": "cd092a27a43c7e0287fb106474ff73bf80e5175df67e75b55c8dc0a620b766d1",
+        "size": 1780736,
+        "changelog": "版本未变更（沿用 1.28.58）。",
+        "releaseDate": "2026-10-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img"
         ]
       }
     ]
