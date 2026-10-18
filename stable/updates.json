@@ -4,36 +4,36 @@
     "stable": {
       "pc": {
         "support": {
-          "version": "1.4.39",
-          "sha256": "c8b2abd67c679a98c5c1c77c50577d97a77a56e096974b578fc5852d27551f7d",
-          "size": 76839806,
-          "changelog": "PC 升级至 1.4.39：安装/运行/升级兼容性加固——升级保留原安装目录与当前用户/全用户安装范围；应用内升级由安装器在授权后接管关闭旧程序，取消或失败不再退出当前程序；Smart App Control 仅记录不再要求关闭；安装前检测 Media Foundation；截图保存兼容中文用户名/目录。本批在本机 Win11 家庭版完成安装、覆盖升级与启动验证，Win10/专业/企业版与设备功能待目标机验证。",
+          "version": "1.4.40",
+          "sha256": "0a2fec1b719371f064a2d660d898787daf60ff8770130d3e97707379babcac75",
+          "size": 76835278,
+          "changelog": "PC 升级至 1.4.40：升级过程可视化——应用内安装时显示安装进度，并提示“请在 UAC 窗口选择是，安装完成后将自动启动新版本”；安装完成弹出升级成功提示，确认后自动启动新版本；升级期间旧程序快速退出，取消或失败可重试且不退出程序；新版本启动校验改为并行，缩短首屏等待。本批在本机 Win11 家庭版完成提示与启动闭环验证，正式应用内 UAC 闭环与 Win10/其他 SKU 待目标机验证。",
           "releaseDate": "2026-10-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.39-proto2.9-20261018.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.39-proto2.9-20261018.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.40-proto2.9-20261018.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.40-proto2.9-20261018.exe"
           ]
         },
         "rd": {
-          "version": "1.4.39",
-          "sha256": "75db0159a4057b7c2c2c301397b826d3c10b0eccd7495bffaf7602ba91b54e18",
-          "size": 76916859,
-          "changelog": "PC 升级至 1.4.39：安装/运行/升级兼容性加固——升级保留原安装目录与当前用户/全用户安装范围；应用内升级由安装器在授权后接管关闭旧程序，取消或失败不再退出当前程序；Smart App Control 仅记录不再要求关闭；安装前检测 Media Foundation；截图保存兼容中文用户名/目录。本批在本机 Win11 家庭版完成安装、覆盖升级与启动验证，Win10/专业/企业版与设备功能待目标机验证。",
+          "version": "1.4.40",
+          "sha256": "d78257dbcd2a4f8406b87819cb47ed70b2f5cd83aee74f4c635d6e83f92d3c89",
+          "size": 76920280,
+          "changelog": "PC 升级至 1.4.40：升级过程可视化——应用内安装时显示安装进度，并提示“请在 UAC 窗口选择是，安装完成后将自动启动新版本”；安装完成弹出升级成功提示，确认后自动启动新版本；升级期间旧程序快速退出，取消或失败可重试且不退出程序；新版本启动校验改为并行，缩短首屏等待。本批在本机 Win11 家庭版完成提示与启动闭环验证，正式应用内 UAC 闭环与 Win10/其他 SKU 待目标机验证。",
           "releaseDate": "2026-10-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.39-proto2.9-20261018.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.39-proto2.9-20261018.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.40-proto2.9-20261018.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.40-proto2.9-20261018.exe"
           ]
         },
         "qc": {
-          "version": "1.4.39",
-          "sha256": "78c23eab579eee33319ae441fa2e1791b33ba903813c9bc065ab048e88e3c842",
-          "size": 76672621,
-          "changelog": "PC 升级至 1.4.39：安装/运行/升级兼容性加固——升级保留原安装目录与当前用户/全用户安装范围；应用内升级由安装器在授权后接管关闭旧程序，取消或失败不再退出当前程序；Smart App Control 仅记录不再要求关闭；安装前检测 Media Foundation；截图保存兼容中文用户名/目录。本批在本机 Win11 家庭版完成安装、覆盖升级与启动验证，Win10/专业/企业版与设备功能待目标机验证。",
+          "version": "1.4.40",
+          "sha256": "4a730ff9b2b2c299cda3b4daddda88a1c2f7fb6f6a6082021cb2a5613c35200a",
+          "size": 76672966,
+          "changelog": "PC 升级至 1.4.40：升级过程可视化——应用内安装时显示安装进度，并提示“请在 UAC 窗口选择是，安装完成后将自动启动新版本”；安装完成弹出升级成功提示，确认后自动启动新版本；升级期间旧程序快速退出，取消或失败可重试且不退出程序；新版本启动校验改为并行，缩短首屏等待。本批在本机 Win11 家庭版完成提示与启动闭环验证，正式应用内 UAC 闭环与 Win10/其他 SKU 待目标机验证。",
           "releaseDate": "2026-10-18",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.39-proto2.9-20261018.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.39-proto2.9-20261018.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.40-proto2.9-20261018.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.40-proto2.9-20261018.exe"
           ]
         }
       },
@@ -44,20 +44,20 @@
         "changelog": "版本未变更（沿用 1.1.32）。",
         "releaseDate": "2026-10-18",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261018.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261018.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261018.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanMobile-v1.1.32-proto2.9-20261018.apk"
         ],
         "versionCode": 34
       },
       "efuse": {
-        "version": "1.0.16",
-        "sha256": "788fc5ad89788fa9642b55938eeafae3b747f364e35bb3d8f31a3b2f0df0e73b",
-        "size": 61300418,
-        "changelog": "eFuse 升级至 1.0.16：新增烧录/读取记录持久化（SQLite）与导出；安装包内置 upgcmd 与 Qt 工具并逐文件校验源目标 SHA256；安装后检查关键运行库与工具；日志目录不可写自动回退 LocalAppData；升级保留安装范围与目录、由安装器接管关闭旧程序。未进行 eFuse 写入与固件烧录实测。",
+        "version": "1.0.17",
+        "sha256": "12b6bbf6bcde7698680318c11ae07b6e7efb2d08840620e67d3e3914919a3a17",
+        "size": 61296049,
+        "changelog": "eFuse 升级至 1.0.17：升级过程可视化——应用内安装时显示安装进度与“请在 UAC 窗口选择是，完成后自动启动新版本”提示；安装完成弹出升级成功提示；升级期间跳过未导出记录确认，避免阻塞安装；取消/失败恢复重试且不退出程序。未进行 eFuse 写入与固件烧录实测。",
         "releaseDate": "2026-10-18",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanEfuseTool-Setup-v1.0.16-20261018.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanEfuseTool-Setup-v1.0.16-20261018.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanEfuseTool-Setup-v1.0.17-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanEfuseTool-Setup-v1.0.17-20261018.exe"
         ]
       },
       "firmware": {
@@ -73,8 +73,8 @@
             "changelog": "版本未变更（沿用 1.28.58）。",
             "releaseDate": "2026-10-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img"
             ]
           },
           "GC0328C": {
@@ -84,8 +84,8 @@
             "changelog": "版本未变更（沿用 1.28.58）。",
             "releaseDate": "2026-10-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.58-proto2.9-20261012.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.58-proto2.9-20261012.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.58-proto2.9-20261012.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0328C-v1.28.58-proto2.9-20261012.img"
             ]
           },
           "GC032A": {
@@ -95,8 +95,8 @@
             "changelog": "版本未变更（沿用 1.28.58）。",
             "releaseDate": "2026-10-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.58-proto2.9-20261012.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.58-proto2.9-20261012.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.58-proto2.9-20261012.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC032A-v1.28.58-proto2.9-20261012.img"
             ]
           },
           "SC035HGS": {
@@ -106,8 +106,8 @@
             "changelog": "版本未变更（沿用 1.28.58）。",
             "releaseDate": "2026-10-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.58-proto2.9-20261012.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.58-proto2.9-20261012.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.58-proto2.9-20261012.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-SC035HGS-v1.28.58-proto2.9-20261012.img"
             ]
           }
         }
@@ -192,6 +192,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.38-proto2.9-20261015.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.38-proto2.9-20261015.exe"
         ]
+      },
+      {
+        "version": "1.4.39",
+        "sha256": "c8b2abd67c679a98c5c1c77c50577d97a77a56e096974b578fc5852d27551f7d",
+        "size": 76839806,
+        "changelog": "PC 升级至 1.4.39：安装/运行/升级兼容性加固——升级保留原安装目录与当前用户/全用户安装范围；应用内升级由安装器在授权后接管关闭旧程序，取消或失败不再退出当前程序；Smart App Control 仅记录不再要求关闭；安装前检测 Media Foundation；截图保存兼容中文用户名/目录。本批在本机 Win11 家庭版完成安装、覆盖升级与启动验证，Win10/专业/企业版与设备功能待目标机验证。",
+        "releaseDate": "2026-10-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.39-proto2.9-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.39-proto2.9-20261018.exe"
+        ]
       }
     ],
     "rd": [
@@ -271,6 +282,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.38-proto2.9-20261015.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.38-proto2.9-20261015.exe"
         ]
+      },
+      {
+        "version": "1.4.39",
+        "sha256": "75db0159a4057b7c2c2c301397b826d3c10b0eccd7495bffaf7602ba91b54e18",
+        "size": 76916859,
+        "changelog": "PC 升级至 1.4.39：安装/运行/升级兼容性加固——升级保留原安装目录与当前用户/全用户安装范围；应用内升级由安装器在授权后接管关闭旧程序，取消或失败不再退出当前程序；Smart App Control 仅记录不再要求关闭；安装前检测 Media Foundation；截图保存兼容中文用户名/目录。本批在本机 Win11 家庭版完成安装、覆盖升级与启动验证，Win10/专业/企业版与设备功能待目标机验证。",
+        "releaseDate": "2026-10-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.39-proto2.9-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.39-proto2.9-20261018.exe"
+        ]
       }
     ],
     "qc": [
@@ -349,6 +371,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.38-proto2.9-20261015.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.38-proto2.9-20261015.exe"
+        ]
+      },
+      {
+        "version": "1.4.39",
+        "sha256": "78c23eab579eee33319ae441fa2e1791b33ba903813c9bc065ab048e88e3c842",
+        "size": 76672621,
+        "changelog": "PC 升级至 1.4.39：安装/运行/升级兼容性加固——升级保留原安装目录与当前用户/全用户安装范围；应用内升级由安装器在授权后接管关闭旧程序，取消或失败不再退出当前程序；Smart App Control 仅记录不再要求关闭；安装前检测 Media Foundation；截图保存兼容中文用户名/目录。本批在本机 Win11 家庭版完成安装、覆盖升级与启动验证，Win10/专业/企业版与设备功能待目标机验证。",
+        "releaseDate": "2026-10-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.39-proto2.9-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.39-proto2.9-20261018.exe"
         ]
       }
     ],
@@ -466,6 +499,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanEfuseTool-Setup-v1.0.15-20261015.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.38-M1.1.32/sfScanEfuseTool-Setup-v1.0.15-20261015.exe"
+        ]
+      },
+      {
+        "version": "1.0.16",
+        "sha256": "788fc5ad89788fa9642b55938eeafae3b747f364e35bb3d8f31a3b2f0df0e73b",
+        "size": 61300418,
+        "changelog": "eFuse 升级至 1.0.16：新增烧录/读取记录持久化（SQLite）与导出；安装包内置 upgcmd 与 Qt 工具并逐文件校验源目标 SHA256；安装后检查关键运行库与工具；日志目录不可写自动回退 LocalAppData；升级保留安装范围与目录、由安装器接管关闭旧程序。未进行 eFuse 写入与固件烧录实测。",
+        "releaseDate": "2026-10-18",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanEfuseTool-Setup-v1.0.16-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.39-M1.1.32/sfScanEfuseTool-Setup-v1.0.16-20261018.exe"
         ]
       }
     ],
