@@ -50,14 +50,14 @@
         "versionCode": 36
       },
       "efuse": {
-        "version": "1.0.19",
-        "sha256": "22b5fe044f5adfd2e2a63713820c81e79cfe2270aa61ecd12307c75bf29c7e21",
-        "size": 61418729,
-        "changelog": "eFuse 工具升级至 1.0.19：修复“烧完授权不断电再读取时读到陈旧 SRAM 影子、可能显示错误授权数据”的问题。现在只有本机确实可能写过该芯片时才校验影子：先用 4 个锚点 word 与授权文件比对（约 11 秒，原来全读约 35 秒），匹配即采用文件值并标注「已由 eFuse 锚点采样确认真值」；本机从未烧录过的芯片直接采信影子（约 1 秒）。同时新增 eFuse 控制器可用性探测——设备处于 Bootloader 阶段时 SID 寄存器只读，程序 2 秒内识别并降级，保留影子并明确提示「未能验证」，绝不把寄存器残留值当作授权数据展示。",
+        "version": "1.0.20",
+        "sha256": "ec24c3b6d926507f3383a70411ee7f1eaef6f1fd0b0f65406de0855f7f6ea79e",
+        "size": 61425441,
+        "changelog": "eFuse 工具升级至 1.0.20：烧录后校验恢复为**全量 64 字节逐 word 直读核对**（约 36 秒），修复 1.0.19 仅抽样 4 个 word、中间字写坏可能漏检的风险；校验不到时明确报错「无法校验 eFuse」，不把“校验不了”当成“校验通过”。保持 1.0.19 的读取逻辑：影子与授权文件一致时直接采用，不一致时先用锚点采样确认（约 11 秒），锚点不符才全读 64 字节（约 35 秒）；设备处于 Bootloader 阶段（SID 只读）时 2 秒内识别并降级，明确标注「未能验证」，绝不把寄存器残留值当作授权数据。",
         "releaseDate": "2026-10-21",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.19-20261021.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.19-20261021.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.20-20261021.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.20-20261021.exe"
         ]
       },
       "firmware": {
@@ -589,6 +589,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.18-20261018.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.18-20261018.exe"
+        ]
+      },
+      {
+        "version": "1.0.19",
+        "sha256": "22b5fe044f5adfd2e2a63713820c81e79cfe2270aa61ecd12307c75bf29c7e21",
+        "size": 61418729,
+        "changelog": "eFuse 工具升级至 1.0.19：修复“烧完授权不断电再读取时读到陈旧 SRAM 影子、可能显示错误授权数据”的问题。现在只有本机确实可能写过该芯片时才校验影子：先用 4 个锚点 word 与授权文件比对（约 11 秒，原来全读约 35 秒），匹配即采用文件值并标注「已由 eFuse 锚点采样确认真值」；本机从未烧录过的芯片直接采信影子（约 1 秒）。同时新增 eFuse 控制器可用性探测——设备处于 Bootloader 阶段时 SID 寄存器只读，程序 2 秒内识别并降级，保留影子并明确提示「未能验证」，绝不把寄存器残留值当作授权数据展示。",
+        "releaseDate": "2026-10-21",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.19-20261021.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.19-20261021.exe"
         ]
       }
     ],
