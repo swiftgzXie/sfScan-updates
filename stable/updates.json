@@ -50,14 +50,14 @@
         "versionCode": 36
       },
       "efuse": {
-        "version": "1.0.21",
-        "sha256": "2d3474be4794f61cb2e270b9f4cd3f953139f4adeef42904c83555a108ac3771",
-        "size": 61427043,
-        "changelog": "eFuse 工具升级至 1.0.21：修复 1.0.19 引入的回归——Customer 与 Target Customer 两列因列头改成「勾选框 + ASCII/HEX 切换」，导出取列、全选列与勾选高亮都不再识别它们（勾选了也不导出、连表头都没有）；现已统一从列头取勾选框，导出包含这两列，并在日志打印实际导出的列。同时在状态信息行显示授权文件加载明细（文件 N 行、按 ChipID 重复合并 X 条、跳过 Y 行及行号），便于定位“文件行数与加载条数不一致”的原因。烧录后仍为全量 64 字节校验。",
+        "version": "1.0.22",
+        "sha256": "e1d9baecc49f96a69668102c906d8ced0233bbf446318e93a40f4a501c7e2282",
+        "size": 61428873,
+        "changelog": "eFuse 工具升级至 1.0.22：修复记录列表 ChipID 列头会变空白的问题——把该列横向滚出视野、拖动列宽或列重排后再回来，表头只剩空白（勾选框丢失）；已关闭列虚拟化并改用固定样式，实测滚动与列重排后表头始终正常。同时包含 1.0.21 的修复：Customer / Target Customer 两列勾选后可正常导出（含表头）；状态行显示授权文件加载明细（文件 N 行、重复合并 X 条、跳过 Y 行及行号）。烧录后仍为全量 64 字节校验。",
         "releaseDate": "2026-10-21",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.21-20261021.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.21-20261021.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.22-20261021.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.22-20261021.exe"
         ]
       },
       "firmware": {
@@ -611,6 +611,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.20-20261021.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.20-20261021.exe"
+        ]
+      },
+      {
+        "version": "1.0.21",
+        "sha256": "2d3474be4794f61cb2e270b9f4cd3f953139f4adeef42904c83555a108ac3771",
+        "size": 61427043,
+        "changelog": "eFuse 工具升级至 1.0.21：修复 1.0.19 引入的回归——Customer 与 Target Customer 两列因列头改成「勾选框 + ASCII/HEX 切换」，导出取列、全选列与勾选高亮都不再识别它们（勾选了也不导出、连表头都没有）；现已统一从列头取勾选框，导出包含这两列，并在日志打印实际导出的列。同时在状态信息行显示授权文件加载明细（文件 N 行、按 ChipID 重复合并 X 条、跳过 Y 行及行号），便于定位“文件行数与加载条数不一致”的原因。烧录后仍为全量 64 字节校验。",
+        "releaseDate": "2026-10-21",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.21-20261021.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.21-20261021.exe"
         ]
       }
     ],
