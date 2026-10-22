@@ -50,14 +50,14 @@
         "versionCode": 36
       },
       "efuse": {
-        "version": "1.0.24",
-        "sha256": "51a7525e71a5a392a47a890e3d29a7543c35f43d02195c44f8d4b9ea5fa2c43e",
-        "size": 61431451,
-        "changelog": "eFuse 工具升级至 1.0.24：记录列表列顺序调整为「编号 → ChipID → 当前 Customer → 目标 Customer → 结果 → 固件版本 → 时间 → 类型 → 操作 → 详情 → USB 设备」，每行最左侧新增行选择列（列头可全选 / 取消全选行），与列勾选组成交叉数据，导出与 Ctrl+C 复制均按该顺序输出；修复 Customer / 目标 Customer 以 +、-、=、@ 开头时粘贴到 Excel 显示 #NAME? 的问题——复制同时提供纯文本与表格两种格式，Excel / WPS 按文本粘贴，文本文件仍是无引号的对齐内容；每列数据后至少保留一个空格再跳 TAB，表头与数据列起点严格对齐。",
+        "version": "1.0.25",
+        "sha256": "c87e2e56bb871297a0d10d50e3f20f8aa188a2fd369ca64635b6b966e815fbd5",
+        "size": 61434883,
+        "changelog": "eFuse 工具升级至 1.0.25：烧录成功后把 64 字节回读值回显到「当前 Customer」列，并用绿色状态行提示「授权数据写入成功！」；授权文件加载明细改为「有效去重授权数据 N 条 · 重复合并 X 条 · 文件 M 行数据」，文件行数与实际可烧录条数一目了然。同时包含 1.0.24 的改进：记录列表列顺序调整为「编号 → ChipID → 当前 Customer → 目标 Customer → 结果 → 固件版本 → 时间 → 类型 → 操作 → 详情 → USB 设备」，每行最左侧新增行选择列（列头可全选 / 取消全选行），导出与 Ctrl+C 复制按该顺序输出；修复 +、-、=、@ 开头内容粘贴到 Excel 显示 #NAME? 的问题。",
         "releaseDate": "2026-10-22",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.24-20261022.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.24-20261022.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.25-20261022.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.25-20261022.exe"
         ]
       },
       "firmware": {
@@ -633,6 +633,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.22-20261021.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.22-20261021.exe"
+        ]
+      },
+      {
+        "version": "1.0.24",
+        "sha256": "51a7525e71a5a392a47a890e3d29a7543c35f43d02195c44f8d4b9ea5fa2c43e",
+        "size": 61431451,
+        "changelog": "eFuse 工具升级至 1.0.24：记录列表列顺序调整为「编号 → ChipID → 当前 Customer → 目标 Customer → 结果 → 固件版本 → 时间 → 类型 → 操作 → 详情 → USB 设备」，每行最左侧新增行选择列（列头可全选 / 取消全选行），与列勾选组成交叉数据，导出与 Ctrl+C 复制均按该顺序输出；修复 Customer / 目标 Customer 以 +、-、=、@ 开头时粘贴到 Excel 显示 #NAME? 的问题——复制同时提供纯文本与表格两种格式，Excel / WPS 按文本粘贴，文本文件仍是无引号的对齐内容；每列数据后至少保留一个空格再跳 TAB，表头与数据列起点严格对齐。",
+        "releaseDate": "2026-10-22",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.24-20261022.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.24-20261022.exe"
         ]
       }
     ],
