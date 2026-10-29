@@ -8,7 +8,7 @@
           "sha256": "b585fd0b9dcd60f842854d02138cdb400a97b19d1f856f524d4bbe81138a6d36",
           "size": 76830682,
           "changelog": "版本未变更（沿用 1.4.41）。",
-          "releaseDate": "2026-10-22",
+          "releaseDate": "2026-10-29",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-Support-Setup-v1.4.41-proto2.9-20261018.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-Support-Setup-v1.4.41-proto2.9-20261018.exe"
@@ -19,7 +19,7 @@
           "sha256": "4e876e75c8665ab4dafb6a357b9cea31cd93b5cec1fc91f3aae21fd36d5a1f24",
           "size": 76919902,
           "changelog": "版本未变更（沿用 1.4.41）。",
-          "releaseDate": "2026-10-22",
+          "releaseDate": "2026-10-29",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-RD-Setup-v1.4.41-proto2.9-20261018.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-RD-Setup-v1.4.41-proto2.9-20261018.exe"
@@ -30,7 +30,7 @@
           "sha256": "171831a7bd5709d3790127cf433fa33d3eab27300cc9dd42c0aa556270c7bfea",
           "size": 76673740,
           "changelog": "版本未变更（沿用 1.4.41）。",
-          "releaseDate": "2026-10-22",
+          "releaseDate": "2026-10-29",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-QC-Setup-v1.4.41-proto2.9-20261018.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-QC-Setup-v1.4.41-proto2.9-20261018.exe"
@@ -39,10 +39,10 @@
       },
       "mobile": {
         "version": "1.1.35",
-        "sha256": "dd0ee113098cdab1e852746c2495656dd8b7996cb598295902abf826ef07ebab",
+        "sha256": "f92040d9fbe6655eb43d62d760dd8b39e9c723c30bd17ad6b2dec4d6c645e2da",
         "size": 31183487,
-        "changelog": "手机端升级至 1.1.35：输出控制的前缀/后缀改为 TAB、CR、LF 快捷点选（可连续追加至 10 字节，配退格与清空），并新增 16 进制自定义输入——输入期间不打断输入法、失焦统一格式化，且只接受控制字符（0x00-0x1F / 0x7F），非法值自动丢弃；键盘键间延时改用滑块（0-10 ms），出厂延时对齐固件与上位机为 5 ms；六语言帮助文档同步更新。",
-        "releaseDate": "2026-10-22",
+        "changelog": "版本未变更（沿用 1.1.35）。",
+        "releaseDate": "2026-10-29",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanMobile-v1.1.35-proto2.9-20261018.apk",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanMobile-v1.1.35-proto2.9-20261018.apk"
@@ -54,60 +54,60 @@
         "sha256": "c87e2e56bb871297a0d10d50e3f20f8aa188a2fd369ca64635b6b966e815fbd5",
         "size": 61434883,
         "changelog": "版本未变更（沿用 1.0.25）。",
-        "releaseDate": "2026-10-22",
+        "releaseDate": "2026-10-29",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanEfuseTool-Setup-v1.0.25-20261022.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanEfuseTool-Setup-v1.0.25-20261022.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.59",
+        "version": "1.28.62",
         "proto": "2.9",
-        "changelog": "版本未变更（沿用 1.28.59）。",
-        "releaseDate": "2026-10-22",
+        "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
+        "releaseDate": "2026-10-29",
         "sensors": {
           "GC0308": {
-            "version": "1.28.59",
-            "sha256": "32ea3c456d44320424313efe0ad9e469a8f27a6c96d70533a80b1f56d98d67a9",
-            "size": 1780736,
-            "changelog": "版本未变更（沿用 1.28.59）。",
-            "releaseDate": "2026-10-22",
+            "version": "1.28.62",
+            "sha256": "27cc22a25db186a8fa9e92d44304a57370a030b1fe641b8d7d4a65452c9b348a",
+            "size": 1784832,
+            "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
+            "releaseDate": "2026-10-29",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.59-proto2.9-20261018.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.59-proto2.9-20261018.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.59",
-            "sha256": "7aed5d4d875cc2c9c6527cad11a2b4977e3f8833da1a299f9027945ae881c01f",
-            "size": 1778688,
-            "changelog": "版本未变更（沿用 1.28.59）。",
-            "releaseDate": "2026-10-22",
+            "version": "1.28.62",
+            "sha256": "c8faf552583484c9fe7d8fee87b989022c715666507c12266c012e39608dd9a2",
+            "size": 1782784,
+            "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
+            "releaseDate": "2026-10-29",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0328C-v1.28.59-proto2.9-20261018.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0328C-v1.28.59-proto2.9-20261018.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0328C-v1.28.62-proto2.9-20261028.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0328C-v1.28.62-proto2.9-20261028.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.59",
-            "sha256": "c92ddfd8c0c4c93472460208f524308d763d34ab166874d4161e9f4c80da4904",
-            "size": 1778688,
-            "changelog": "版本未变更（沿用 1.28.59）。",
-            "releaseDate": "2026-10-22",
+            "version": "1.28.62",
+            "sha256": "45e7179655c2a9d87684e3c448e3852b1ddaaf87cafb758ccd79f072c6147ee7",
+            "size": 1782784,
+            "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
+            "releaseDate": "2026-10-29",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC032A-v1.28.59-proto2.9-20261018.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC032A-v1.28.59-proto2.9-20261018.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC032A-v1.28.62-proto2.9-20261028.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC032A-v1.28.62-proto2.9-20261028.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.59",
-            "sha256": "e6071e0bce6d8b2473bd0de402896a61f14da1ae0da08af270a16ba07c1c825c",
-            "size": 1780736,
-            "changelog": "版本未变更（沿用 1.28.59）。",
-            "releaseDate": "2026-10-22",
+            "version": "1.28.62",
+            "sha256": "e4823dbd0ede2afb3fc807e7f1f16a1d46f80cf0a9fbc1d8ce86bf1d4246f828",
+            "size": 1788928,
+            "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
+            "releaseDate": "2026-10-29",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-SC035HGS-v1.28.59-proto2.9-20261018.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-SC035HGS-v1.28.59-proto2.9-20261018.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-SC035HGS-v1.28.62-proto2.9-20261028.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-SC035HGS-v1.28.62-proto2.9-20261028.img"
             ]
           }
         }
@@ -768,6 +768,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/g73x_scan-G730BDU-GC0308-v1.28.58-proto2.9-20261012.img"
+        ]
+      },
+      {
+        "version": "1.28.59",
+        "sha256": "32ea3c456d44320424313efe0ad9e469a8f27a6c96d70533a80b1f56d98d67a9",
+        "size": 1780736,
+        "changelog": "版本未变更（沿用 1.28.59）。",
+        "releaseDate": "2026-10-22",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.59-proto2.9-20261018.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.59-proto2.9-20261018.img"
         ]
       }
     ]
