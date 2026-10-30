@@ -4,110 +4,110 @@
     "stable": {
       "pc": {
         "support": {
-          "version": "1.4.41",
-          "sha256": "b585fd0b9dcd60f842854d02138cdb400a97b19d1f856f524d4bbe81138a6d36",
-          "size": 76830682,
-          "changelog": "版本未变更（沿用 1.4.41）。",
-          "releaseDate": "2026-10-29",
+          "version": "1.4.42",
+          "sha256": "abfc98c870860f787b36528833e5a970cb754465bc73d1df6847c779c9ad5b12",
+          "size": 76897142,
+          "changelog": "PC 端升级至 1.4.42（三角色：Support / RD / QC）。\r\n\r\n- 修复 QC 页切换界面语言后引导区与测试详情仍是旧语言造成的\"中英混排\"\r\n- 测试用例库（235 条）完整多语言化：用例标题、模块名、操作指引、前置条件随语言切换；切换后列表与详情立即刷新\r\n- 补齐缺失的多语言资源，并替换界面中残留的硬编码英文/中文文案（主窗口、关于、助手、自动测试、极限压力、条码显示、键盘测速、通用设置、专业设置、非 ASCII 测试页）\r\n- 通用设置页二维码状态提示改为多语言\r\n- UVC 预览与专业设置的日志文本统一改为英文，便于日志检索与反馈\r\n- 修复极限压力页\"预设方案\"切换语言后基线历史对不上（同一预设被拆成中文/英文两套记录）的问题\r\n- 说明：下拉框等控件的选项值（波特率、校验位、码制名、测试模式等）按规则保持原文，不做翻译",
+          "releaseDate": "2026-10-30",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-Support-Setup-v1.4.41-proto2.9-20261018.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-Support-Setup-v1.4.41-proto2.9-20261018.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-Support-Setup-v1.4.42-proto2.9-20261030.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-Support-Setup-v1.4.42-proto2.9-20261030.exe"
           ]
         },
         "rd": {
-          "version": "1.4.41",
-          "sha256": "4e876e75c8665ab4dafb6a357b9cea31cd93b5cec1fc91f3aae21fd36d5a1f24",
-          "size": 76919902,
-          "changelog": "版本未变更（沿用 1.4.41）。",
-          "releaseDate": "2026-10-29",
+          "version": "1.4.42",
+          "sha256": "723ed1d29bdea792bb476f8f2769e6ebf6fc3fbead0423385cd5a3ae0c2fdfba",
+          "size": 76972037,
+          "changelog": "PC 端升级至 1.4.42（三角色：Support / RD / QC）。\r\n\r\n- 修复 QC 页切换界面语言后引导区与测试详情仍是旧语言造成的\"中英混排\"\r\n- 测试用例库（235 条）完整多语言化：用例标题、模块名、操作指引、前置条件随语言切换；切换后列表与详情立即刷新\r\n- 补齐缺失的多语言资源，并替换界面中残留的硬编码英文/中文文案（主窗口、关于、助手、自动测试、极限压力、条码显示、键盘测速、通用设置、专业设置、非 ASCII 测试页）\r\n- 通用设置页二维码状态提示改为多语言\r\n- UVC 预览与专业设置的日志文本统一改为英文，便于日志检索与反馈\r\n- 修复极限压力页\"预设方案\"切换语言后基线历史对不上（同一预设被拆成中文/英文两套记录）的问题\r\n- 说明：下拉框等控件的选项值（波特率、校验位、码制名、测试模式等）按规则保持原文，不做翻译",
+          "releaseDate": "2026-10-30",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-RD-Setup-v1.4.41-proto2.9-20261018.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-RD-Setup-v1.4.41-proto2.9-20261018.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-RD-Setup-v1.4.42-proto2.9-20261030.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-RD-Setup-v1.4.42-proto2.9-20261030.exe"
           ]
         },
         "qc": {
-          "version": "1.4.41",
-          "sha256": "171831a7bd5709d3790127cf433fa33d3eab27300cc9dd42c0aa556270c7bfea",
-          "size": 76673740,
-          "changelog": "版本未变更（沿用 1.4.41）。",
-          "releaseDate": "2026-10-29",
+          "version": "1.4.42",
+          "sha256": "b02d8385b05a60a68c18c7331df10e3f39fb6995cb9e6d5e7b66bbdb07bf9c50",
+          "size": 76733860,
+          "changelog": "PC 端升级至 1.4.42（三角色：Support / RD / QC）。\r\n\r\n- 修复 QC 页切换界面语言后引导区与测试详情仍是旧语言造成的\"中英混排\"\r\n- 测试用例库（235 条）完整多语言化：用例标题、模块名、操作指引、前置条件随语言切换；切换后列表与详情立即刷新\r\n- 补齐缺失的多语言资源，并替换界面中残留的硬编码英文/中文文案（主窗口、关于、助手、自动测试、极限压力、条码显示、键盘测速、通用设置、专业设置、非 ASCII 测试页）\r\n- 通用设置页二维码状态提示改为多语言\r\n- UVC 预览与专业设置的日志文本统一改为英文，便于日志检索与反馈\r\n- 修复极限压力页\"预设方案\"切换语言后基线历史对不上（同一预设被拆成中文/英文两套记录）的问题\r\n- 说明：下拉框等控件的选项值（波特率、校验位、码制名、测试模式等）按规则保持原文，不做翻译",
+          "releaseDate": "2026-10-30",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-QC-Setup-v1.4.41-proto2.9-20261018.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-QC-Setup-v1.4.41-proto2.9-20261018.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-QC-Setup-v1.4.42-proto2.9-20261030.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-QC-Setup-v1.4.42-proto2.9-20261030.exe"
           ]
         }
       },
       "mobile": {
-        "version": "1.1.35",
-        "sha256": "f92040d9fbe6655eb43d62d760dd8b39e9c723c30bd17ad6b2dec4d6c645e2da",
-        "size": 31183487,
-        "changelog": "版本未变更（沿用 1.1.35）。",
-        "releaseDate": "2026-10-29",
+        "version": "1.1.36",
+        "sha256": "4ab3e49f5c93aab15f9fe5d01a4fcebd6e5d1b57ab18f7fd983c936a5127776c",
+        "size": 30848741,
+        "changelog": "手机端升级至 1.1.36。\r\n- 补齐参数导出时提示\"请先选择参数\"的多语言文本（此前该提示直接显示资源键名，无法阅读）\r\n- 其余功能与 1.1.35 一致",
+        "releaseDate": "2026-10-30",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanMobile-v1.1.35-proto2.9-20261018.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanMobile-v1.1.35-proto2.9-20261018.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanMobile-v1.1.36-proto2.9-20261030.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanMobile-v1.1.36-proto2.9-20261030.apk"
         ],
-        "versionCode": 37
+        "versionCode": 38
       },
       "efuse": {
-        "version": "1.0.25",
-        "sha256": "c87e2e56bb871297a0d10d50e3f20f8aa188a2fd369ca64635b6b966e815fbd5",
-        "size": 61434883,
-        "changelog": "版本未变更（沿用 1.0.25）。",
-        "releaseDate": "2026-10-29",
+        "version": "1.0.26",
+        "sha256": "a6dee02ebe390bc569b8a619ef06294df3748843765f77b2e96026a5f1f65367",
+        "size": 61431335,
+        "changelog": "eFuse 工具升级至 1.0.26。\r\n- 烧录确认窗口标题、Sensor 列表说明、自动切换提示改为多语言，随界面语言切换",
+        "releaseDate": "2026-10-30",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanEfuseTool-Setup-v1.0.25-20261022.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanEfuseTool-Setup-v1.0.25-20261022.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanEfuseTool-Setup-v1.0.26-20261030.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanEfuseTool-Setup-v1.0.26-20261030.exe"
         ]
       },
       "firmware": {
         "version": "1.28.62",
         "proto": "2.9",
-        "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
-        "releaseDate": "2026-10-29",
+        "changelog": "固件版本未变更（沿用 1.28.62）。",
+        "releaseDate": "2026-10-30",
         "sensors": {
           "GC0308": {
             "version": "1.28.62",
             "sha256": "27cc22a25db186a8fa9e92d44304a57370a030b1fe641b8d7d4a65452c9b348a",
             "size": 1784832,
-            "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
-            "releaseDate": "2026-10-29",
+            "changelog": "固件版本未变更（沿用 1.28.62）。",
+            "releaseDate": "2026-10-30",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img"
             ]
           },
           "GC0328C": {
             "version": "1.28.62",
             "sha256": "c8faf552583484c9fe7d8fee87b989022c715666507c12266c012e39608dd9a2",
             "size": 1782784,
-            "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
-            "releaseDate": "2026-10-29",
+            "changelog": "固件版本未变更（沿用 1.28.62）。",
+            "releaseDate": "2026-10-30",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0328C-v1.28.62-proto2.9-20261028.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0328C-v1.28.62-proto2.9-20261028.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/g73x_scan-G730BDU-GC0328C-v1.28.62-proto2.9-20261028.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/g73x_scan-G730BDU-GC0328C-v1.28.62-proto2.9-20261028.img"
             ]
           },
           "GC032A": {
             "version": "1.28.62",
             "sha256": "45e7179655c2a9d87684e3c448e3852b1ddaaf87cafb758ccd79f072c6147ee7",
             "size": 1782784,
-            "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
-            "releaseDate": "2026-10-29",
+            "changelog": "固件版本未变更（沿用 1.28.62）。",
+            "releaseDate": "2026-10-30",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC032A-v1.28.62-proto2.9-20261028.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC032A-v1.28.62-proto2.9-20261028.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/g73x_scan-G730BDU-GC032A-v1.28.62-proto2.9-20261028.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/g73x_scan-G730BDU-GC032A-v1.28.62-proto2.9-20261028.img"
             ]
           },
           "SC035HGS": {
             "version": "1.28.62",
             "sha256": "e4823dbd0ede2afb3fc807e7f1f16a1d46f80cf0a9fbc1d8ce86bf1d4246f828",
             "size": 1788928,
-            "changelog": "固件升级至 1.28.62：修复补光门控把 PD.17 切成 GPIO 后无法还原复用，导致「PWM 寄存器报 100%、灯实际不亮、画面全黑且只有重进模式才恢复」的问题——门控切入前复核并刷新复用快照，快照缺失时用板级 PWM2 复用号兜底还原，关灯钳低与恢复输出均确认复用已恢复；同时并入 1.28.60/1.28.61 的 SC035 雨燕板曝光同步供光与运动短曝光候选、QR 主机触发等待期 AE 窗口管理。Proto=2.9，参数键集合与默认值不变。",
-            "releaseDate": "2026-10-29",
+            "changelog": "固件版本未变更（沿用 1.28.62）。",
+            "releaseDate": "2026-10-30",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-SC035HGS-v1.28.62-proto2.9-20261028.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-SC035HGS-v1.28.62-proto2.9-20261028.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/g73x_scan-G730BDU-SC035HGS-v1.28.62-proto2.9-20261028.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/g73x_scan-G730BDU-SC035HGS-v1.28.62-proto2.9-20261028.img"
             ]
           }
         }
@@ -214,6 +214,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.40-proto2.9-20261018.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-Support-Setup-v1.4.40-proto2.9-20261018.exe"
         ]
+      },
+      {
+        "version": "1.4.41",
+        "sha256": "b585fd0b9dcd60f842854d02138cdb400a97b19d1f856f524d4bbe81138a6d36",
+        "size": 76830682,
+        "changelog": "版本未变更（沿用 1.4.41）。",
+        "releaseDate": "2026-10-29",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-Support-Setup-v1.4.41-proto2.9-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-Support-Setup-v1.4.41-proto2.9-20261018.exe"
+        ]
       }
     ],
     "rd": [
@@ -314,6 +325,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.40-proto2.9-20261018.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-RD-Setup-v1.4.40-proto2.9-20261018.exe"
+        ]
+      },
+      {
+        "version": "1.4.41",
+        "sha256": "4e876e75c8665ab4dafb6a357b9cea31cd93b5cec1fc91f3aae21fd36d5a1f24",
+        "size": 76919902,
+        "changelog": "版本未变更（沿用 1.4.41）。",
+        "releaseDate": "2026-10-29",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-RD-Setup-v1.4.41-proto2.9-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-RD-Setup-v1.4.41-proto2.9-20261018.exe"
         ]
       }
     ],
@@ -416,6 +438,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.40-proto2.9-20261018.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.40-M1.1.32/sfScanModuleSet-QC-Setup-v1.4.40-proto2.9-20261018.exe"
         ]
+      },
+      {
+        "version": "1.4.41",
+        "sha256": "171831a7bd5709d3790127cf433fa33d3eab27300cc9dd42c0aa556270c7bfea",
+        "size": 76673740,
+        "changelog": "版本未变更（沿用 1.4.41）。",
+        "releaseDate": "2026-10-29",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-QC-Setup-v1.4.41-proto2.9-20261018.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanModuleSet-QC-Setup-v1.4.41-proto2.9-20261018.exe"
+        ]
       }
     ],
     "mobile": [
@@ -490,6 +523,18 @@
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanMobile-v1.1.34-proto2.9-20261018.apk"
         ],
         "versionCode": 36
+      },
+      {
+        "version": "1.1.35",
+        "sha256": "f92040d9fbe6655eb43d62d760dd8b39e9c723c30bd17ad6b2dec4d6c645e2da",
+        "size": 31183487,
+        "changelog": "版本未变更（沿用 1.1.35）。",
+        "releaseDate": "2026-10-29",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanMobile-v1.1.35-proto2.9-20261018.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanMobile-v1.1.35-proto2.9-20261018.apk"
+        ],
+        "versionCode": 37
       }
     ],
     "efuse": [
@@ -656,6 +701,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.24-20261022.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.34/sfScanEfuseTool-Setup-v1.0.24-20261022.exe"
+        ]
+      },
+      {
+        "version": "1.0.25",
+        "sha256": "c87e2e56bb871297a0d10d50e3f20f8aa188a2fd369ca64635b6b966e815fbd5",
+        "size": 61434883,
+        "changelog": "版本未变更（沿用 1.0.25）。",
+        "releaseDate": "2026-10-29",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanEfuseTool-Setup-v1.0.25-20261022.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/sfScanEfuseTool-Setup-v1.0.25-20261022.exe"
         ]
       }
     ],
