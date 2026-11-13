@@ -7,8 +7,8 @@
           "version": "1.4.44",
           "sha256": "a4110ecaa5e1f5115c9f69da2d7a151d6dd39a36d65a1a4dacbbdb4e6896c371",
           "size": 76900237,
-          "changelog": "PC 端升级至 1.4.44（三角色：Support / RD / QC）。\n\n- 语言选择按钮从左侧导航栏移到主窗口标题栏，位于最小化按钮左边；三角色（Support / RD / QC）一致\n- 主窗口改为自绘标题栏：标题文字随角色显示，右侧依次为语言、最小化、最大化/还原、关闭\n- 修复最大化时窗口盖住任务栏、底部内容被遮挡的问题（现按当前显示器工作区最大化）\n- 窗口按钮的悬浮提示支持六种语言，切换语言即时生效\n- 修复专业设置页的“设备状态”栏在切换界面语言后不跟着变化的问题（选中设备、未找到设备、预览中等状态此前会停留旧语言）\n- 修复预览画面上的分辨率与录制指示文字在切换语言后不更新\n- 修复帮助页文档不跟着界面语言切换的问题：此前进过一次帮助页后，切到其它语言再回到帮助页，看到的仍是离开时那份语言的文档\n- 帮助页加载文档时新增运行日志，便于日后定位“文档没换语言”这类问题\n- 帮助文档版本标注同步至 V1.4.44\n- 其余功能与 1.4.43 一致",
-          "releaseDate": "2026-10-31",
+          "changelog": "上位机版本未变更（沿用 1.4.44），本次无上位机改动。",
+          "releaseDate": "2026-11-13",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-Support-Setup-v1.4.44-proto2.9-20261031.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-Support-Setup-v1.4.44-proto2.9-20261031.exe"
@@ -18,8 +18,8 @@
           "version": "1.4.44",
           "sha256": "2962a2d2f95472c866fc69bd12933971c6cbc881a1f0b1d8ec2fbce2f7089114",
           "size": 76988911,
-          "changelog": "PC 端升级至 1.4.44（三角色：Support / RD / QC）。\n\n- 语言选择按钮从左侧导航栏移到主窗口标题栏，位于最小化按钮左边；三角色（Support / RD / QC）一致\n- 主窗口改为自绘标题栏：标题文字随角色显示，右侧依次为语言、最小化、最大化/还原、关闭\n- 修复最大化时窗口盖住任务栏、底部内容被遮挡的问题（现按当前显示器工作区最大化）\n- 窗口按钮的悬浮提示支持六种语言，切换语言即时生效\n- 修复专业设置页的“设备状态”栏在切换界面语言后不跟着变化的问题（选中设备、未找到设备、预览中等状态此前会停留旧语言）\n- 修复预览画面上的分辨率与录制指示文字在切换语言后不更新\n- 修复帮助页文档不跟着界面语言切换的问题：此前进过一次帮助页后，切到其它语言再回到帮助页，看到的仍是离开时那份语言的文档\n- 帮助页加载文档时新增运行日志，便于日后定位“文档没换语言”这类问题\n- 帮助文档版本标注同步至 V1.4.44\n- 其余功能与 1.4.43 一致",
-          "releaseDate": "2026-10-31",
+          "changelog": "上位机版本未变更（沿用 1.4.44），本次无上位机改动。",
+          "releaseDate": "2026-11-13",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-RD-Setup-v1.4.44-proto2.9-20261031.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-RD-Setup-v1.4.44-proto2.9-20261031.exe"
@@ -29,8 +29,8 @@
           "version": "1.4.44",
           "sha256": "00724da5a747160a7de7a88571a4317ea19c53e15850e9a5736f1ea281a7293b",
           "size": 76751932,
-          "changelog": "PC 端升级至 1.4.44（三角色：Support / RD / QC）。\n\n- 语言选择按钮从左侧导航栏移到主窗口标题栏，位于最小化按钮左边；三角色（Support / RD / QC）一致\n- 主窗口改为自绘标题栏：标题文字随角色显示，右侧依次为语言、最小化、最大化/还原、关闭\n- 修复最大化时窗口盖住任务栏、底部内容被遮挡的问题（现按当前显示器工作区最大化）\n- 窗口按钮的悬浮提示支持六种语言，切换语言即时生效\n- 修复专业设置页的“设备状态”栏在切换界面语言后不跟着变化的问题（选中设备、未找到设备、预览中等状态此前会停留旧语言）\n- 修复预览画面上的分辨率与录制指示文字在切换语言后不更新\n- 修复帮助页文档不跟着界面语言切换的问题：此前进过一次帮助页后，切到其它语言再回到帮助页，看到的仍是离开时那份语言的文档\n- 帮助页加载文档时新增运行日志，便于日后定位“文档没换语言”这类问题\n- 帮助文档版本标注同步至 V1.4.44\n- 其余功能与 1.4.43 一致",
-          "releaseDate": "2026-10-31",
+          "changelog": "上位机版本未变更（沿用 1.4.44），本次无上位机改动。",
+          "releaseDate": "2026-11-13",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-QC-Setup-v1.4.44-proto2.9-20261031.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-QC-Setup-v1.4.44-proto2.9-20261031.exe"
@@ -42,7 +42,7 @@
         "sha256": "d1c04e8c84958463091248e4263ac094ce9c202c4a55c9a5a9043c85d17f4eaf",
         "size": 31187583,
         "changelog": "手机端版本未变更（沿用 1.1.37），本次无手机端改动。",
-        "releaseDate": "2026-10-31",
+        "releaseDate": "2026-11-13",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanMobile-v1.1.37-proto2.9-20261031.apk",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanMobile-v1.1.37-proto2.9-20261031.apk"
@@ -54,60 +54,60 @@
         "sha256": "cee351074dcb80908efeef32e9d931724492881d5b208104dd4706f9d98049cf",
         "size": 61431619,
         "changelog": "eFuse 工具版本未变更（沿用 1.0.27），本次无 eFuse 改动。",
-        "releaseDate": "2026-10-31",
+        "releaseDate": "2026-11-13",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanEfuseTool-Setup-v1.0.27-20261031.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanEfuseTool-Setup-v1.0.27-20261031.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.62",
+        "version": "1.28.63",
         "proto": "2.9",
-        "changelog": "固件版本未变更（沿用 1.28.62）。",
-        "releaseDate": "2026-10-31",
+        "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
+        "releaseDate": "2026-11-13",
         "sensors": {
           "GC0308": {
-            "version": "1.28.62",
-            "sha256": "27cc22a25db186a8fa9e92d44304a57370a030b1fe641b8d7d4a65452c9b348a",
+            "version": "1.28.63",
+            "sha256": "0e04cda853bc88c90bbc41873ea8cef6fc93ba9a128fe402bb71c1ab9a7cdf0a",
             "size": 1784832,
-            "changelog": "固件版本未变更（沿用 1.28.62）。",
-            "releaseDate": "2026-10-31",
+            "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
+            "releaseDate": "2026-11-13",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.63-proto2.9-20261113.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.63-proto2.9-20261113.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.62",
-            "sha256": "c8faf552583484c9fe7d8fee87b989022c715666507c12266c012e39608dd9a2",
+            "version": "1.28.63",
+            "sha256": "53187f7c2a686dd0d4ed7788a2824f42eb9d959e182c80a80985d4ee05b3d2d1",
             "size": 1782784,
-            "changelog": "固件版本未变更（沿用 1.28.62）。",
-            "releaseDate": "2026-10-31",
+            "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
+            "releaseDate": "2026-11-13",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0328C-v1.28.62-proto2.9-20261028.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0328C-v1.28.62-proto2.9-20261028.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0328C-v1.28.63-proto2.9-20261113.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0328C-v1.28.63-proto2.9-20261113.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.62",
-            "sha256": "45e7179655c2a9d87684e3c448e3852b1ddaaf87cafb758ccd79f072c6147ee7",
+            "version": "1.28.63",
+            "sha256": "a38f926ba8b314d8c153cdea89db16e67dce14df20aa420a430af334a6260fd4",
             "size": 1782784,
-            "changelog": "固件版本未变更（沿用 1.28.62）。",
-            "releaseDate": "2026-10-31",
+            "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
+            "releaseDate": "2026-11-13",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC032A-v1.28.62-proto2.9-20261028.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC032A-v1.28.62-proto2.9-20261028.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC032A-v1.28.63-proto2.9-20261113.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC032A-v1.28.63-proto2.9-20261113.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.62",
-            "sha256": "e4823dbd0ede2afb3fc807e7f1f16a1d46f80cf0a9fbc1d8ce86bf1d4246f828",
+            "version": "1.28.63",
+            "sha256": "17f4d8b0b4ca0f7ddeb9f88aaec7d5eec7b0cbdf4773e111cf0291a804694bc9",
             "size": 1788928,
-            "changelog": "固件版本未变更（沿用 1.28.62）。",
-            "releaseDate": "2026-10-31",
+            "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
+            "releaseDate": "2026-11-13",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-SC035HGS-v1.28.62-proto2.9-20261028.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-SC035HGS-v1.28.62-proto2.9-20261028.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-SC035HGS-v1.28.63-proto2.9-20261113.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-SC035HGS-v1.28.63-proto2.9-20261113.img"
             ]
           }
         }
@@ -891,6 +891,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.59-proto2.9-20261018.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.41-M1.1.35/g73x_scan-G730BDU-GC0308-v1.28.59-proto2.9-20261018.img"
+        ]
+      },
+      {
+        "version": "1.28.62",
+        "sha256": "27cc22a25db186a8fa9e92d44304a57370a030b1fe641b8d7d4a65452c9b348a",
+        "size": 1784832,
+        "changelog": "固件版本未变更（沿用 1.28.62）。",
+        "releaseDate": "2026-10-31",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img"
         ]
       }
     ]
