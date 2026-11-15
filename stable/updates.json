@@ -5,9 +5,9 @@
       "pc": {
         "support": {
           "version": "1.4.45",
-          "sha256": "2d838e67a9c00ebd0740c62e1d5c1e16d56ec696d1f935d4850ff6708a4b7946",
-          "size": 76921262,
-          "changelog": "上位机 1.4.45 更新内容：\r\n\r\n- 帮助文档全面重写（Support / RD / QC 三角色，六语言同步）\r\n  · 主机命令章节补齐下位机应答、交互示例与超时说明\r\n  · 9PIN 接线线序修正，明确 IO A = TX / IO B = RX\r\n  · 新增 12PIN FFC/FPC 接口线序说明\r\n- 常用配置二维码由 20 项扩充到 24 项：新增轻触触发、连续输出、瞄准灯常亮、补光灯常亮\r\n- 帮助页文档显示缺陷修复",
+          "sha256": "3052a668f7f9911e01b80b5fa6d81f5316765838c4f5f328e02b3eed1305d095",
+          "size": 76911787,
+          "changelog": "上位机 1.4.45 更新内容（同版本重发）：\r\n\r\n- 帮助文档硬件参数与接线校正（六语言 + 维护说明书，共 13 个文件）\r\n  · 外部指示灯脉冲由 100ms 更正为 200ms\r\n  · 蜂鸣器：PWM1 2.7kHz，音量 0-100 对应占空比 0-50%\r\n  · 补光灯：PWM2 1kHz，亮度 0-100 对应占空比 9-100%\r\n  · 曝光同步 PD.9 改为高电平有效；校准按键 PD.11 标注为固件未启用\r\n- 帮助文档引脚定义表补充参数列，与源码一致",
           "releaseDate": "2026-11-15",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-Support-Setup-v1.4.45-proto2.9-20261114.exe",
@@ -16,9 +16,9 @@
         },
         "rd": {
           "version": "1.4.45",
-          "sha256": "ead16a7f7dc9a4560b4f24363285bf086a7a219c62701ddc7da884e62e751e8a",
-          "size": 76988975,
-          "changelog": "上位机 1.4.45 更新内容：\r\n\r\n- 帮助文档全面重写（Support / RD / QC 三角色，六语言同步）\r\n  · 主机命令章节补齐下位机应答、交互示例与超时说明\r\n  · 9PIN 接线线序修正，明确 IO A = TX / IO B = RX\r\n  · 新增 12PIN FFC/FPC 接口线序说明\r\n- 常用配置二维码由 20 项扩充到 24 项：新增轻触触发、连续输出、瞄准灯常亮、补光灯常亮\r\n- 帮助页文档显示缺陷修复",
+          "sha256": "34c339efdce893a586e1b2d792a490205dbb625d485c64893838c3a490596eee",
+          "size": 76995533,
+          "changelog": "上位机 1.4.45 更新内容（同版本重发）：\r\n\r\n- 帮助文档硬件参数与接线校正（六语言 + 维护说明书，共 13 个文件）\r\n  · 外部指示灯脉冲由 100ms 更正为 200ms\r\n  · 蜂鸣器：PWM1 2.7kHz，音量 0-100 对应占空比 0-50%\r\n  · 补光灯：PWM2 1kHz，亮度 0-100 对应占空比 9-100%\r\n  · 曝光同步 PD.9 改为高电平有效；校准按键 PD.11 标注为固件未启用\r\n- 帮助文档引脚定义表补充参数列，与源码一致",
           "releaseDate": "2026-11-15",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-RD-Setup-v1.4.45-proto2.9-20261114.exe",
@@ -27,9 +27,9 @@
         },
         "qc": {
           "version": "1.4.45",
-          "sha256": "f8f1004c1c1e8dc828cf409de4d39f27af13dc9018c69d6c801a03efd36ae71a",
-          "size": 76745383,
-          "changelog": "上位机 1.4.45 更新内容：\r\n\r\n- 帮助文档全面重写（Support / RD / QC 三角色，六语言同步）\r\n  · 主机命令章节补齐下位机应答、交互示例与超时说明\r\n  · 9PIN 接线线序修正，明确 IO A = TX / IO B = RX\r\n  · 新增 12PIN FFC/FPC 接口线序说明\r\n- 常用配置二维码由 20 项扩充到 24 项：新增轻触触发、连续输出、瞄准灯常亮、补光灯常亮\r\n- 帮助页文档显示缺陷修复",
+          "sha256": "a3c5895717175c1b1193e268ef0f91ec2fc6ee68bdb5c03fe062a930f6878bf7",
+          "size": 76752498,
+          "changelog": "上位机 1.4.45 更新内容（同版本重发）：\r\n\r\n- 帮助文档硬件参数与接线校正（六语言 + 维护说明书，共 13 个文件）\r\n  · 外部指示灯脉冲由 100ms 更正为 200ms\r\n  · 蜂鸣器：PWM1 2.7kHz，音量 0-100 对应占空比 0-50%\r\n  · 补光灯：PWM2 1kHz，亮度 0-100 对应占空比 9-100%\r\n  · 曝光同步 PD.9 改为高电平有效；校准按键 PD.11 标注为固件未启用\r\n- 帮助文档引脚定义表补充参数列，与源码一致",
           "releaseDate": "2026-11-15",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-QC-Setup-v1.4.45-proto2.9-20261114.exe",
@@ -39,9 +39,9 @@
       },
       "mobile": {
         "version": "1.1.38",
-        "sha256": "65d119161f48940057a070bc9d3c11f0eecbf4637808dfa5d7ad491b3217b959",
-        "size": 31187583,
-        "changelog": "手机端 1.1.38 更新内容：\r\n\r\n- 常用配置二维码由 20 项扩充到 24 项：新增轻触触发、连续输出、瞄准灯常亮、补光灯常亮\r\n- 帮助文档六语言同步更新",
+        "sha256": "0dd4415067620908385ccb2c8d970443e3fcef7dddeb4059adfef7d71eec6b6b",
+        "size": 30852837,
+        "changelog": "手机端 1.1.38 更新内容：\r\n\r\n- 本轮无功能改动，与上位机 1.4.45 同属本次交付批次\r\n- 帮助文档硬件参数描述与上位机保持一致",
         "releaseDate": "2026-11-15",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanMobile-v1.1.38-proto2.9-20261114.apk",
@@ -51,8 +51,8 @@
       },
       "efuse": {
         "version": "1.0.28",
-        "sha256": "da5d02b5f3f3d724c88f3cf094b29cc5d16bc70206c1848558872ed53434b2cc",
-        "size": 61439441,
+        "sha256": "55abbb0f1534f5653a66309d0df5e806d564ba26f9fa670c2b63988f21c896c4",
+        "size": 61429766,
         "changelog": "eFuse 工具 1.0.28 更新内容：\r\n\r\n- 固件下载增加下载态图标提示：设备未处于下载态显示灰色，处于下载态显示蓝色",
         "releaseDate": "2026-11-15",
         "mirrors": [
@@ -63,14 +63,14 @@
       "firmware": {
         "version": "1.28.63",
         "proto": "2.9",
-        "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+        "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
         "releaseDate": "2026-11-15",
         "sensors": {
           "GC0308": {
             "version": "1.28.63",
             "sha256": "1ce538da8f9ce8aaa3732d9a39b06b69d7d21fd3b618992f6babc6b3d22edb04",
             "size": 1784832,
-            "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+            "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
             "releaseDate": "2026-11-15",
             "mirrors": [
               "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.63-proto2.9-20261113.img",
@@ -81,7 +81,7 @@
             "version": "1.28.63",
             "sha256": "c51a391972cfc6ccb8c44a045e66faade6281594deeb0ad32f76ecd8c933f932",
             "size": 1782784,
-            "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+            "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
             "releaseDate": "2026-11-15",
             "mirrors": [
               "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0328C-v1.28.63-proto2.9-20261113.img",
@@ -92,7 +92,7 @@
             "version": "1.28.63",
             "sha256": "d8e4fd71fdbd7151814f8d8baf20b99fc2d4afa77aeb5257bc25713ce633c066",
             "size": 1782784,
-            "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+            "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
             "releaseDate": "2026-11-15",
             "mirrors": [
               "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC032A-v1.28.63-proto2.9-20261113.img",
@@ -103,7 +103,7 @@
             "version": "1.28.63",
             "sha256": "0757e224e8f72cf5ab4d0d48796321976f8b325ab78b776e7fec64d29c97aedd",
             "size": 1788928,
-            "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+            "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
             "releaseDate": "2026-11-15",
             "mirrors": [
               "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_485-SC035HGS-v1.28.63-proto2.9-20261113.img",
