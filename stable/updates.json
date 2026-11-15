@@ -4,110 +4,110 @@
     "stable": {
       "pc": {
         "support": {
-          "version": "1.4.44",
-          "sha256": "a4110ecaa5e1f5115c9f69da2d7a151d6dd39a36d65a1a4dacbbdb4e6896c371",
-          "size": 76900237,
-          "changelog": "上位机版本未变更（沿用 1.4.44），本次无上位机改动。",
-          "releaseDate": "2026-11-13",
+          "version": "1.4.45",
+          "sha256": "2d838e67a9c00ebd0740c62e1d5c1e16d56ec696d1f935d4850ff6708a4b7946",
+          "size": 76921262,
+          "changelog": "上位机 1.4.45 更新内容：\r\n\r\n- 帮助文档全面重写（Support / RD / QC 三角色，六语言同步）\r\n  · 主机命令章节补齐下位机应答、交互示例与超时说明\r\n  · 9PIN 接线线序修正，明确 IO A = TX / IO B = RX\r\n  · 新增 12PIN FFC/FPC 接口线序说明\r\n- 常用配置二维码由 20 项扩充到 24 项：新增轻触触发、连续输出、瞄准灯常亮、补光灯常亮\r\n- 帮助页文档显示缺陷修复",
+          "releaseDate": "2026-11-15",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-Support-Setup-v1.4.44-proto2.9-20261031.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-Support-Setup-v1.4.44-proto2.9-20261031.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-Support-Setup-v1.4.45-proto2.9-20261114.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-Support-Setup-v1.4.45-proto2.9-20261114.exe"
           ]
         },
         "rd": {
-          "version": "1.4.44",
-          "sha256": "2962a2d2f95472c866fc69bd12933971c6cbc881a1f0b1d8ec2fbce2f7089114",
-          "size": 76988911,
-          "changelog": "上位机版本未变更（沿用 1.4.44），本次无上位机改动。",
-          "releaseDate": "2026-11-13",
+          "version": "1.4.45",
+          "sha256": "ead16a7f7dc9a4560b4f24363285bf086a7a219c62701ddc7da884e62e751e8a",
+          "size": 76988975,
+          "changelog": "上位机 1.4.45 更新内容：\r\n\r\n- 帮助文档全面重写（Support / RD / QC 三角色，六语言同步）\r\n  · 主机命令章节补齐下位机应答、交互示例与超时说明\r\n  · 9PIN 接线线序修正，明确 IO A = TX / IO B = RX\r\n  · 新增 12PIN FFC/FPC 接口线序说明\r\n- 常用配置二维码由 20 项扩充到 24 项：新增轻触触发、连续输出、瞄准灯常亮、补光灯常亮\r\n- 帮助页文档显示缺陷修复",
+          "releaseDate": "2026-11-15",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-RD-Setup-v1.4.44-proto2.9-20261031.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-RD-Setup-v1.4.44-proto2.9-20261031.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-RD-Setup-v1.4.45-proto2.9-20261114.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-RD-Setup-v1.4.45-proto2.9-20261114.exe"
           ]
         },
         "qc": {
-          "version": "1.4.44",
-          "sha256": "00724da5a747160a7de7a88571a4317ea19c53e15850e9a5736f1ea281a7293b",
-          "size": 76751932,
-          "changelog": "上位机版本未变更（沿用 1.4.44），本次无上位机改动。",
-          "releaseDate": "2026-11-13",
+          "version": "1.4.45",
+          "sha256": "f8f1004c1c1e8dc828cf409de4d39f27af13dc9018c69d6c801a03efd36ae71a",
+          "size": 76745383,
+          "changelog": "上位机 1.4.45 更新内容：\r\n\r\n- 帮助文档全面重写（Support / RD / QC 三角色，六语言同步）\r\n  · 主机命令章节补齐下位机应答、交互示例与超时说明\r\n  · 9PIN 接线线序修正，明确 IO A = TX / IO B = RX\r\n  · 新增 12PIN FFC/FPC 接口线序说明\r\n- 常用配置二维码由 20 项扩充到 24 项：新增轻触触发、连续输出、瞄准灯常亮、补光灯常亮\r\n- 帮助页文档显示缺陷修复",
+          "releaseDate": "2026-11-15",
           "mirrors": [
-            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-QC-Setup-v1.4.44-proto2.9-20261031.exe",
-            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-QC-Setup-v1.4.44-proto2.9-20261031.exe"
+            "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-QC-Setup-v1.4.45-proto2.9-20261114.exe",
+            "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-QC-Setup-v1.4.45-proto2.9-20261114.exe"
           ]
         }
       },
       "mobile": {
-        "version": "1.1.37",
-        "sha256": "d1c04e8c84958463091248e4263ac094ce9c202c4a55c9a5a9043c85d17f4eaf",
+        "version": "1.1.38",
+        "sha256": "65d119161f48940057a070bc9d3c11f0eecbf4637808dfa5d7ad491b3217b959",
         "size": 31187583,
-        "changelog": "手机端版本未变更（沿用 1.1.37），本次无手机端改动。",
-        "releaseDate": "2026-11-13",
+        "changelog": "手机端 1.1.38 更新内容：\r\n\r\n- 常用配置二维码由 20 项扩充到 24 项：新增轻触触发、连续输出、瞄准灯常亮、补光灯常亮\r\n- 帮助文档六语言同步更新",
+        "releaseDate": "2026-11-15",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanMobile-v1.1.37-proto2.9-20261031.apk",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanMobile-v1.1.37-proto2.9-20261031.apk"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanMobile-v1.1.38-proto2.9-20261114.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanMobile-v1.1.38-proto2.9-20261114.apk"
         ],
-        "versionCode": 39
+        "versionCode": 40
       },
       "efuse": {
-        "version": "1.0.27",
-        "sha256": "cee351074dcb80908efeef32e9d931724492881d5b208104dd4706f9d98049cf",
-        "size": 61431619,
-        "changelog": "eFuse 工具版本未变更（沿用 1.0.27），本次无 eFuse 改动。",
-        "releaseDate": "2026-11-13",
+        "version": "1.0.28",
+        "sha256": "da5d02b5f3f3d724c88f3cf094b29cc5d16bc70206c1848558872ed53434b2cc",
+        "size": 61439441,
+        "changelog": "eFuse 工具 1.0.28 更新内容：\r\n\r\n- 固件下载增加下载态图标提示：设备未处于下载态显示灰色，处于下载态显示蓝色",
+        "releaseDate": "2026-11-15",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanEfuseTool-Setup-v1.0.27-20261031.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanEfuseTool-Setup-v1.0.27-20261031.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.28-20261114.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.28-20261114.exe"
         ]
       },
       "firmware": {
         "version": "1.28.63",
         "proto": "2.9",
-        "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
-        "releaseDate": "2026-11-13",
+        "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+        "releaseDate": "2026-11-15",
         "sensors": {
           "GC0308": {
             "version": "1.28.63",
-            "sha256": "0e04cda853bc88c90bbc41873ea8cef6fc93ba9a128fe402bb71c1ab9a7cdf0a",
+            "sha256": "1ce538da8f9ce8aaa3732d9a39b06b69d7d21fd3b618992f6babc6b3d22edb04",
             "size": 1784832,
-            "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
-            "releaseDate": "2026-11-13",
+            "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+            "releaseDate": "2026-11-15",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.63-proto2.9-20261113.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.63-proto2.9-20261113.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.63-proto2.9-20261113.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.63-proto2.9-20261113.img"
             ]
           },
           "GC0328C": {
             "version": "1.28.63",
-            "sha256": "53187f7c2a686dd0d4ed7788a2824f42eb9d959e182c80a80985d4ee05b3d2d1",
+            "sha256": "c51a391972cfc6ccb8c44a045e66faade6281594deeb0ad32f76ecd8c933f932",
             "size": 1782784,
-            "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
-            "releaseDate": "2026-11-13",
+            "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+            "releaseDate": "2026-11-15",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0328C-v1.28.63-proto2.9-20261113.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0328C-v1.28.63-proto2.9-20261113.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0328C-v1.28.63-proto2.9-20261113.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0328C-v1.28.63-proto2.9-20261113.img"
             ]
           },
           "GC032A": {
             "version": "1.28.63",
-            "sha256": "a38f926ba8b314d8c153cdea89db16e67dce14df20aa420a430af334a6260fd4",
+            "sha256": "d8e4fd71fdbd7151814f8d8baf20b99fc2d4afa77aeb5257bc25713ce633c066",
             "size": 1782784,
-            "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
-            "releaseDate": "2026-11-13",
+            "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+            "releaseDate": "2026-11-15",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC032A-v1.28.63-proto2.9-20261113.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC032A-v1.28.63-proto2.9-20261113.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC032A-v1.28.63-proto2.9-20261113.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC032A-v1.28.63-proto2.9-20261113.img"
             ]
           },
           "SC035HGS": {
             "version": "1.28.63",
-            "sha256": "17f4d8b0b4ca0f7ddeb9f88aaec7d5eec7b0cbdf4773e111cf0291a804694bc9",
+            "sha256": "0757e224e8f72cf5ab4d0d48796321976f8b325ab78b776e7fec64d29c97aedd",
             "size": 1788928,
-            "changelog": "固件升级至 1.28.63。\n\n- 修复 GC0308 / GC0328C 机型 UART2 只能发不能收的问题：UART2 此前被误编为 RS485 半双工模式，现恢复 RS232，可正常收发\n- SC035HGS 机型维持 RS485 模式不变（该机型 UART2 外接 485 收发器）\n- UART2 物理层（TTL232 / RS485）明确为板级装配属性：同一主芯片 UART2 可能直出 TTL，也可能外接 485 芯片，各机型固件按实际装配分别提供\n- 加固：UART2 / UART3 引脚复用配置中依赖未定义宏的死分支改为编译期报错，避免误编\n- 调试：UART2 初始化日志改为输出真实编译模式，便于现场判断固件与实际接线是否匹配\n- 命令协议与参数集均未改变（Proto=2.9）",
-            "releaseDate": "2026-11-13",
+            "changelog": "固件版本未变更（沿用 1.28.63），本次无固件改动。",
+            "releaseDate": "2026-11-15",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-SC035HGS-v1.28.63-proto2.9-20261113.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-SC035HGS-v1.28.63-proto2.9-20261113.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_485-SC035HGS-v1.28.63-proto2.9-20261113.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_485-SC035HGS-v1.28.63-proto2.9-20261113.img"
             ]
           }
         }
@@ -236,6 +236,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-Support-Setup-v1.4.42-proto2.9-20261030.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-Support-Setup-v1.4.42-proto2.9-20261030.exe"
         ]
+      },
+      {
+        "version": "1.4.44",
+        "sha256": "a4110ecaa5e1f5115c9f69da2d7a151d6dd39a36d65a1a4dacbbdb4e6896c371",
+        "size": 76900237,
+        "changelog": "上位机版本未变更（沿用 1.4.44），本次无上位机改动。",
+        "releaseDate": "2026-11-13",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-Support-Setup-v1.4.44-proto2.9-20261031.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-Support-Setup-v1.4.44-proto2.9-20261031.exe"
+        ]
       }
     ],
     "rd": [
@@ -358,6 +369,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-RD-Setup-v1.4.42-proto2.9-20261030.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-RD-Setup-v1.4.42-proto2.9-20261030.exe"
+        ]
+      },
+      {
+        "version": "1.4.44",
+        "sha256": "2962a2d2f95472c866fc69bd12933971c6cbc881a1f0b1d8ec2fbce2f7089114",
+        "size": 76988911,
+        "changelog": "上位机版本未变更（沿用 1.4.44），本次无上位机改动。",
+        "releaseDate": "2026-11-13",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-RD-Setup-v1.4.44-proto2.9-20261031.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-RD-Setup-v1.4.44-proto2.9-20261031.exe"
         ]
       }
     ],
@@ -482,6 +504,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-QC-Setup-v1.4.42-proto2.9-20261030.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanModuleSet-QC-Setup-v1.4.42-proto2.9-20261030.exe"
         ]
+      },
+      {
+        "version": "1.4.44",
+        "sha256": "00724da5a747160a7de7a88571a4317ea19c53e15850e9a5736f1ea281a7293b",
+        "size": 76751932,
+        "changelog": "上位机版本未变更（沿用 1.4.44），本次无上位机改动。",
+        "releaseDate": "2026-11-13",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-QC-Setup-v1.4.44-proto2.9-20261031.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanModuleSet-QC-Setup-v1.4.44-proto2.9-20261031.exe"
+        ]
       }
     ],
     "mobile": [
@@ -580,6 +613,18 @@
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanMobile-v1.1.36-proto2.9-20261030.apk"
         ],
         "versionCode": 38
+      },
+      {
+        "version": "1.1.37",
+        "sha256": "d1c04e8c84958463091248e4263ac094ce9c202c4a55c9a5a9043c85d17f4eaf",
+        "size": 31187583,
+        "changelog": "手机端版本未变更（沿用 1.1.37），本次无手机端改动。",
+        "releaseDate": "2026-11-13",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanMobile-v1.1.37-proto2.9-20261031.apk",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanMobile-v1.1.37-proto2.9-20261031.apk"
+        ],
+        "versionCode": 39
       }
     ],
     "efuse": [
@@ -768,6 +813,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanEfuseTool-Setup-v1.0.26-20261030.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.42-M1.1.36/sfScanEfuseTool-Setup-v1.0.26-20261030.exe"
+        ]
+      },
+      {
+        "version": "1.0.27",
+        "sha256": "cee351074dcb80908efeef32e9d931724492881d5b208104dd4706f9d98049cf",
+        "size": 61431619,
+        "changelog": "eFuse 工具版本未变更（沿用 1.0.27），本次无 eFuse 改动。",
+        "releaseDate": "2026-11-13",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanEfuseTool-Setup-v1.0.27-20261031.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanEfuseTool-Setup-v1.0.27-20261031.exe"
         ]
       }
     ],
