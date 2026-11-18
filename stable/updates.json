@@ -5,10 +5,10 @@
       "pc": {
         "support": {
           "version": "1.4.45",
-          "sha256": "34a13669dafcc2234c0216f05054a7e67ed1fb4b0db44b3ea34c8274ccf7cfa3",
-          "size": 76937675,
-          "changelog": "上位机 1.4.45 更新内容（同版本重发）：\n\n- 「设置修改参数 QR」与「串口设参」改为只下发用户动过的参数\n  · 用户用鼠标或键盘动过的控件才把当前合法值写进命令串，没动过的一律不下发\n  · 初始化、从设备回填、内部同步等机器动作不再被误判为用户修改（修复\"只改触发模式却带出一串参数\"的问题）\n- 串口四参数各自独立：波特率、数据位、停止位、校验位改哪个发哪个\n  · 校验位选 None 可正常下发（PBit=0 合法）\n- 子项动过自动带父项：键盘子项 -> 输出端口、连续扫描间隔 -> 触发模式、瞄准灯闪烁 -> 瞄准灯、蜂鸣器音量 -> 蜂鸣器开关\n- 前后缀维持原逻辑：勾选即为动过；勾选但空值表示清空（PreFix={}）；不勾选则整项不参与\n- 补光灯亮度允许独立下发（0% 合法）；瞄准灯/补光灯的 0 值为非法，不再误发\n- 清零只在两处生效：打开设置页初始化、「清除选择」按钮；生成二维码与串口设参后保留跟踪状态\n- 没有检测到任何参数变更时给出明确提示，不再生成空命令串\n- 六语言（zh/en/fr/es/ru/ar）界面文案与帮助文档同步",
-          "releaseDate": "2026-11-17",
+          "sha256": "8aa08a1164e68478da5f42c8777d0545eec9b22ce7c84696b8dac225bdb347f2",
+          "size": 76930181,
+          "changelog": "上位机 1.4.45（本次为重新构建产物，产品功能与上一版一致）：\n\n- 本批次上位机产品代码未改动，版本号保持 1.4.45\n- 分发产物为本轮重新编译（用于与新版 eFuse / 固件配套验证）\n- 配套发布工具链加固：同版本自动撤旧发新、同版本多笔提交自动合并、双源发布前先核对远端版本",
+          "releaseDate": "2026-11-18",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-Support-Setup-v1.4.45-proto2.9-20261114.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-Support-Setup-v1.4.45-proto2.9-20261114.exe"
@@ -16,10 +16,10 @@
         },
         "rd": {
           "version": "1.4.45",
-          "sha256": "88514b3055f912af9b094c5c09b49544200829052ee616c07ebb5fb4dcc2fde6",
-          "size": 77009773,
-          "changelog": "上位机 1.4.45 更新内容（同版本重发）：\n\n- 「设置修改参数 QR」与「串口设参」改为只下发用户动过的参数\n  · 用户用鼠标或键盘动过的控件才把当前合法值写进命令串，没动过的一律不下发\n  · 初始化、从设备回填、内部同步等机器动作不再被误判为用户修改（修复\"只改触发模式却带出一串参数\"的问题）\n- 串口四参数各自独立：波特率、数据位、停止位、校验位改哪个发哪个\n  · 校验位选 None 可正常下发（PBit=0 合法）\n- 子项动过自动带父项：键盘子项 -> 输出端口、连续扫描间隔 -> 触发模式、瞄准灯闪烁 -> 瞄准灯、蜂鸣器音量 -> 蜂鸣器开关\n- 前后缀维持原逻辑：勾选即为动过；勾选但空值表示清空（PreFix={}）；不勾选则整项不参与\n- 补光灯亮度允许独立下发（0% 合法）；瞄准灯/补光灯的 0 值为非法，不再误发\n- 清零只在两处生效：打开设置页初始化、「清除选择」按钮；生成二维码与串口设参后保留跟踪状态\n- 没有检测到任何参数变更时给出明确提示，不再生成空命令串\n- 六语言（zh/en/fr/es/ru/ar）界面文案与帮助文档同步",
-          "releaseDate": "2026-11-17",
+          "sha256": "748987a3a1866c541b5508031549305a45c55da7e6bd1fd4c402e4c625ae0474",
+          "size": 77009951,
+          "changelog": "上位机 1.4.45（本次为重新构建产物，产品功能与上一版一致）：\n\n- 本批次上位机产品代码未改动，版本号保持 1.4.45\n- 分发产物为本轮重新编译（用于与新版 eFuse / 固件配套验证）\n- 配套发布工具链加固：同版本自动撤旧发新、同版本多笔提交自动合并、双源发布前先核对远端版本",
+          "releaseDate": "2026-11-18",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-RD-Setup-v1.4.45-proto2.9-20261114.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-RD-Setup-v1.4.45-proto2.9-20261114.exe"
@@ -27,10 +27,10 @@
         },
         "qc": {
           "version": "1.4.45",
-          "sha256": "8c24374dd67db8618eae5851974a1b1f637ae8f6fbf353370fb7477c3bffdf22",
-          "size": 76761657,
-          "changelog": "上位机 1.4.45 更新内容（同版本重发）：\n\n- 「设置修改参数 QR」与「串口设参」改为只下发用户动过的参数\n  · 用户用鼠标或键盘动过的控件才把当前合法值写进命令串，没动过的一律不下发\n  · 初始化、从设备回填、内部同步等机器动作不再被误判为用户修改（修复\"只改触发模式却带出一串参数\"的问题）\n- 串口四参数各自独立：波特率、数据位、停止位、校验位改哪个发哪个\n  · 校验位选 None 可正常下发（PBit=0 合法）\n- 子项动过自动带父项：键盘子项 -> 输出端口、连续扫描间隔 -> 触发模式、瞄准灯闪烁 -> 瞄准灯、蜂鸣器音量 -> 蜂鸣器开关\n- 前后缀维持原逻辑：勾选即为动过；勾选但空值表示清空（PreFix={}）；不勾选则整项不参与\n- 补光灯亮度允许独立下发（0% 合法）；瞄准灯/补光灯的 0 值为非法，不再误发\n- 清零只在两处生效：打开设置页初始化、「清除选择」按钮；生成二维码与串口设参后保留跟踪状态\n- 没有检测到任何参数变更时给出明确提示，不再生成空命令串\n- 六语言（zh/en/fr/es/ru/ar）界面文案与帮助文档同步",
-          "releaseDate": "2026-11-17",
+          "sha256": "17d79be6cece630a274d3a7f377dd8f2c9106912b3cd7a3bad120be916807118",
+          "size": 76758015,
+          "changelog": "上位机 1.4.45（本次为重新构建产物，产品功能与上一版一致）：\n\n- 本批次上位机产品代码未改动，版本号保持 1.4.45\n- 分发产物为本轮重新编译（用于与新版 eFuse / 固件配套验证）\n- 配套发布工具链加固：同版本自动撤旧发新、同版本多笔提交自动合并、双源发布前先核对远端版本",
+          "releaseDate": "2026-11-18",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-QC-Setup-v1.4.45-proto2.9-20261114.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanModuleSet-QC-Setup-v1.4.45-proto2.9-20261114.exe"
@@ -39,10 +39,10 @@
       },
       "mobile": {
         "version": "1.1.38",
-        "sha256": "4843bdafd917e66a904f6df5512d1b83b227fa2048b918f2b27bef9bc19e6bef",
-        "size": 30865125,
-        "changelog": "手机端 1.1.38 更新内容：\n\n- 「生成配置码」改为只下发用户动过的参数，与上位机完全同一口径\n  · 初始化、读取设备参数回填、切换页面等机器动作不再被计入命令串\n- 修复校验位选 None 时该参数发送不出去的问题\n- 输出码制至少保留 QR（不允许全部取消）\n- 清除选择后命令预览一并清空\n- 【关键修复】加载方案后「生成配置码」正确全量下发整份方案参数\n  · 加载方案 = 用户一次性套用整套配置，方案里每一项都应推给设备\n  · 修复此前\"加载方案后没动任何控件却全量生成\"的异常行为，以及旧版方案加载后生成空命令的问题\n  · \"用户动过\"的跟踪状态不再随草稿/方案持久化（属本次会话内的临时状态）",
-        "releaseDate": "2026-11-17",
+        "sha256": "10e8fe2242711f541bb751f87297c0b1b0ba1ec28839bc255608d86b54ba241a",
+        "size": 31199871,
+        "changelog": "手机端 1.1.38（本次为重新构建产物，产品功能与上一版一致）：\n\n- 本批次手机端产品代码未改动，版本号保持 1.1.38（versionCode 40）\n- 分发产物为本轮重新编译（用于配套验证）",
+        "releaseDate": "2026-11-18",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanMobile-v1.1.38-proto2.9-20261114.apk",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanMobile-v1.1.38-proto2.9-20261114.apk"
@@ -50,64 +50,64 @@
         "versionCode": 40
       },
       "efuse": {
-        "version": "1.0.28",
-        "sha256": "55abbb0f1534f5653a66309d0df5e806d564ba26f9fa670c2b63988f21c896c4",
-        "size": 61429766,
-        "changelog": "eFuse 工具 1.0.28：版本未变更，本次无功能改动，沿用上一批已验证产物。",
-        "releaseDate": "2026-11-17",
+        "version": "1.0.29",
+        "sha256": "963736928e4499a4e0aef7cf1cc0be2ccc1b8cf199a3f653bea7b9cf180659d3",
+        "size": 61439674,
+        "changelog": "eFuse 工具 1.0.29 更新内容：\n\n- 串口枚举改以\"当前在场实例\"为权威来源\n  · 注册表里会遗留同一模块的大量历史（已拔出）实例，它们登记着当年分配过、现在已失效的 COM 号\n  · 旧逻辑直接全量入表，导致映射里混入幽灵端口，进而影响运行态设备的定位\n- 查不到 USB 身份的端口不再被静默排除\n  · 设备刚插入或刚切换工作模式时，注册表 PortName 可能尚未写入\n  · 旧逻辑会据此排除该端口，现场表现为\"工具看不到运行态设备、发不出 enter_upg\"\n- 兼容性：USB 身份匹配规则不变（仍为完整设备路径 / VID-PID-MI 两级匹配），仅修正候选集合的取舍",
+        "releaseDate": "2026-11-18",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.28-20261114.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.28-20261114.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.29-20261118.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.29-20261118.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.63",
+        "version": "1.28.64",
         "proto": "2.9",
-        "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
-        "releaseDate": "2026-11-17",
+        "changelog": "固件 1.28.64 更新内容（四 Sensor：SC035HGS / GC0308 / GC032A / GC0328C，Proto=2.9）：\n\n- 串口命令完整性：通讯格式 2（裸文本）改为跨消息聚合\n  · USB CDC 没有帧边界，上位机把一条命令拆成多次写入时，旧固件会把前半段当完整命令处理、后半段因缺前缀丢弃，命令彻底失效\n  · 现改为累积到缓冲，仅当\"末尾片段恰好是某条已知命令的严格前缀\"时继续等待，完整命令立即解析（正常路径零额外延迟）\n  · 消息池深度 4 -> 16：一条 15 字节命令按字节写入会瞬时产生 15 条消息，原深度必然溢出丢包\n- 升级可靠性：摄像头异常不再导致无法进下载态\n  · 同步原语提前到 CDC 初始化前无条件创建，此前摄像头 I2C 无应答时事件句柄为 NULL，CDC 发事件即空指针崩机\n  · 新增早期升级路径：barcode 解码线程未存活时直接写 reboot reason 软复位，不再出现\"回了 OK 却停在扫码模式\"\n- 进入下载态流程加固\n  · enter_upg 统一前置清除残留 reboot reason（烧完固件紧接着升级时，旧 reason 会让本次请求被静默忽略，只回 OK 不复位）\n  · 复位前先做 USB 软断开（主动落 D+），让主机按正常拔出释放端口，避免看门狗硬复位造成的重新枚举超时\n  · enter_upg 在标定会话期间放行：标定最长持续 60s/180s，此前会被拒绝，现场表现为\"命令发不进去\"\n- bootloader 配合：应用固件请求进入下载态时跳过\"探测主机\"步骤直接进入 USB 升级态\n  · 该探测是一次性采样，主机枚举耗时实测 0.4~1.5s，写死 1000ms 约一半概率误判为\"没有主机\"\n  · 探测后还要断开再重连，Windows 上表现为 6677 出现 -> 消失 -> 再出现，上位机在空档拿到正在拆除的设备会永久挂死\n- 接口协议与参数集均未改变（Proto=2.9）",
+        "releaseDate": "2026-11-18",
         "sensors": {
           "GC0308": {
-            "version": "1.28.63",
-            "sha256": "1ce538da8f9ce8aaa3732d9a39b06b69d7d21fd3b618992f6babc6b3d22edb04",
-            "size": 1784832,
-            "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
-            "releaseDate": "2026-11-17",
+            "version": "1.28.64",
+            "sha256": "7a183a10758f7ec2bfd38c470bdf9bd7535e953c62eb1799e2eb57d9902ab5fc",
+            "size": 1786880,
+            "changelog": "固件 1.28.64 更新内容（四 Sensor：SC035HGS / GC0308 / GC032A / GC0328C，Proto=2.9）：\n\n- 串口命令完整性：通讯格式 2（裸文本）改为跨消息聚合\n  · USB CDC 没有帧边界，上位机把一条命令拆成多次写入时，旧固件会把前半段当完整命令处理、后半段因缺前缀丢弃，命令彻底失效\n  · 现改为累积到缓冲，仅当\"末尾片段恰好是某条已知命令的严格前缀\"时继续等待，完整命令立即解析（正常路径零额外延迟）\n  · 消息池深度 4 -> 16：一条 15 字节命令按字节写入会瞬时产生 15 条消息，原深度必然溢出丢包\n- 升级可靠性：摄像头异常不再导致无法进下载态\n  · 同步原语提前到 CDC 初始化前无条件创建，此前摄像头 I2C 无应答时事件句柄为 NULL，CDC 发事件即空指针崩机\n  · 新增早期升级路径：barcode 解码线程未存活时直接写 reboot reason 软复位，不再出现\"回了 OK 却停在扫码模式\"\n- 进入下载态流程加固\n  · enter_upg 统一前置清除残留 reboot reason（烧完固件紧接着升级时，旧 reason 会让本次请求被静默忽略，只回 OK 不复位）\n  · 复位前先做 USB 软断开（主动落 D+），让主机按正常拔出释放端口，避免看门狗硬复位造成的重新枚举超时\n  · enter_upg 在标定会话期间放行：标定最长持续 60s/180s，此前会被拒绝，现场表现为\"命令发不进去\"\n- bootloader 配合：应用固件请求进入下载态时跳过\"探测主机\"步骤直接进入 USB 升级态\n  · 该探测是一次性采样，主机枚举耗时实测 0.4~1.5s，写死 1000ms 约一半概率误判为\"没有主机\"\n  · 探测后还要断开再重连，Windows 上表现为 6677 出现 -> 消失 -> 再出现，上位机在空档拿到正在拆除的设备会永久挂死\n- 接口协议与参数集均未改变（Proto=2.9）",
+            "releaseDate": "2026-11-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.63-proto2.9-20261113.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.63-proto2.9-20261113.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.64-proto2.9-20261118.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.64-proto2.9-20261118.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.63",
-            "sha256": "c51a391972cfc6ccb8c44a045e66faade6281594deeb0ad32f76ecd8c933f932",
-            "size": 1782784,
-            "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
-            "releaseDate": "2026-11-17",
+            "version": "1.28.64",
+            "sha256": "a1966acf653203b021bf78893af2feda8f59eb333af4480fea943acf8d946a63",
+            "size": 1784832,
+            "changelog": "固件 1.28.64 更新内容（四 Sensor：SC035HGS / GC0308 / GC032A / GC0328C，Proto=2.9）：\n\n- 串口命令完整性：通讯格式 2（裸文本）改为跨消息聚合\n  · USB CDC 没有帧边界，上位机把一条命令拆成多次写入时，旧固件会把前半段当完整命令处理、后半段因缺前缀丢弃，命令彻底失效\n  · 现改为累积到缓冲，仅当\"末尾片段恰好是某条已知命令的严格前缀\"时继续等待，完整命令立即解析（正常路径零额外延迟）\n  · 消息池深度 4 -> 16：一条 15 字节命令按字节写入会瞬时产生 15 条消息，原深度必然溢出丢包\n- 升级可靠性：摄像头异常不再导致无法进下载态\n  · 同步原语提前到 CDC 初始化前无条件创建，此前摄像头 I2C 无应答时事件句柄为 NULL，CDC 发事件即空指针崩机\n  · 新增早期升级路径：barcode 解码线程未存活时直接写 reboot reason 软复位，不再出现\"回了 OK 却停在扫码模式\"\n- 进入下载态流程加固\n  · enter_upg 统一前置清除残留 reboot reason（烧完固件紧接着升级时，旧 reason 会让本次请求被静默忽略，只回 OK 不复位）\n  · 复位前先做 USB 软断开（主动落 D+），让主机按正常拔出释放端口，避免看门狗硬复位造成的重新枚举超时\n  · enter_upg 在标定会话期间放行：标定最长持续 60s/180s，此前会被拒绝，现场表现为\"命令发不进去\"\n- bootloader 配合：应用固件请求进入下载态时跳过\"探测主机\"步骤直接进入 USB 升级态\n  · 该探测是一次性采样，主机枚举耗时实测 0.4~1.5s，写死 1000ms 约一半概率误判为\"没有主机\"\n  · 探测后还要断开再重连，Windows 上表现为 6677 出现 -> 消失 -> 再出现，上位机在空档拿到正在拆除的设备会永久挂死\n- 接口协议与参数集均未改变（Proto=2.9）",
+            "releaseDate": "2026-11-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0328C-v1.28.63-proto2.9-20261113.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0328C-v1.28.63-proto2.9-20261113.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0328C-v1.28.64-proto2.9-20261118.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0328C-v1.28.64-proto2.9-20261118.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.63",
-            "sha256": "d8e4fd71fdbd7151814f8d8baf20b99fc2d4afa77aeb5257bc25713ce633c066",
-            "size": 1782784,
-            "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
-            "releaseDate": "2026-11-17",
+            "version": "1.28.64",
+            "sha256": "403756a8de59f59ef2acda3f4806d66e81df8af0c914fc42cb3ecc98de3d94ce",
+            "size": 1784832,
+            "changelog": "固件 1.28.64 更新内容（四 Sensor：SC035HGS / GC0308 / GC032A / GC0328C，Proto=2.9）：\n\n- 串口命令完整性：通讯格式 2（裸文本）改为跨消息聚合\n  · USB CDC 没有帧边界，上位机把一条命令拆成多次写入时，旧固件会把前半段当完整命令处理、后半段因缺前缀丢弃，命令彻底失效\n  · 现改为累积到缓冲，仅当\"末尾片段恰好是某条已知命令的严格前缀\"时继续等待，完整命令立即解析（正常路径零额外延迟）\n  · 消息池深度 4 -> 16：一条 15 字节命令按字节写入会瞬时产生 15 条消息，原深度必然溢出丢包\n- 升级可靠性：摄像头异常不再导致无法进下载态\n  · 同步原语提前到 CDC 初始化前无条件创建，此前摄像头 I2C 无应答时事件句柄为 NULL，CDC 发事件即空指针崩机\n  · 新增早期升级路径：barcode 解码线程未存活时直接写 reboot reason 软复位，不再出现\"回了 OK 却停在扫码模式\"\n- 进入下载态流程加固\n  · enter_upg 统一前置清除残留 reboot reason（烧完固件紧接着升级时，旧 reason 会让本次请求被静默忽略，只回 OK 不复位）\n  · 复位前先做 USB 软断开（主动落 D+），让主机按正常拔出释放端口，避免看门狗硬复位造成的重新枚举超时\n  · enter_upg 在标定会话期间放行：标定最长持续 60s/180s，此前会被拒绝，现场表现为\"命令发不进去\"\n- bootloader 配合：应用固件请求进入下载态时跳过\"探测主机\"步骤直接进入 USB 升级态\n  · 该探测是一次性采样，主机枚举耗时实测 0.4~1.5s，写死 1000ms 约一半概率误判为\"没有主机\"\n  · 探测后还要断开再重连，Windows 上表现为 6677 出现 -> 消失 -> 再出现，上位机在空档拿到正在拆除的设备会永久挂死\n- 接口协议与参数集均未改变（Proto=2.9）",
+            "releaseDate": "2026-11-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC032A-v1.28.63-proto2.9-20261113.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC032A-v1.28.63-proto2.9-20261113.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC032A-v1.28.64-proto2.9-20261118.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC032A-v1.28.64-proto2.9-20261118.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.63",
-            "sha256": "0757e224e8f72cf5ab4d0d48796321976f8b325ab78b776e7fec64d29c97aedd",
-            "size": 1788928,
-            "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
-            "releaseDate": "2026-11-17",
+            "version": "1.28.64",
+            "sha256": "2685dd3ece50396dd968576f137e949651975fed9e89e37547b286391d506281",
+            "size": 1790976,
+            "changelog": "固件 1.28.64 更新内容（四 Sensor：SC035HGS / GC0308 / GC032A / GC0328C，Proto=2.9）：\n\n- 串口命令完整性：通讯格式 2（裸文本）改为跨消息聚合\n  · USB CDC 没有帧边界，上位机把一条命令拆成多次写入时，旧固件会把前半段当完整命令处理、后半段因缺前缀丢弃，命令彻底失效\n  · 现改为累积到缓冲，仅当\"末尾片段恰好是某条已知命令的严格前缀\"时继续等待，完整命令立即解析（正常路径零额外延迟）\n  · 消息池深度 4 -> 16：一条 15 字节命令按字节写入会瞬时产生 15 条消息，原深度必然溢出丢包\n- 升级可靠性：摄像头异常不再导致无法进下载态\n  · 同步原语提前到 CDC 初始化前无条件创建，此前摄像头 I2C 无应答时事件句柄为 NULL，CDC 发事件即空指针崩机\n  · 新增早期升级路径：barcode 解码线程未存活时直接写 reboot reason 软复位，不再出现\"回了 OK 却停在扫码模式\"\n- 进入下载态流程加固\n  · enter_upg 统一前置清除残留 reboot reason（烧完固件紧接着升级时，旧 reason 会让本次请求被静默忽略，只回 OK 不复位）\n  · 复位前先做 USB 软断开（主动落 D+），让主机按正常拔出释放端口，避免看门狗硬复位造成的重新枚举超时\n  · enter_upg 在标定会话期间放行：标定最长持续 60s/180s，此前会被拒绝，现场表现为\"命令发不进去\"\n- bootloader 配合：应用固件请求进入下载态时跳过\"探测主机\"步骤直接进入 USB 升级态\n  · 该探测是一次性采样，主机枚举耗时实测 0.4~1.5s，写死 1000ms 约一半概率误判为\"没有主机\"\n  · 探测后还要断开再重连，Windows 上表现为 6677 出现 -> 消失 -> 再出现，上位机在空档拿到正在拆除的设备会永久挂死\n- 接口协议与参数集均未改变（Proto=2.9）",
+            "releaseDate": "2026-11-18",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_485-SC035HGS-v1.28.63-proto2.9-20261113.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_485-SC035HGS-v1.28.63-proto2.9-20261113.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_485-SC035HGS-v1.28.64-proto2.9-20261118.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_485-SC035HGS-v1.28.64-proto2.9-20261118.img"
             ]
           }
         }
@@ -825,6 +825,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanEfuseTool-Setup-v1.0.27-20261031.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/sfScanEfuseTool-Setup-v1.0.27-20261031.exe"
         ]
+      },
+      {
+        "version": "1.0.28",
+        "sha256": "55abbb0f1534f5653a66309d0df5e806d564ba26f9fa670c2b63988f21c896c4",
+        "size": 61429766,
+        "changelog": "eFuse 工具 1.0.28：版本未变更，本次无功能改动，沿用上一批已验证产物。",
+        "releaseDate": "2026-11-17",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.28-20261114.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.28-20261114.exe"
+        ]
       }
     ],
     "firmware": [
@@ -958,6 +969,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.44-M1.1.37/g73x_scan-G730BDU-GC0308-v1.28.62-proto2.9-20261028.img"
+        ]
+      },
+      {
+        "version": "1.28.63",
+        "sha256": "1ce538da8f9ce8aaa3732d9a39b06b69d7d21fd3b618992f6babc6b3d22edb04",
+        "size": 1784832,
+        "changelog": "固件 1.28.63：版本未变更，本次无固件功能改动；接口协议仍为 Proto=2.9。",
+        "releaseDate": "2026-11-17",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.63-proto2.9-20261113.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.63-proto2.9-20261113.img"
         ]
       }
     ]
