@@ -5,10 +5,10 @@
       "pc": {
         "support": {
           "version": "1.4.46",
-          "sha256": "7ad67233104e081d57963a363ab689da2bb5e2019aa1612a1174724cece309b6",
-          "size": 76956227,
+          "sha256": "df348b19295748e61dae6d30f4188aca81d113714dddb107051bb18ebec947f1",
+          "size": 76952585,
           "changelog": "上位机 1.4.46 更新内容：\n\n- 「配置方案」保存口径修正：保存的是当前完整参数，不再把没动过的项写成程序默认值\n  · 载入某个方案后只改几项再保存，未改的项保持原方案的值\n  · 从空白起步改几项再保存，未改的项就是出厂默认值\n- 新增「导出客户配置」：把参数导出成一个 .sfcfg 文件，交给 eFuse 工具打进固件，产线烧录后设备直接带参数\n  · 导出前会让你确认用哪一组参数（当前界面 / 已保存的方案），并列出差异项\n  · 与出厂默认完全一致时会拒绝导出，避免产生无用的空配置\n- 码制顺序统一：二维码（QR）是保护码，固定排在第一位、不可去掉；此前生成的参数命令里 QR 可能排到第 4 位，已修正\n- 串口设参 / 生成参数二维码的口径说明\n  · 载入方案后下发：整份参数一起发\n  · 读取设备或空白状态后下发：只发你改动过的项\n- 六语言帮助文档同步更新（版本号、方案保存与导出原则、码制顺序）\n- 接口协议未改变（Proto=2.9）",
-          "releaseDate": "2026-11-22",
+          "releaseDate": "2026-11-23",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanModuleSet-Support-Setup-v1.4.46-proto2.9-20261122.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanModuleSet-Support-Setup-v1.4.46-proto2.9-20261122.exe"
@@ -16,10 +16,10 @@
         },
         "rd": {
           "version": "1.4.46",
-          "sha256": "28ae705f38de60baa83f2d19784d9a2a84228820a86d7d30bc5e8463cd9dc745",
-          "size": 77033034,
+          "sha256": "6ce240c4d3e4da8b3a7ac9e79ea924e5f073324cb5c3deaa13923112c96e0d78",
+          "size": 77030225,
           "changelog": "上位机 1.4.46 更新内容：\n\n- 「配置方案」保存口径修正：保存的是当前完整参数，不再把没动过的项写成程序默认值\n  · 载入某个方案后只改几项再保存，未改的项保持原方案的值\n  · 从空白起步改几项再保存，未改的项就是出厂默认值\n- 新增「导出客户配置」：把参数导出成一个 .sfcfg 文件，交给 eFuse 工具打进固件，产线烧录后设备直接带参数\n  · 导出前会让你确认用哪一组参数（当前界面 / 已保存的方案），并列出差异项\n  · 与出厂默认完全一致时会拒绝导出，避免产生无用的空配置\n- 码制顺序统一：二维码（QR）是保护码，固定排在第一位、不可去掉；此前生成的参数命令里 QR 可能排到第 4 位，已修正\n- 串口设参 / 生成参数二维码的口径说明\n  · 载入方案后下发：整份参数一起发\n  · 读取设备或空白状态后下发：只发你改动过的项\n- 六语言帮助文档同步更新（版本号、方案保存与导出原则、码制顺序）\n- 接口协议未改变（Proto=2.9）",
-          "releaseDate": "2026-11-22",
+          "releaseDate": "2026-11-23",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanModuleSet-RD-Setup-v1.4.46-proto2.9-20261122.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanModuleSet-RD-Setup-v1.4.46-proto2.9-20261122.exe"
@@ -27,10 +27,10 @@
         },
         "qc": {
           "version": "1.4.46",
-          "sha256": "ea2e7098eaad5a64c06ca355ad72664c92e80e1cddc93db4e945c29b6472ff8d",
-          "size": 76778094,
+          "sha256": "3457a8026182733984ebf637b790a998575c83e577af43505bb6fcb20705f340",
+          "size": 76773793,
           "changelog": "上位机 1.4.46 更新内容：\n\n- 「配置方案」保存口径修正：保存的是当前完整参数，不再把没动过的项写成程序默认值\n  · 载入某个方案后只改几项再保存，未改的项保持原方案的值\n  · 从空白起步改几项再保存，未改的项就是出厂默认值\n- 新增「导出客户配置」：把参数导出成一个 .sfcfg 文件，交给 eFuse 工具打进固件，产线烧录后设备直接带参数\n  · 导出前会让你确认用哪一组参数（当前界面 / 已保存的方案），并列出差异项\n  · 与出厂默认完全一致时会拒绝导出，避免产生无用的空配置\n- 码制顺序统一：二维码（QR）是保护码，固定排在第一位、不可去掉；此前生成的参数命令里 QR 可能排到第 4 位，已修正\n- 串口设参 / 生成参数二维码的口径说明\n  · 载入方案后下发：整份参数一起发\n  · 读取设备或空白状态后下发：只发你改动过的项\n- 六语言帮助文档同步更新（版本号、方案保存与导出原则、码制顺序）\n- 接口协议未改变（Proto=2.9）",
-          "releaseDate": "2026-11-22",
+          "releaseDate": "2026-11-23",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanModuleSet-QC-Setup-v1.4.46-proto2.9-20261122.exe",
             "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanModuleSet-QC-Setup-v1.4.46-proto2.9-20261122.exe"
