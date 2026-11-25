@@ -7,7 +7,7 @@
           "version": "1.4.46",
           "sha256": "df348b19295748e61dae6d30f4188aca81d113714dddb107051bb18ebec947f1",
           "size": 76952585,
-          "changelog": "上位机 1.4.46 更新内容：\n\n- 「配置方案」保存口径修正：保存的是当前完整参数，不再把没动过的项写成程序默认值\n  · 载入某个方案后只改几项再保存，未改的项保持原方案的值\n  · 从空白起步改几项再保存，未改的项就是出厂默认值\n- 新增「导出客户配置」：把参数导出成一个 .sfcfg 文件，交给 eFuse 工具打进固件，产线烧录后设备直接带参数\n  · 导出前会让你确认用哪一组参数（当前界面 / 已保存的方案），并列出差异项\n  · 与出厂默认完全一致时会拒绝导出，避免产生无用的空配置\n- 码制顺序统一：二维码（QR）是保护码，固定排在第一位、不可去掉；此前生成的参数命令里 QR 可能排到第 4 位，已修正\n- 串口设参 / 生成参数二维码的口径说明\n  · 载入方案后下发：整份参数一起发\n  · 读取设备或空白状态后下发：只发你改动过的项\n- 六语言帮助文档同步更新（版本号、方案保存与导出原则、码制顺序）\n- 接口协议未改变（Proto=2.9）",
+          "changelog": "上位机 1.4.46（本批未变更，沿用上一批已发布版本）：\n\n- 本批上位机源码零改动，版本保持 1.4.46，二进制与上一批完全一致，无需更新\n- 接口协议未改变（Proto=2.9）",
           "releaseDate": "2026-11-23",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanModuleSet-Support-Setup-v1.4.46-proto2.9-20261122.exe",
@@ -18,7 +18,7 @@
           "version": "1.4.46",
           "sha256": "6ce240c4d3e4da8b3a7ac9e79ea924e5f073324cb5c3deaa13923112c96e0d78",
           "size": 77030225,
-          "changelog": "上位机 1.4.46 更新内容：\n\n- 「配置方案」保存口径修正：保存的是当前完整参数，不再把没动过的项写成程序默认值\n  · 载入某个方案后只改几项再保存，未改的项保持原方案的值\n  · 从空白起步改几项再保存，未改的项就是出厂默认值\n- 新增「导出客户配置」：把参数导出成一个 .sfcfg 文件，交给 eFuse 工具打进固件，产线烧录后设备直接带参数\n  · 导出前会让你确认用哪一组参数（当前界面 / 已保存的方案），并列出差异项\n  · 与出厂默认完全一致时会拒绝导出，避免产生无用的空配置\n- 码制顺序统一：二维码（QR）是保护码，固定排在第一位、不可去掉；此前生成的参数命令里 QR 可能排到第 4 位，已修正\n- 串口设参 / 生成参数二维码的口径说明\n  · 载入方案后下发：整份参数一起发\n  · 读取设备或空白状态后下发：只发你改动过的项\n- 六语言帮助文档同步更新（版本号、方案保存与导出原则、码制顺序）\n- 接口协议未改变（Proto=2.9）",
+          "changelog": "上位机 1.4.46（本批未变更，沿用上一批已发布版本）：\n\n- 本批上位机源码零改动，版本保持 1.4.46，二进制与上一批完全一致，无需更新\n- 接口协议未改变（Proto=2.9）",
           "releaseDate": "2026-11-23",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanModuleSet-RD-Setup-v1.4.46-proto2.9-20261122.exe",
@@ -29,7 +29,7 @@
           "version": "1.4.46",
           "sha256": "3457a8026182733984ebf637b790a998575c83e577af43505bb6fcb20705f340",
           "size": 76773793,
-          "changelog": "上位机 1.4.46 更新内容：\n\n- 「配置方案」保存口径修正：保存的是当前完整参数，不再把没动过的项写成程序默认值\n  · 载入某个方案后只改几项再保存，未改的项保持原方案的值\n  · 从空白起步改几项再保存，未改的项就是出厂默认值\n- 新增「导出客户配置」：把参数导出成一个 .sfcfg 文件，交给 eFuse 工具打进固件，产线烧录后设备直接带参数\n  · 导出前会让你确认用哪一组参数（当前界面 / 已保存的方案），并列出差异项\n  · 与出厂默认完全一致时会拒绝导出，避免产生无用的空配置\n- 码制顺序统一：二维码（QR）是保护码，固定排在第一位、不可去掉；此前生成的参数命令里 QR 可能排到第 4 位，已修正\n- 串口设参 / 生成参数二维码的口径说明\n  · 载入方案后下发：整份参数一起发\n  · 读取设备或空白状态后下发：只发你改动过的项\n- 六语言帮助文档同步更新（版本号、方案保存与导出原则、码制顺序）\n- 接口协议未改变（Proto=2.9）",
+          "changelog": "上位机 1.4.46（本批未变更，沿用上一批已发布版本）：\n\n- 本批上位机源码零改动，版本保持 1.4.46，二进制与上一批完全一致，无需更新\n- 接口协议未改变（Proto=2.9）",
           "releaseDate": "2026-11-23",
           "mirrors": [
             "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanModuleSet-QC-Setup-v1.4.46-proto2.9-20261122.exe",
@@ -41,7 +41,7 @@
         "version": "1.1.39",
         "sha256": "e798619499436e510b313fd0aa7b2a1b3dbb0abfe8ec7ed09a1c7f40bf101ae3",
         "size": 31216255,
-        "changelog": "手机端 1.1.39 更新内容（versionCode 41）：\n\n- 码制顺序统一：二维码（QR）是固定排在第一位的保护码，不可关闭\n- 方案保存口径与上位机对齐：保存的值 = 载入方案的基线 + 本次改动，未改动项不再被程序默认值覆盖\n- 接口协议未改变（Proto=2.9）",
+        "changelog": "手机端 1.1.39（本批未变更，沿用上一批已发布版本）：\n\n- 本批手机端源码零改动，版本保持 1.1.39（versionCode 41），二进制与上一批完全一致，无需更新\n- 接口协议未改变（Proto=2.9）",
         "releaseDate": "2026-11-22",
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanMobile-v1.1.39-proto2.9-20261122.apk",
@@ -50,64 +50,75 @@
         "versionCode": 41
       },
       "efuse": {
-        "version": "1.0.31",
-        "sha256": "0f2caa243fbe18242c167e310c7ddc73df5a8594f9b37c5f24980bf179535b57",
-        "size": 63003182,
-        "changelog": "eFuse 工具 1.0.31 更新内容：\n\n- 新增「客户配置」：选用上位机导出的 .sfcfg，打进固件镜像的 data 分区，烧录后设备直接带客户参数，不必再用串口下发一遍命令\n  · 一个配置文件就是一个 .sfcfg，与上位机「配置方案」文件同一种格式，无需任何转换\n  · 配置对话框三块：左侧列出配置文件夹内全部 .sfcfg、右侧显示所选配置的路径 / 与出厂默认的差异 / 校验结果、底部导入 / 放弃 / 使用 / 取消\n  · 「定制镜像」由用户显式点一次合成（产物 = 模板镜像名-配置名.img），批量烧录不再逐颗合成\n  · 选用客户配置后烧录方式锁定为「完整镜像」，放弃后还原为你原来选的烧录方式\n  · 加载时校验键名与取值（与上位机同一套校验规则），差异项本地算出\n  · 兼容早期 .sfccfg（zip 内含 config.txt），只取出配置本身，带路径的条目一律丢弃\n- 接口与协议未改变",
-        "releaseDate": "2026-11-22",
+        "version": "1.0.32",
+        "sha256": "1edb7369836e3fbf2a9fe5e5cfde00f79279847c67976fbbb308bad823349061",
+        "size": 63002196,
+        "changelog": "eFuse 工具 1.0.32 更新内容：\n\n- 固件下载支持 SC035HGS 的两种 UART2 装配\n  · 传感器下拉由四项变五项，新增「SC035HGS (UART2 232)」，对应新发布的 232 装配固件\n  · 原有「SC035HGS」仍是 RS485 装配，用法不变\n  · 选哪一项就下载哪一种装配的固件，物理层不匹配时设备无法正常通讯，请按板子实际装配选择\n- 切换传感器会自动清空已下载的镜像，避免「选了 232 却把 485 烧进去」\n- 接口与协议未改变",
+        "releaseDate": "2026-11-25",
         "mirrors": [
-          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanEfuseTool-Setup-v1.0.31-20261122.exe",
-          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanEfuseTool-Setup-v1.0.31-20261122.exe"
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanEfuseTool-Setup-v1.0.32-20261125.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanEfuseTool-Setup-v1.0.32-20261125.exe"
         ]
       },
       "firmware": {
-        "version": "1.28.64",
+        "version": "1.28.65",
         "proto": "2.9",
-        "changelog": "固件 1.28.64（本批未变更，沿用上一批已发布镜像）：\n\n- 本批固件源码仅有注释性改动（device_config.h 说明 QR 恒居 code_set[0]），产品二进制未变\n- 版本保持 1.28.64，Proto=2.9，本轮无需升级",
-        "releaseDate": "2026-11-19",
+        "changelog": "固件 1.28.65 更新内容：\n\n- 新增 m5 固件：SC035HGS 的 UART2 改走 RS232，镜像名 Scan-G730BDU-UART2_232-SC035HGS-...\n  · m5 = 原 m4 的基础上，为同一颗 SC035HGS 多出一份 232 装配，共 5 个镜像\n  · 五个镜像：GC0308(232)、GC0328C(232)、GC032A(232)、SC035HGS(485)、SC035HGS(232)\n  · 请按板子上 UART2 的物理层装配（232 或 485）选择对应镜像，烧错会无法通讯\n- 运行时代码零变更：485 装配的固件行为与 1.28.64 完全一致，只有新增的 232 装配是新的\n- 版本 1.28.65，Proto=2.9，参数键集合与默认值均未改变",
+        "releaseDate": "2026-11-25",
         "sensors": {
           "GC0308": {
-            "version": "1.28.64",
-            "sha256": "7a183a10758f7ec2bfd38c470bdf9bd7535e953c62eb1799e2eb57d9902ab5fc",
+            "version": "1.28.65",
+            "sha256": "ead85cb23d8dd637db950afc6cce3e716f3ee024aa79718b6f1b460cbfe5c885",
             "size": 1786880,
-            "changelog": "固件 1.28.64（本批未变更，沿用上一批已发布镜像）：\n\n- 本批固件源码仅有注释性改动（device_config.h 说明 QR 恒居 code_set[0]），产品二进制未变\n- 版本保持 1.28.64，Proto=2.9，本轮无需升级",
-            "releaseDate": "2026-11-19",
+            "changelog": "固件 1.28.65 更新内容：\n\n- 新增 m5 固件：SC035HGS 的 UART2 改走 RS232，镜像名 Scan-G730BDU-UART2_232-SC035HGS-...\n  · m5 = 原 m4 的基础上，为同一颗 SC035HGS 多出一份 232 装配，共 5 个镜像\n  · 五个镜像：GC0308(232)、GC0328C(232)、GC032A(232)、SC035HGS(485)、SC035HGS(232)\n  · 请按板子上 UART2 的物理层装配（232 或 485）选择对应镜像，烧错会无法通讯\n- 运行时代码零变更：485 装配的固件行为与 1.28.64 完全一致，只有新增的 232 装配是新的\n- 版本 1.28.65，Proto=2.9，参数键集合与默认值均未改变",
+            "releaseDate": "2026-11-25",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0308-v1.28.64-proto2.9-20261118.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0308-v1.28.64-proto2.9-20261118.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0308-v1.28.65-proto2.9-20261125.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0308-v1.28.65-proto2.9-20261125.img"
             ]
           },
           "GC0328C": {
-            "version": "1.28.64",
-            "sha256": "a1966acf653203b021bf78893af2feda8f59eb333af4480fea943acf8d946a63",
+            "version": "1.28.65",
+            "sha256": "2bcd417030bbb39fb48fd6e96a6c8ea91ff1f0336f2f07ae2f79b30876b8ee4e",
             "size": 1784832,
-            "changelog": "固件 1.28.64（本批未变更，沿用上一批已发布镜像）：\n\n- 本批固件源码仅有注释性改动（device_config.h 说明 QR 恒居 code_set[0]），产品二进制未变\n- 版本保持 1.28.64，Proto=2.9，本轮无需升级",
-            "releaseDate": "2026-11-19",
+            "changelog": "固件 1.28.65 更新内容：\n\n- 新增 m5 固件：SC035HGS 的 UART2 改走 RS232，镜像名 Scan-G730BDU-UART2_232-SC035HGS-...\n  · m5 = 原 m4 的基础上，为同一颗 SC035HGS 多出一份 232 装配，共 5 个镜像\n  · 五个镜像：GC0308(232)、GC0328C(232)、GC032A(232)、SC035HGS(485)、SC035HGS(232)\n  · 请按板子上 UART2 的物理层装配（232 或 485）选择对应镜像，烧错会无法通讯\n- 运行时代码零变更：485 装配的固件行为与 1.28.64 完全一致，只有新增的 232 装配是新的\n- 版本 1.28.65，Proto=2.9，参数键集合与默认值均未改变",
+            "releaseDate": "2026-11-25",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0328C-v1.28.64-proto2.9-20261118.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0328C-v1.28.64-proto2.9-20261118.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0328C-v1.28.65-proto2.9-20261125.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0328C-v1.28.65-proto2.9-20261125.img"
             ]
           },
           "GC032A": {
-            "version": "1.28.64",
-            "sha256": "403756a8de59f59ef2acda3f4806d66e81df8af0c914fc42cb3ecc98de3d94ce",
+            "version": "1.28.65",
+            "sha256": "99788d0391355a0ea78af7612eca65dacf83fec615b63994db39b09af6ab1ef7",
             "size": 1784832,
-            "changelog": "固件 1.28.64（本批未变更，沿用上一批已发布镜像）：\n\n- 本批固件源码仅有注释性改动（device_config.h 说明 QR 恒居 code_set[0]），产品二进制未变\n- 版本保持 1.28.64，Proto=2.9，本轮无需升级",
-            "releaseDate": "2026-11-19",
+            "changelog": "固件 1.28.65 更新内容：\n\n- 新增 m5 固件：SC035HGS 的 UART2 改走 RS232，镜像名 Scan-G730BDU-UART2_232-SC035HGS-...\n  · m5 = 原 m4 的基础上，为同一颗 SC035HGS 多出一份 232 装配，共 5 个镜像\n  · 五个镜像：GC0308(232)、GC0328C(232)、GC032A(232)、SC035HGS(485)、SC035HGS(232)\n  · 请按板子上 UART2 的物理层装配（232 或 485）选择对应镜像，烧错会无法通讯\n- 运行时代码零变更：485 装配的固件行为与 1.28.64 完全一致，只有新增的 232 装配是新的\n- 版本 1.28.65，Proto=2.9，参数键集合与默认值均未改变",
+            "releaseDate": "2026-11-25",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC032A-v1.28.64-proto2.9-20261118.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC032A-v1.28.64-proto2.9-20261118.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC032A-v1.28.65-proto2.9-20261125.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC032A-v1.28.65-proto2.9-20261125.img"
+            ]
+          },
+          "SC035HGS_232": {
+            "version": "1.28.65",
+            "sha256": "903cd8004bfc2c24457504f50794dc9c23586c480aa4df5b9df4d30031630111",
+            "size": 1790976,
+            "changelog": "固件 1.28.65 更新内容：\n\n- 新增 m5 固件：SC035HGS 的 UART2 改走 RS232，镜像名 Scan-G730BDU-UART2_232-SC035HGS-...\n  · m5 = 原 m4 的基础上，为同一颗 SC035HGS 多出一份 232 装配，共 5 个镜像\n  · 五个镜像：GC0308(232)、GC0328C(232)、GC032A(232)、SC035HGS(485)、SC035HGS(232)\n  · 请按板子上 UART2 的物理层装配（232 或 485）选择对应镜像，烧错会无法通讯\n- 运行时代码零变更：485 装配的固件行为与 1.28.64 完全一致，只有新增的 232 装配是新的\n- 版本 1.28.65，Proto=2.9，参数键集合与默认值均未改变",
+            "releaseDate": "2026-11-25",
+            "mirrors": [
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-SC035HGS-v1.28.65-proto2.9-20261125.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-SC035HGS-v1.28.65-proto2.9-20261125.img"
             ]
           },
           "SC035HGS": {
-            "version": "1.28.64",
-            "sha256": "2685dd3ece50396dd968576f137e949651975fed9e89e37547b286391d506281",
+            "version": "1.28.65",
+            "sha256": "cdfac713f1b65446cc5e90f02ba409b828f1bc874711d382d433f8c66eab6e95",
             "size": 1790976,
-            "changelog": "固件 1.28.64（本批未变更，沿用上一批已发布镜像）：\n\n- 本批固件源码仅有注释性改动（device_config.h 说明 QR 恒居 code_set[0]），产品二进制未变\n- 版本保持 1.28.64，Proto=2.9，本轮无需升级",
-            "releaseDate": "2026-11-19",
+            "changelog": "固件 1.28.65 更新内容：\n\n- 新增 m5 固件：SC035HGS 的 UART2 改走 RS232，镜像名 Scan-G730BDU-UART2_232-SC035HGS-...\n  · m5 = 原 m4 的基础上，为同一颗 SC035HGS 多出一份 232 装配，共 5 个镜像\n  · 五个镜像：GC0308(232)、GC0328C(232)、GC032A(232)、SC035HGS(485)、SC035HGS(232)\n  · 请按板子上 UART2 的物理层装配（232 或 485）选择对应镜像，烧错会无法通讯\n- 运行时代码零变更：485 装配的固件行为与 1.28.64 完全一致，只有新增的 232 装配是新的\n- 版本 1.28.65，Proto=2.9，参数键集合与默认值均未改变",
+            "releaseDate": "2026-11-25",
             "mirrors": [
-              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_485-SC035HGS-v1.28.64-proto2.9-20261118.img",
-              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_485-SC035HGS-v1.28.64-proto2.9-20261118.img"
+              "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_485-SC035HGS-v1.28.65-proto2.9-20261125.img",
+              "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_485-SC035HGS-v1.28.65-proto2.9-20261125.img"
             ]
           }
         }
@@ -903,6 +914,17 @@
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.30-20261119.exe",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/sfScanEfuseTool-Setup-v1.0.30-20261119.exe"
         ]
+      },
+      {
+        "version": "1.0.31",
+        "sha256": "0f2caa243fbe18242c167e310c7ddc73df5a8594f9b37c5f24980bf179535b57",
+        "size": 63003182,
+        "changelog": "eFuse 工具 1.0.31 更新内容：\n\n- 新增「客户配置」：选用上位机导出的 .sfcfg，打进固件镜像的 data 分区，烧录后设备直接带客户参数，不必再用串口下发一遍命令\n  · 一个配置文件就是一个 .sfcfg，与上位机「配置方案」文件同一种格式，无需任何转换\n  · 配置对话框三块：左侧列出配置文件夹内全部 .sfcfg、右侧显示所选配置的路径 / 与出厂默认的差异 / 校验结果、底部导入 / 放弃 / 使用 / 取消\n  · 「定制镜像」由用户显式点一次合成（产物 = 模板镜像名-配置名.img），批量烧录不再逐颗合成\n  · 选用客户配置后烧录方式锁定为「完整镜像」，放弃后还原为你原来选的烧录方式\n  · 加载时校验键名与取值（与上位机同一套校验规则），差异项本地算出\n  · 兼容早期 .sfccfg（zip 内含 config.txt），只取出配置本身，带路径的条目一律丢弃\n- 接口与协议未改变",
+        "releaseDate": "2026-11-22",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanEfuseTool-Setup-v1.0.31-20261122.exe",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/sfScanEfuseTool-Setup-v1.0.31-20261122.exe"
+        ]
       }
     ],
     "firmware": [
@@ -1047,6 +1069,17 @@
         "mirrors": [
           "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.63-proto2.9-20261113.img",
           "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.45-M1.1.38/Scan-G730BDU-UART2_232-GC0308-v1.28.63-proto2.9-20261113.img"
+        ]
+      },
+      {
+        "version": "1.28.64",
+        "sha256": "7a183a10758f7ec2bfd38c470bdf9bd7535e953c62eb1799e2eb57d9902ab5fc",
+        "size": 1786880,
+        "changelog": "固件 1.28.64（本批未变更，沿用上一批已发布镜像）：\n\n- 本批固件源码仅有注释性改动（device_config.h 说明 QR 恒居 code_set[0]），产品二进制未变\n- 版本保持 1.28.64，Proto=2.9，本轮无需升级",
+        "releaseDate": "2026-11-19",
+        "mirrors": [
+          "https://gitee.com/gzswift/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0308-v1.28.64-proto2.9-20261118.img",
+          "https://github.com/swiftgzXie/sfScan-updates/releases/download/P1.4.46-M1.1.39/Scan-G730BDU-UART2_232-GC0308-v1.28.64-proto2.9-20261118.img"
         ]
       }
     ]
